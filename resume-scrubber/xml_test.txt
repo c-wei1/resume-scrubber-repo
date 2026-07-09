@@ -1,0 +1,4649 @@
+<?xml version="1.0" ?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid wp14">
+  <w:body>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblBorders>
+          <w:top w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+          <w:left w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+          <w:bottom w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+          <w:right w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+          <w:insideH w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+          <w:insideV w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="8926"/>
+        <w:gridCol w:w="1864"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00CC4C92" w:rsidRPr="009D536A" w14:paraId="14B08124" w14:textId="77777777" w:rsidTr="00CC4C92">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="8926" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w14:paraId="579B91FA" w14:textId="77777777" w:rsidR="00CC4C92" w:rsidRPr="005F0EFF" w:rsidRDefault="00CC4C92" w:rsidP="00CC4C92">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="005F0EFF">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Lori Costello</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="1EFF4742" w14:textId="694B2758" w:rsidR="00CC4C92" w:rsidRPr="009D536A" w:rsidRDefault="00CC4C92" w:rsidP="00FF3C97">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1864" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w14:paraId="425D69CC" w14:textId="033143F3" w:rsidR="00CC4C92" w:rsidRPr="009D536A" w:rsidRDefault="00CC4C92" w:rsidP="00CC4C92">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="4D8409E1" w14:textId="77777777" w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidRDefault="000037D1">
+      <w:pPr>
+        <w:rPr>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0BBF5BC4" w14:textId="00BED0D9" w:rsidR="00FF631D" w:rsidRPr="009D536A" w:rsidRDefault="00EB502F" w:rsidP="00FF631D">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:bookmarkStart w:id="0" w:name="executive-change-transformation-leader"/>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">CHANGE &amp; </w:t>
+      </w:r>
+      <w:r w:rsidR="00FF3C97" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">COMMS </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>LEADER</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3DB2E4B3" w14:textId="5C052A58" w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidRDefault="0091467E" w:rsidP="00CC4C92">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Strategic transformation leader with </w:t>
+      </w:r>
+      <w:r w:rsidR="00CC4C92" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>extensive</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> experience delivering complex, high-impact </w:t>
+      </w:r>
+      <w:r w:rsidR="00254D0B" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>technology and organi</w:t>
+      </w:r>
+      <w:r w:rsidR="00CC4C92" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>s</w:t>
+      </w:r>
+      <w:r w:rsidR="00254D0B" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>ation</w:t>
+      </w:r>
+      <w:r w:rsidR="003F4D82">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">al </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">change across financial, healthcare, aviation, </w:t>
+      </w:r>
+      <w:r w:rsidR="005F0EFF">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">and </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>professional service</w:t>
+      </w:r>
+      <w:r w:rsidR="00EA45DA">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> sectors</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+      <w:r w:rsidR="00FF631D" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Recognised for expertise</w:t>
+      </w:r>
+      <w:r w:rsidR="00CC4C92" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">in </w:t>
+      </w:r>
+      <w:r w:rsidR="008F1BC3" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>change and communication</w:t>
+      </w:r>
+      <w:r w:rsidR="001521E2">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>s</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r w:rsidR="008C3B7E">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">marketing, customer experience, </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">operating model design, </w:t>
+      </w:r>
+      <w:r w:rsidR="008F1BC3" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">business process improvement, </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">digital enablement and AI adoption. Proven ability to lead from strategy to execution, </w:t>
+      </w:r>
+      <w:r w:rsidR="008C3B7E">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">manage stakeholders in challenging circumstances, </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>break down silos, build capabilities, and embed change</w:t>
+      </w:r>
+      <w:r w:rsidR="00EA45DA">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>
+          <w:color w:val="000000" w:themeColor="text1"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>.</w:t>
+      </w:r>
+      <w:r w:rsidR="000037D1" w:rsidRPr="000037D1">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:noProof/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="12FC7ABA" w14:textId="77777777" w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidRDefault="00EB502F">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:bookmarkStart w:id="1" w:name="core-competencies"/>
+      <w:bookmarkEnd w:id="0"/>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>CORE COMPETENCIES</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="516FF297" w14:textId="31838304" w:rsidR="00FF3C97" w:rsidRPr="009D536A" w:rsidRDefault="00FF3C97" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="Compact"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Change &amp; Communications:</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> High-impact </w:t>
+      </w:r>
+      <w:r w:rsidR="00451663" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">change </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>strategies</w:t>
+      </w:r>
+      <w:r w:rsidR="008F1BC3" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>and</w:t>
+      </w:r>
+      <w:r w:rsidR="008F1BC3" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> delivery</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>impact assessments, E2E</w:t>
+      </w:r>
+      <w:r w:rsidR="00451663" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> process design, </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">stakeholder engagement, culture change, </w:t>
+      </w:r>
+      <w:r w:rsidR="00254D0B" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">leadership </w:t>
+      </w:r>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>coach</w:t>
+      </w:r>
+      <w:r w:rsidR="00254D0B" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>business readiness</w:t>
+      </w:r>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>, ADKAR/</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Prosci</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> proficient</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7AE977EB" w14:textId="7FAA8627" w:rsidR="008F1BC3" w:rsidRPr="009D536A" w:rsidRDefault="008F1BC3" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="Compact"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Technology </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidR="00763AE8" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>OpModel</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidR="00763AE8" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> Design/Change Delivery</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">:  </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Oracle </w:t>
+      </w:r>
+      <w:r w:rsidR="00763AE8" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Fusion, Workday, Salesforce CRM</w:t>
+      </w:r>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>/Mark</w:t>
+      </w:r>
+      <w:r w:rsidR="00CF1ED8">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>e</w:t>
+      </w:r>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>ting</w:t>
+      </w:r>
+      <w:r w:rsidR="00763AE8" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Avaloq</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+    </w:p>
+    <w:p w14:paraId="6261F38E" w14:textId="00542870" w:rsidR="00FF3C97" w:rsidRPr="009D536A" w:rsidRDefault="00CA1B94" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="Compact"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>People Transformation</w:t>
+      </w:r>
+      <w:r w:rsidR="00FF3C97" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>:</w:t>
+      </w:r>
+      <w:r w:rsidR="00FF3C97" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">culture change, business </w:t>
+      </w:r>
+      <w:r w:rsidR="00FF3C97" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>process improvement, digital and AI enablement</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7AFCE0EC" w14:textId="575726C5" w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidRDefault="00EB502F">
+      <w:pPr>
+        <w:pStyle w:val="Compact"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Operating Model:</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> Strategy </w:t>
+      </w:r>
+      <w:r w:rsidR="008C3B7E">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">and target operating model design and </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>execution, cross-functional delivery</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7390B98D" w14:textId="6F504E05" w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidRDefault="00CA1B94">
+      <w:pPr>
+        <w:pStyle w:val="Compact"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>AI and D</w:t>
+      </w:r>
+      <w:r w:rsidR="00EB502F" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>igital Adoption:</w:t>
+      </w:r>
+      <w:r w:rsidR="00EB502F" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> Driving </w:t>
+      </w:r>
+      <w:r w:rsidR="000E054F" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">AI </w:t>
+      </w:r>
+      <w:r w:rsidR="00EB502F" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>automation and tech adoption</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="212CC18A" w14:textId="24AA1A92" w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidRDefault="00EB502F" w:rsidP="00715EC6">
+      <w:pPr>
+        <w:pStyle w:val="Compact"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:rPr>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Leadership &amp; Governance:</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00CA1B94" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Leadership </w:t>
+      </w:r>
+      <w:r w:rsidR="003F4D82">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">coaching and </w:t>
+      </w:r>
+      <w:r w:rsidR="00CA1B94" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>development, p</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>ortfolio management, risk assurance</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4D099529" w14:textId="17E13BAE" w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidRDefault="00EB502F">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:bookmarkStart w:id="2" w:name="professional-experience"/>
+      <w:bookmarkEnd w:id="1"/>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>EXPERIENCE</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblLayout w:type="fixed"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="993"/>
+        <w:gridCol w:w="9797"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="000E054F" w:rsidRPr="009D536A" w14:paraId="2655D671" w14:textId="77777777" w:rsidTr="009D536A">
+        <w:trPr>
+          <w:trHeight w:val="565"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="993" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="7460F988" w14:textId="489EBBDF" w:rsidR="000E054F" w:rsidRPr="00966E00" w:rsidRDefault="00966E00" w:rsidP="00966E00">
+            <w:r>
+              <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+              <w:instrText xml:space="preserve"> INCLUDEPICTURE "/Users/lori/Library/Containers/com.microsoft.Word/Data/tmp/WebArchiveCopyPasteTempFiles/afiniti_logo?e=1784764800&amp;v=beta&amp;t=5jbJxDHE1B4f15wTY_3Z5hBovDG4Mdl-p_j2bKzgVkM" \* MERGEFORMATINET </w:instrText>
+            </w:r>
+            <w:r>
+              <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:noProof/>
+              </w:rPr>
+            </w:r>
+            <w:r>
+              <w:fldChar w:fldCharType="end"/>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9797" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="3F649F62" w14:textId="77777777" w:rsidR="00966E00" w:rsidRDefault="00966E00" w:rsidP="000D7CFA">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="46387BEC" w14:textId="7C275FF6" w:rsidR="009D536A" w:rsidRDefault="00966E00" w:rsidP="000D7CFA">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Afiniti</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> Business Change Consultancy – Managing Consultant</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="4751C094" w14:textId="6FE9A24E" w:rsidR="000E054F" w:rsidRPr="009D536A" w:rsidRDefault="00966E00" w:rsidP="000D7CFA">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>May 2026 – Presen</w:t>
+            </w:r>
+            <w:r w:rsidR="00A95550">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>t</w:t>
+            </w:r>
+            <w:bookmarkStart w:id="3" w:name="_GoBack"/>
+            <w:bookmarkEnd w:id="3"/>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="000E054F" w:rsidRPr="009D536A" w14:paraId="27412615" w14:textId="77777777" w:rsidTr="00966E00">
+        <w:trPr>
+          <w:trHeight w:val="504"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10790" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="189DDD1B" w14:textId="52853C44" w:rsidR="00A95550" w:rsidRPr="00A95550" w:rsidRDefault="00A95550" w:rsidP="00966E00">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="167" w:hanging="167"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Supporting the design and delivery of Kite Operating Model </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Sharepoint</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> Refresh project</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="4A93E83C" w14:textId="0CE4A00E" w:rsidR="00966E00" w:rsidRPr="00966E00" w:rsidRDefault="00A95550" w:rsidP="00966E00">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="167" w:hanging="167"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Supporting Change Management on Triumph (AI Aided Submissions Acceleration) programme for Gilead</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00966E00" w:rsidRPr="009D536A" w14:paraId="5381794F" w14:textId="77777777" w:rsidTr="00890F68">
+        <w:trPr>
+          <w:trHeight w:val="565"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="993" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="3AE8374B" w14:textId="77777777" w:rsidR="00966E00" w:rsidRPr="009D536A" w:rsidRDefault="00966E00" w:rsidP="00890F68">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9797" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="799E0784" w14:textId="77777777" w:rsidR="00966E00" w:rsidRDefault="00966E00" w:rsidP="00890F68">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="3E9359E6" w14:textId="77777777" w:rsidR="00966E00" w:rsidRDefault="00966E00" w:rsidP="00890F68">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Virgin Atlantic - Senior Change Consultant – HCM and Finance Transformation, Oracle Fusion </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="35ECABA4" w14:textId="77777777" w:rsidR="00966E00" w:rsidRPr="009D536A" w:rsidRDefault="00966E00" w:rsidP="00890F68">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Jan 2025 – Oct 2025 (contract)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00966E00" w:rsidRPr="00966E00" w14:paraId="2495ADFD" w14:textId="77777777" w:rsidTr="00966E00">
+        <w:trPr>
+          <w:trHeight w:val="665"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10790" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="2917B786" w14:textId="77777777" w:rsidR="00966E00" w:rsidRPr="009D536A" w:rsidRDefault="00966E00" w:rsidP="00890F68">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="167" w:hanging="167"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Led c</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">hange, </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>comms</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> and training workstream for Oracle Fusion HCM &amp; Finance transformation programme</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="0DE851C5" w14:textId="77777777" w:rsidR="00966E00" w:rsidRPr="00966E00" w:rsidRDefault="00966E00" w:rsidP="00890F68">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="142" w:hanging="142"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Working </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">with </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">in-house HR and Finance functions </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>and</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> Deloitte</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> to deliver and embed change across global enterprise</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00783265" w:rsidRPr="009D536A" w14:paraId="4DB810AF" w14:textId="77777777" w:rsidTr="008C3B7E">
+        <w:trPr>
+          <w:trHeight w:val="740"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="993" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="68C3FA82" w14:textId="761F2222" w:rsidR="000E054F" w:rsidRPr="009D536A" w:rsidRDefault="008C3B7E" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9797" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="70C6F73F" w14:textId="77777777" w:rsidR="008C3B7E" w:rsidRDefault="008C3B7E" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="3B4A986D" w14:textId="7A56D8C5" w:rsidR="000E054F" w:rsidRPr="009D536A" w:rsidRDefault="000D7CFA" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Network Rail - </w:t>
+            </w:r>
+            <w:r w:rsidR="000E054F" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Change Consultant – Workforce Management Transformation</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="37C64E56" w14:textId="32FFB4F0" w:rsidR="000E054F" w:rsidRPr="009D536A" w:rsidRDefault="000E054F" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Oct 2024 – Feb 2025 (contract)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="000E054F" w:rsidRPr="009D536A" w14:paraId="7672FC85" w14:textId="77777777" w:rsidTr="00966E00">
+        <w:trPr>
+          <w:trHeight w:val="604"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10790" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="1E4FCCDD" w14:textId="76A6794F" w:rsidR="003038E0" w:rsidRPr="009D536A" w:rsidRDefault="000E054F" w:rsidP="00EA45DA">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="184" w:hanging="142"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Designed and executed learning strategy for rollout of UKG workforce management </w:t>
+            </w:r>
+            <w:r w:rsidR="00EA45DA">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>platform</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00783265" w:rsidRPr="009D536A" w14:paraId="2BC6122E" w14:textId="77777777" w:rsidTr="009D536A">
+        <w:trPr>
+          <w:trHeight w:val="687"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="993" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="20E9F7CC" w14:textId="044B5776" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9797" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="219BF285" w14:textId="77777777" w:rsidR="008F3BA6" w:rsidRDefault="008F3BA6" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="425B09D6" w14:textId="0F6144E0" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="000D7CFA" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">RBC Brewin Dolphin - </w:t>
+            </w:r>
+            <w:r w:rsidR="00783265" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Strategy Execution Director – M&amp;A Integration</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="399532AE" w14:textId="5967EA4A" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>May 2023 – Jan 2024</w:t>
+            </w:r>
+            <w:r w:rsidR="003038E0" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> (perm)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00783265" w:rsidRPr="009D536A" w14:paraId="67335C30" w14:textId="77777777" w:rsidTr="00966E00">
+        <w:trPr>
+          <w:trHeight w:val="797"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10790" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="0DB9094D" w14:textId="43C7FF12" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="00783265">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="184" w:hanging="142"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Directed change governance and delivery for integration programme focused on growth and technology alignment including Salesforce CRM</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="68B447CC" w14:textId="4232B249" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="00783265">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="142" w:hanging="142"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Aligned strategy, tech, people, &amp; process workstreams; developed TOM for Advisers and Marketing teams</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00783265" w:rsidRPr="009D536A" w14:paraId="3FE7E62B" w14:textId="77777777" w:rsidTr="008C3B7E">
+        <w:trPr>
+          <w:trHeight w:val="788"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="993" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="194616DA" w14:textId="0056F95B" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="009D536A">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9797" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="30E7728D" w14:textId="77777777" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="009D536A">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="3A225E65" w14:textId="680D855B" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="000D7CFA" w:rsidP="009D536A">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Aztec Group - </w:t>
+            </w:r>
+            <w:r w:rsidR="00783265" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Change Lead </w:t>
+            </w:r>
+            <w:r w:rsidR="008C3B7E">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">- </w:t>
+            </w:r>
+            <w:r w:rsidR="00783265" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Change Centre of Excellence</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="538C13FE" w14:textId="6D151BFF" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="009D536A">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Jan </w:t>
+            </w:r>
+            <w:r w:rsidR="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">2023 </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>– Mar 2023 (contract)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00783265" w:rsidRPr="009D536A" w14:paraId="492760EB" w14:textId="77777777" w:rsidTr="00966E00">
+        <w:trPr>
+          <w:trHeight w:val="1269"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10790" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="3E75D2DE" w14:textId="3BA9675E" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="00EA45DA">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="184" w:hanging="142"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Designed and delivered Change C</w:t>
+            </w:r>
+            <w:r w:rsidR="008C3B7E">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">entre of Excellence to build capabilities of </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>project managers and change partners</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00783265" w:rsidRPr="009D536A" w14:paraId="3931172D" w14:textId="77777777" w:rsidTr="009D536A">
+        <w:trPr>
+          <w:trHeight w:val="687"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="993" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="06BE0226" w14:textId="7B22AC10" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="008C3B7E">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:lastRenderedPageBreak/>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9797" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="6FDDF530" w14:textId="42B483F7" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="000D7CFA" w:rsidP="00783265">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Nat</w:t>
+            </w:r>
+            <w:r w:rsidR="00450CF8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>W</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">est / Coutts - </w:t>
+            </w:r>
+            <w:r w:rsidR="00783265" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Head of Business Transformation – Executive Director</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="319DA85F" w14:textId="45D78A61" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00C30BA8" w:rsidP="00783265">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Nat</w:t>
+            </w:r>
+            <w:r w:rsidR="00450CF8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>We</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">st </w:t>
+            </w:r>
+            <w:r w:rsidR="00783265" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Wealth Businesses</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">, </w:t>
+            </w:r>
+            <w:r w:rsidR="00783265" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Coutts &amp; </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidR="00783265" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Natwest</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidR="00783265" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> Premier</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="1D35EF7C" w14:textId="2B8EBE9C" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="001521E2" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Jan </w:t>
+            </w:r>
+            <w:r w:rsidR="00783265" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">2018 </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">– Dec </w:t>
+            </w:r>
+            <w:r w:rsidR="00783265" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>2022</w:t>
+            </w:r>
+            <w:r w:rsidR="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> (perm)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00783265" w:rsidRPr="009D536A" w14:paraId="09CB4976" w14:textId="77777777" w:rsidTr="009D536A">
+        <w:trPr>
+          <w:trHeight w:val="545"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10790" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="4D979CEB" w14:textId="64287786" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="00783265">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">- </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Led prioritisation and delivery of extensive change portfolio to deliver cost and growth targets </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="4C6BC766" w14:textId="77777777" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="00783265">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">- Led a team that executed target operating model, digital/AI programmes, and process optimisation </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="29BB196E" w14:textId="115D0119" w:rsidR="00783265" w:rsidRPr="009D536A" w:rsidRDefault="00783265" w:rsidP="00783265">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>- Senior leadership member influencing strategic forums, investment planning and programme delivery</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="3DE51FCA" w14:textId="3E3428AE" w:rsidR="00CA1B94" w:rsidRPr="009D536A" w:rsidRDefault="00CA1B94" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="BodyText"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="10957" w:type="dxa"/>
+        <w:tblLayout w:type="fixed"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1008"/>
+        <w:gridCol w:w="9949"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="001521E2" w:rsidRPr="009D536A" w14:paraId="2181E485" w14:textId="77777777" w:rsidTr="001521E2">
+        <w:trPr>
+          <w:trHeight w:val="607"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1008" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="396399A4" w14:textId="77777777" w:rsidR="001521E2" w:rsidRPr="009D536A" w:rsidRDefault="001521E2" w:rsidP="00070079">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9949" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="55D0C74A" w14:textId="77777777" w:rsidR="001521E2" w:rsidRDefault="001521E2" w:rsidP="001521E2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="663D0337" w14:textId="7B646703" w:rsidR="001521E2" w:rsidRPr="009D536A" w:rsidRDefault="001521E2" w:rsidP="001521E2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Coutts - Change Director – Front Office Transformation</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="52730489" w14:textId="3194347E" w:rsidR="001521E2" w:rsidRPr="001521E2" w:rsidRDefault="001521E2" w:rsidP="00070079">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Apr </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>2017</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> – Jan </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>2018</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> (contract)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="34587A32" w14:textId="22C5FFFF" w:rsidR="00FF3C97" w:rsidRPr="009D536A" w:rsidRDefault="00EB502F" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="BodyText"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>- Designed and embedded new operating model and culture for Front Office</w:t>
+      </w:r>
+      <w:r w:rsidR="00AF62CB" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">; </w:t>
+      </w:r>
+      <w:r w:rsidR="001521E2">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>execut</w:t>
+      </w:r>
+      <w:r w:rsidR="00AF62CB" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">ed </w:t>
+      </w:r>
+      <w:r w:rsidR="001521E2">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">the </w:t>
+      </w:r>
+      <w:r w:rsidR="00AF62CB" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>R</w:t>
+      </w:r>
+      <w:r w:rsidR="001521E2">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>etail Distribution Review</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2F2AF3F9" w14:textId="69AFC9AA" w:rsidR="000D7CFA" w:rsidRPr="009D536A" w:rsidRDefault="00EB2FCA" w:rsidP="00242C89">
+      <w:pPr>
+        <w:pStyle w:val="BodyText"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="6"/>
+        </w:numPr>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:ind w:left="142" w:hanging="142"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>I</w:t>
+      </w:r>
+      <w:r w:rsidR="00EB502F" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>mproved service levels and reduced cost via performance-led change</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1276"/>
+        <w:gridCol w:w="9514"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00242C89" w:rsidRPr="009D536A" w14:paraId="32C553A3" w14:textId="77777777" w:rsidTr="001D78A2">
+        <w:trPr>
+          <w:trHeight w:val="687"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1276" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="20C1B8BA" w14:textId="71A6F614" w:rsidR="00242C89" w:rsidRPr="009D536A" w:rsidRDefault="00242C89" w:rsidP="008C3B7E">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9514" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="42D87D8E" w14:textId="77777777" w:rsidR="00242C89" w:rsidRPr="009D536A" w:rsidRDefault="00242C89" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="18ACA04B" w14:textId="5C92BADE" w:rsidR="00242C89" w:rsidRPr="009D536A" w:rsidRDefault="00242C89" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Virgin Atlantic – Change Director – IT &amp; </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>OpModel</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> Transformation for Passenger Service, AIR4</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="318E14EB" w14:textId="1A51863A" w:rsidR="00242C89" w:rsidRPr="009D536A" w:rsidRDefault="00242C89" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>2016</w:t>
+            </w:r>
+            <w:r w:rsidR="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>-</w:t>
+            </w:r>
+            <w:r w:rsidR="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>201</w:t>
+            </w:r>
+            <w:r w:rsidR="003038E0" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>7 (contract)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00242C89" w:rsidRPr="009D536A" w14:paraId="3F45EF1C" w14:textId="77777777" w:rsidTr="001D78A2">
+        <w:trPr>
+          <w:trHeight w:val="545"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10790" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="60F155E9" w14:textId="4D294495" w:rsidR="00242C89" w:rsidRPr="009D536A" w:rsidRDefault="00242C89" w:rsidP="00242C89">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>- Change and communications workstream lead for the implementation of a proprietary enterprise IT platform impacting customers, suppliers and third parties.  Transformation included airport operations and crew, contact centres, VA website, shared services, third party commercial partners, and enabling functions.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="7CD98165" w14:textId="2092E34B" w:rsidR="00242C89" w:rsidRPr="009D536A" w:rsidRDefault="00242C89" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">- Managed stakeholder </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>comms</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> during high-risk cutover period; embedded new ways of working into BAU</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="042BE01B" w14:textId="23E454F6" w:rsidR="00242C89" w:rsidRPr="009D536A" w:rsidRDefault="00242C89" w:rsidP="003038E0">
+      <w:pPr>
+        <w:pStyle w:val="BodyText"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1276"/>
+        <w:gridCol w:w="9514"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00161F43" w:rsidRPr="009D536A" w14:paraId="0A2CC301" w14:textId="77777777" w:rsidTr="001D78A2">
+        <w:trPr>
+          <w:trHeight w:val="687"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1276" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="47467293" w14:textId="62CA4CC2" w:rsidR="002B095D" w:rsidRPr="009D536A" w:rsidRDefault="00161F43" w:rsidP="008C3B7E">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:instrText xml:space="preserve"> INCLUDEPICTURE "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/GSK_logo_2014.svg/330px-GSK_logo_2014.svg.png" \* MERGEFORMATINET </w:instrText>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="end"/>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9514" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="74A65248" w14:textId="77777777" w:rsidR="002B095D" w:rsidRPr="009D536A" w:rsidRDefault="002B095D" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="2BAF8F0A" w14:textId="321B508C" w:rsidR="002B095D" w:rsidRPr="009D536A" w:rsidRDefault="000D7CFA" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">GSK - </w:t>
+            </w:r>
+            <w:r w:rsidR="002B095D" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Change Director – Healthcare Professional Digital Transformation</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="2A5496DF" w14:textId="6085700D" w:rsidR="002B095D" w:rsidRPr="009D536A" w:rsidRDefault="002B095D" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>2013-2016</w:t>
+            </w:r>
+            <w:r w:rsidR="003038E0" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> (perm)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="002B095D" w:rsidRPr="009D536A" w14:paraId="36C9A749" w14:textId="77777777" w:rsidTr="001D78A2">
+        <w:trPr>
+          <w:trHeight w:val="545"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10790" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="310FAB18" w14:textId="77777777" w:rsidR="002B095D" w:rsidRPr="009D536A" w:rsidRDefault="002B095D" w:rsidP="00CC4C92">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="184" w:hanging="184"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">- </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Implemented a new global operating model focused on process improvement, automation and medical/sales capability across 120 markets</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="4123777C" w14:textId="321BB91D" w:rsidR="002B095D" w:rsidRPr="009D536A" w:rsidRDefault="002B095D" w:rsidP="002B095D">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>- Delivered sales policy changes and digital transformation across pharma sales and medical teams</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="598DFA56" w14:textId="16B6C4D5" w:rsidR="002B095D" w:rsidRPr="009D536A" w:rsidRDefault="002B095D" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">- </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Comms</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> Director for EMEA Pharma Division managing 25 country </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>comms</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> managers in 2013</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="7FFA1F1E" w14:textId="30C5A462" w:rsidR="00FF3C97" w:rsidRPr="009D536A" w:rsidRDefault="00FF3C97" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="BodyText"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1276"/>
+        <w:gridCol w:w="20"/>
+        <w:gridCol w:w="9494"/>
+        <w:gridCol w:w="10"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00161F43" w:rsidRPr="009D536A" w14:paraId="44C58158" w14:textId="77777777" w:rsidTr="001D78A2">
+        <w:trPr>
+          <w:gridAfter w:val="1"/>
+          <w:wAfter w:w="10" w:type="dxa"/>
+          <w:trHeight w:val="687"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1276" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="09BF7109" w14:textId="0C5547F2" w:rsidR="00161F43" w:rsidRPr="009D536A" w:rsidRDefault="00AE5FC5" w:rsidP="008C3B7E">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9514" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="10602A62" w14:textId="77777777" w:rsidR="00161F43" w:rsidRPr="009D536A" w:rsidRDefault="00161F43" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="124BB347" w14:textId="78D7C8B0" w:rsidR="00161F43" w:rsidRPr="009D536A" w:rsidRDefault="00161F43" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>C</w:t>
+            </w:r>
+            <w:r w:rsidR="000D7CFA" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>outts - C</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">hange Lead – IT &amp; Operational Transformation, </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Avaloq</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> Wealth</w:t>
+            </w:r>
+            <w:r w:rsidR="000D7CFA" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Platform</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="35DB9A91" w14:textId="053E3FBC" w:rsidR="00161F43" w:rsidRPr="009D536A" w:rsidRDefault="00161F43" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">2010 </w:t>
+            </w:r>
+            <w:r w:rsidR="003038E0" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>–</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> 2012</w:t>
+            </w:r>
+            <w:r w:rsidR="003038E0" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> (contract)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00161F43" w:rsidRPr="009D536A" w14:paraId="67DC3000" w14:textId="77777777" w:rsidTr="001D78A2">
+        <w:trPr>
+          <w:gridAfter w:val="1"/>
+          <w:wAfter w:w="10" w:type="dxa"/>
+          <w:trHeight w:val="545"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10790" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="2A5A5E30" w14:textId="6DB89644" w:rsidR="00161F43" w:rsidRPr="009D536A" w:rsidRDefault="00AE5FC5" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Led a large change, </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>comms</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> and business readiness team for the most significant technology transformation in Coutts’ history (</w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Avaloq</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> platform); change programme shortlisted for RBS Innovation of the Year</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00CC4C92" w:rsidRPr="009D536A" w14:paraId="58E48555" w14:textId="77777777" w:rsidTr="003038E0">
+        <w:trPr>
+          <w:trHeight w:val="687"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1296" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="3838B7E5" w14:textId="1AF0B527" w:rsidR="0085649B" w:rsidRPr="009D536A" w:rsidRDefault="00BE514B" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:instrText xml:space="preserve"> INCLUDEPICTURE "https://chatgpt.com/backend-api/estuary/content?id=file_0000000070a0720a854ca5173930e907&amp;ts=492258&amp;p=fs&amp;cid=1&amp;sig=73cd38e3b094d60a795130ba1b0d85eeabd962278b7b48ead2c748764ed331c7&amp;v=0" \* MERGEFORMATINET </w:instrText>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="end"/>
+            </w:r>
+            <w:r w:rsidR="0085649B" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9504" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="72F3989E" w14:textId="77777777" w:rsidR="00BE514B" w:rsidRPr="009D536A" w:rsidRDefault="00BE514B" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="0632C9BB" w14:textId="6BBA4520" w:rsidR="00BE514B" w:rsidRPr="009D536A" w:rsidRDefault="000D7CFA" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Atelier Consulting - </w:t>
+            </w:r>
+            <w:r w:rsidR="0085649B" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Founder Owner - </w:t>
+            </w:r>
+            <w:r w:rsidR="00BE514B" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Independent Consultant (Global and UK)</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="6571C6CD" w14:textId="192318F8" w:rsidR="00BE514B" w:rsidRPr="009D536A" w:rsidRDefault="00BE514B" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">2004 </w:t>
+            </w:r>
+            <w:r w:rsidR="003038E0" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>–</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> 2010</w:t>
+            </w:r>
+            <w:r w:rsidR="003038E0" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> (contract)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00BE514B" w:rsidRPr="009D536A" w14:paraId="7C16125B" w14:textId="77777777" w:rsidTr="00CC4C92">
+        <w:trPr>
+          <w:trHeight w:val="545"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10800" w:type="dxa"/>
+            <w:gridSpan w:val="4"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="331D783D" w14:textId="77777777" w:rsidR="00CC4C92" w:rsidRPr="009D536A" w:rsidRDefault="00BE514B" w:rsidP="00CC4C92">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="184" w:hanging="184"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Clients included: Waitrose, RSA, Shell, IHG, Allianz, Trelleborg Offshore </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="51DBE612" w14:textId="0BC5568E" w:rsidR="00BE514B" w:rsidRPr="009D536A" w:rsidRDefault="00BE514B" w:rsidP="00CC4C92">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="184" w:hanging="184"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Projects covered strategy design, change </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>comms</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">, capability uplift, </w:t>
+            </w:r>
+            <w:r w:rsidR="004D1CDC">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">customer experience </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>and digital transformation</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="0F8F7445" w14:textId="77777777" w:rsidR="00FF3C97" w:rsidRPr="009D536A" w:rsidRDefault="00FF3C97" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="BodyText"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1287"/>
+        <w:gridCol w:w="9513"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00EA45DA" w:rsidRPr="009D536A" w14:paraId="756115AF" w14:textId="77777777" w:rsidTr="001D78A2">
+        <w:trPr>
+          <w:trHeight w:val="687"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1276" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="4C461AA0" w14:textId="424B449F" w:rsidR="00AE5FC5" w:rsidRPr="00C30BA8" w:rsidRDefault="00C30BA8" w:rsidP="001D78A2">
+            <w:r>
+              <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+              <w:instrText xml:space="preserve"> INCLUDEPICTURE "https://cdn.freebiesupply.com/logos/large/2x/pa-consulting-group-logo-png-transparent.png" \* MERGEFORMATINET </w:instrText>
+            </w:r>
+            <w:r>
+              <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:noProof/>
+              </w:rPr>
+            </w:r>
+            <w:r>
+              <w:fldChar w:fldCharType="end"/>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9514" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="7C03A52A" w14:textId="3E97C6E0" w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w:rsidRDefault="00C30BA8" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">PA Consulting Group management consultancy </w:t>
+            </w:r>
+            <w:r w:rsidR="000D7CFA" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">- </w:t>
+            </w:r>
+            <w:r w:rsidR="00AE5FC5" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Director / Managing Consultant</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="32E424B6" w14:textId="520CA38A" w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w:rsidRDefault="00AE5FC5" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">1996 </w:t>
+            </w:r>
+            <w:r w:rsidR="003038E0" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>–</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> 2004</w:t>
+            </w:r>
+            <w:r w:rsidR="003038E0" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:i/>
+                <w:iCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> (perm)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w14:paraId="482E1D8F" w14:textId="77777777" w:rsidTr="001D78A2">
+        <w:trPr>
+          <w:trHeight w:val="545"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10790" w:type="dxa"/>
+            <w:gridSpan w:val="2"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="12D8C926" w14:textId="60037891" w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w:rsidRDefault="00AE5FC5" w:rsidP="00AE5FC5">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="184" w:hanging="142"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:proofErr w:type="gramStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Practice Head </w:t>
+            </w:r>
+            <w:r w:rsidR="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>C</w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">hange &amp; </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Comms</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> Strategy,</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidR="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">led a </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">team of 22 </w:t>
+            </w:r>
+            <w:r w:rsidR="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">marketing and change </w:t>
+            </w:r>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>consultants</w:t>
+            </w:r>
+            <w:r w:rsidR="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> across global projects</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="2889C3ED" w14:textId="7AB1E487" w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w:rsidRDefault="00C30BA8" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="BodyText"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="6"/>
+              </w:numPr>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:ind w:left="184" w:hanging="142"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Personally</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> l</w:t>
+            </w:r>
+            <w:r w:rsidR="00AE5FC5" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">ed </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">large-scale </w:t>
+            </w:r>
+            <w:r w:rsidR="00AE5FC5" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>change and marketing consulting assignments in private and public sectors</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="5A6CF057" w14:textId="77777777" w:rsidR="001521E2" w:rsidRDefault="001521E2" w:rsidP="001D454B">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:bookmarkStart w:id="4" w:name="education-executive-training"/>
+      <w:bookmarkEnd w:id="2"/>
+    </w:p>
+    <w:p w14:paraId="2EDB4A13" w14:textId="77777777" w:rsidR="00966E00" w:rsidRDefault="00966E00" w:rsidP="001521E2">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="28C4DDF5" w14:textId="77777777" w:rsidR="00966E00" w:rsidRDefault="00966E00" w:rsidP="001521E2">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="125A9B63" w14:textId="77777777" w:rsidR="00966E00" w:rsidRDefault="00966E00" w:rsidP="001521E2">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="7FB359F1" w14:textId="77777777" w:rsidR="00966E00" w:rsidRDefault="00966E00" w:rsidP="001521E2">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="23827781" w14:textId="77777777" w:rsidR="00966E00" w:rsidRDefault="00966E00" w:rsidP="001521E2">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="6978992D" w14:textId="11B9E492" w:rsidR="001521E2" w:rsidRPr="001521E2" w:rsidRDefault="00EB502F" w:rsidP="001521E2">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:hAnsiTheme="majorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>EDUCATION &amp; EXECUTIVE TRAINING</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1476"/>
+        <w:gridCol w:w="9324"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w14:paraId="39647F91" w14:textId="77777777" w:rsidTr="00AE5FC5">
+        <w:trPr>
+          <w:trHeight w:val="687"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1476" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="2BCFBFFD" w14:textId="77777777" w:rsidR="001521E2" w:rsidRDefault="001521E2" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="136C4FCE" w14:textId="7553D2ED" w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w:rsidRDefault="00AE5FC5" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9324" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="49BD1177" w14:textId="77777777" w:rsidR="001521E2" w:rsidRDefault="001521E2" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="1D0670EC" w14:textId="49291FFD" w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w:rsidRDefault="00242C89" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">University of Cambridge - </w:t>
+            </w:r>
+            <w:r w:rsidR="00AE5FC5" w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Institute for Sustainability Leadership</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="1B26C51C" w14:textId="78A9796B" w:rsidR="00AE5FC5" w:rsidRPr="00C30BA8" w:rsidRDefault="00AE5FC5" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Executive Education Certificate </w:t>
+            </w:r>
+            <w:r w:rsidR="00C30BA8" w:rsidRPr="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">in Sustainable Futures </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>(2022)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="5D41195A" w14:textId="312731FD" w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w:rsidRDefault="00AE5FC5" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="BodyText"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1476"/>
+        <w:gridCol w:w="9324"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="000D7CFA" w:rsidRPr="009D536A" w14:paraId="1B39D38C" w14:textId="77777777" w:rsidTr="001D78A2">
+        <w:trPr>
+          <w:trHeight w:val="687"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1476" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="1C39BF05" w14:textId="55846F2D" w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w:rsidRDefault="00AE5FC5" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:noProof/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9324" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="7727261D" w14:textId="77777777" w:rsidR="00843DEB" w:rsidRPr="009D536A" w:rsidRDefault="00242C89" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="009D536A">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Wharton Business School, University of Pennsylvania</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="3A6F6C88" w14:textId="2C8F9748" w:rsidR="00AE5FC5" w:rsidRPr="00C30BA8" w:rsidRDefault="00AE5FC5" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Bachelor </w:t>
+            </w:r>
+            <w:r w:rsidR="009D536A" w:rsidRPr="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">of </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Business </w:t>
+            </w:r>
+            <w:r w:rsidR="009D536A" w:rsidRPr="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve">in </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Marketing and Business Management</w:t>
+            </w:r>
+            <w:r w:rsidR="00BE514B" w:rsidRPr="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> (1993)</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="5FA36A81" w14:textId="198E17E9" w:rsidR="00AE5FC5" w:rsidRPr="009D536A" w:rsidRDefault="00AE5FC5" w:rsidP="001D78A2">
+            <w:pPr>
+              <w:pStyle w:val="FirstParagraph"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00C30BA8">
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+                <w:bCs/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Robert McDonald Award for Academic Achievement</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="518E843C" w14:textId="77777777" w:rsidR="001521E2" w:rsidRDefault="001521E2" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:bookmarkStart w:id="5" w:name="charitable-advisory-roles"/>
+      <w:bookmarkEnd w:id="4"/>
+    </w:p>
+    <w:p w14:paraId="5D6BE961" w14:textId="6EF1E942" w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidRDefault="00EB502F" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>CHARITABLE &amp; ADVISORY ROLES</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2EB3BE4C" w14:textId="25470D17" w:rsidR="001521E2" w:rsidRPr="001521E2" w:rsidRDefault="00540FF2" w:rsidP="001521E2">
+      <w:pPr>
+        <w:pStyle w:val="Compact"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Business a</w:t>
+      </w:r>
+      <w:r w:rsidR="00EB502F" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>dvisor</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>y role</w:t>
+      </w:r>
+      <w:r w:rsidR="00EB502F" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> to Justice &amp; Ca</w:t>
+      </w:r>
+      <w:r w:rsidR="00FF3C97" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>re NGO, Future Frontiers and Princess Alice Hospice, Eshe</w:t>
+      </w:r>
+      <w:bookmarkStart w:id="6" w:name="professional-development"/>
+      <w:bookmarkEnd w:id="5"/>
+      <w:r w:rsidR="001521E2">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>r</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5B75D69C" w14:textId="2A93C37B" w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidRDefault="00EB502F" w:rsidP="00FC3728">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>PROFESSIONAL DEVELOPMENT</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="52B6F3DD" w14:textId="64C6777A" w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidRDefault="00EB502F" w:rsidP="00FF3C97">
+      <w:pPr>
+        <w:pStyle w:val="FirstParagraph"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Leadership:</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> Diversity &amp; Inclusion, Purpose-Led Leadership, Leading Change, Resilience</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:br/>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Core Skills:</w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">ADKAR, </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Prosci</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidR="00C35089">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">, Stakeholder Management, </w:t>
+      </w:r>
+      <w:r w:rsidR="000E3E81" w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Data and AI, Systems Thinking, Project Management, </w:t>
+      </w:r>
+      <w:r w:rsidRPr="009D536A">
+        <w:rPr>
+          <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t>Line Management, Negotiation, Agile, Mentoring, Change Facilitation</w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="6"/>
+    </w:p>
+    <w:sectPr w:rsidR="00B0663A" w:rsidRPr="009D536A" w:rsidSect="001521E2">
+      <w:footnotePr>
+        <w:numRestart w:val="eachSect"/>
+      </w:footnotePr>
+      <w:pgSz w:w="12240" w:h="15840"/>
+      <w:pgMar w:top="720" w:right="720" w:bottom="284" w:left="720" w:header="720" w:footer="720" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:docGrid w:linePitch="326"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
+

@@ -1,0 +1,1531 @@
+<?xml version="1.0" ?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14">
+  <w:body>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblLayout w:type="fixed"/>
+        <w:tblCellMar>
+          <w:left w:w="0" w:type="dxa"/>
+          <w:right w:w="0" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+        <w:tblDescription w:val="Main host layout table"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="3884"/>
+        <w:gridCol w:w="6916"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="002C2CDD" w:rsidRPr="00906BEE" w14:paraId="316E8424" w14:textId="77777777" w:rsidTr="00617831">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3884" w:type="dxa"/>
+            <w:tcMar>
+              <w:top w:w="504" w:type="dxa"/>
+              <w:right w:w="720" w:type="dxa"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p w14:paraId="6CE7A667" w14:textId="72BBD73D" w:rsidR="00523479" w:rsidRPr="00165919" w:rsidRDefault="00165919" w:rsidP="00523479">
+            <w:pPr>
+              <w:pStyle w:val="Initials"/>
+              <w:rPr>
+                <w:color w:val="3D5E26"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00165919">
+              <w:rPr>
+                <w:noProof/>
+                <w:color w:val="3D5E26"/>
+              </w:rPr>
+              <mc:AlternateContent>
+                <mc:Choice Requires="wpg"/>
+                <mc:Fallback/>
+              </mc:AlternateContent>
+            </w:r>
+            <w:r w:rsidRPr="00165919">
+              <w:rPr>
+                <w:noProof/>
+                <w:color w:val="3D5E26"/>
+              </w:rPr>
+              <mc:AlternateContent>
+                <mc:Choice Requires="wps"/>
+                <mc:Fallback/>
+              </mc:AlternateContent>
+            </w:r>
+            <w:r w:rsidR="00C37C1B" w:rsidRPr="00165919">
+              <w:rPr>
+                <w:color w:val="3D5E26"/>
+              </w:rPr>
+              <w:t>L</w:t>
+            </w:r>
+            <w:r w:rsidR="00684A4D" w:rsidRPr="00165919">
+              <w:rPr>
+                <w:color w:val="3D5E26"/>
+              </w:rPr>
+              <w:t>W</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="0DE7B18F" w14:textId="56C83314" w:rsidR="00A50939" w:rsidRPr="00906BEE" w:rsidRDefault="00961CF4" w:rsidP="0018489F">
+            <w:pPr>
+              <w:pStyle w:val="Heading3"/>
+              <w:pBdr>
+                <w:bottom w:val="single" w:sz="48" w:space="1" w:color="70AD47" w:themeColor="accent6"/>
+              </w:pBdr>
+            </w:pPr>
+            <w:r>
+              <w:t>skills</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="249E9992" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00961CF4">
+              <w:rPr>
+                <w:rStyle w:val="Strong"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t>Human-Centered Process Design &amp; Compliance</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00961CF4">
+              <w:rPr>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t>:</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00961CF4">
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r>
+              <w:t>Expertise in designing processes that prioritize user experience while ensuring regulatory compliance.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="7E281FE7" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00961CF4">
+              <w:rPr>
+                <w:rStyle w:val="Strong"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t>High-Quality Service Delivery Supervision</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00961CF4">
+              <w:rPr>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">: </w:t>
+            </w:r>
+            <w:r>
+              <w:t>Proven ability to oversee and ensure the delivery of exceptional service standards.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="3C192C05" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00961CF4">
+              <w:rPr>
+                <w:rStyle w:val="Strong"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t>Cross-Functional Team Leadership</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00961CF4">
+              <w:rPr>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">: </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00F26357">
+              <w:t>Proven ability to lead and collaborate with diverse teams, both with and without formal leadership roles, to achieve common goals and drive successful project outcomes.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="56D13C9B" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="00961CF4">
+              <w:rPr>
+                <w:rStyle w:val="Strong"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t>Data Analysis for Actionable Dashboards &amp; Quality Metrics</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00961CF4">
+              <w:rPr>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">: </w:t>
+            </w:r>
+            <w:r>
+              <w:t>Skilled in analyzing data to create insightful dashboards and quality metrics that drive informed decision-making and continuous improvement.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="7788DB09" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="1A114AF3" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="49698BC3" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="2F738AD8" w14:textId="46DE8BD7" w:rsidR="002C2CDD" w:rsidRPr="00930B10" w:rsidRDefault="00930B10" w:rsidP="0018489F">
+            <w:pPr>
+              <w:pStyle w:val="Heading3"/>
+              <w:pBdr>
+                <w:bottom w:val="single" w:sz="48" w:space="1" w:color="70AD47" w:themeColor="accent6"/>
+              </w:pBdr>
+              <w:rPr>
+                <w:sz w:val="30"/>
+                <w:szCs w:val="30"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="30"/>
+                <w:szCs w:val="30"/>
+              </w:rPr>
+              <w:lastRenderedPageBreak/>
+              <w:t xml:space="preserve">ANONyMOUS </w:t>
+            </w:r>
+            <w:r w:rsidR="00961CF4" w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="30"/>
+                <w:szCs w:val="30"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Colleague </w:t>
+            </w:r>
+            <w:r w:rsidR="00371CA5" w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="30"/>
+                <w:szCs w:val="30"/>
+              </w:rPr>
+              <w:t>Feedback</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="338603AC" w14:textId="7E792468" w:rsidR="00B14C56" w:rsidRPr="00930B10" w:rsidRDefault="00961CF4" w:rsidP="00741125">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>"Lizzy is a Superstar. Speaks up and makes great suggestions during meetings, fulfil</w:t>
+            </w:r>
+            <w:r w:rsidR="00930B10" w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>l</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>s her commitments and is always a pleasure to interact with. Lizzy's depth of technical knowledge on a broad range of processes/applications is impressive, as is the way she organizes work for herself and others."</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="54399558" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="00930B10" w:rsidRDefault="00961CF4" w:rsidP="00741125">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="1F989F99" w14:textId="73F7CB81" w:rsidR="00961CF4" w:rsidRPr="00930B10" w:rsidRDefault="00961CF4" w:rsidP="00741125">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>"Lizzy is one of the best people to work with. Whenever I work on an issue with Lizzy, she is very logical and proposes a solution instead of leaving open-ended questions."</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="747402B5" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="00930B10" w:rsidRDefault="00961CF4" w:rsidP="00741125">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="7BD24D15" w14:textId="484839DE" w:rsidR="00961CF4" w:rsidRPr="00930B10" w:rsidRDefault="00961CF4" w:rsidP="00741125">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">“She </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:kern w:val="2"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>has an enterprise view of things and</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:kern w:val="2"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">wants to support the </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>‘</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:kern w:val="2"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>common good</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>’.”</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="1CCC98B2" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="00930B10" w:rsidRDefault="00961CF4" w:rsidP="00741125">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="61954D96" w14:textId="4CEC64AC" w:rsidR="00961CF4" w:rsidRPr="00930B10" w:rsidRDefault="00961CF4" w:rsidP="00741125">
+            <w:pPr>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">“Lizzy was asked to be the primary business lead and analyst to work on the BlueStream worker data changes impacting GxPLearn User Groups. She not only willingly took the lead, and in addition to showing </w:t>
+            </w:r>
+            <w:r w:rsidR="00930B10" w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">[up] </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00930B10">
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>and explaining the changes to all the Training Admin groups, she is managing the details of all the group criteria changes on their behalf. We needed somebody super data oriented and knowledgeable about HR user attributes and ComplianceWire for this project, and I don’t know what we would have done without Lizzy.”</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="567BAF60" w14:textId="77777777" w:rsidR="00B14C56" w:rsidRDefault="00B14C56" w:rsidP="00741125"/>
+          <w:p w14:paraId="29DADCD6" w14:textId="0EDD2C99" w:rsidR="00B14C56" w:rsidRPr="00906BEE" w:rsidRDefault="00BD540B" w:rsidP="0018489F">
+            <w:pPr>
+              <w:pStyle w:val="Heading3"/>
+              <w:pBdr>
+                <w:bottom w:val="single" w:sz="48" w:space="1" w:color="70AD47" w:themeColor="accent6"/>
+              </w:pBdr>
+            </w:pPr>
+            <w:r>
+              <w:lastRenderedPageBreak/>
+              <w:t xml:space="preserve">technical </w:t>
+            </w:r>
+            <w:r w:rsidR="00C87BB8">
+              <w:t xml:space="preserve">data </w:t>
+            </w:r>
+            <w:r>
+              <w:t>skills</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="5E732417" w14:textId="3ED0BD7A" w:rsidR="00B45270" w:rsidRDefault="00AC3262" w:rsidP="00B82967">
+            <w:r>
+              <w:t xml:space="preserve">Powerful </w:t>
+            </w:r>
+            <w:r w:rsidR="00C87BB8">
+              <w:t xml:space="preserve">Tableau </w:t>
+            </w:r>
+            <w:r>
+              <w:t>d</w:t>
+            </w:r>
+            <w:r w:rsidR="00C87BB8">
+              <w:t xml:space="preserve">ashboard </w:t>
+            </w:r>
+            <w:r>
+              <w:t>d</w:t>
+            </w:r>
+            <w:r w:rsidR="00C87BB8">
+              <w:t>evelopment</w:t>
+            </w:r>
+            <w:r w:rsidR="00930B10">
+              <w:t>.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="0BADDE3F" w14:textId="77777777" w:rsidR="00C87BB8" w:rsidRDefault="00C87BB8" w:rsidP="00B82967"/>
+          <w:p w14:paraId="201994C0" w14:textId="6901B6ED" w:rsidR="00C87BB8" w:rsidRDefault="00C87BB8" w:rsidP="00B82967">
+            <w:r>
+              <w:t xml:space="preserve">Utilizing Alteryx for data </w:t>
+            </w:r>
+            <w:r w:rsidR="00AC3262">
+              <w:t xml:space="preserve">cleaning, </w:t>
+            </w:r>
+            <w:r>
+              <w:t>transformation</w:t>
+            </w:r>
+            <w:r w:rsidR="00AC3262">
+              <w:t>, and preparation, as well as</w:t>
+            </w:r>
+            <w:r>
+              <w:t xml:space="preserve"> automated emails</w:t>
+            </w:r>
+            <w:r w:rsidR="00930B10">
+              <w:t>.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="79A2CF2B" w14:textId="77777777" w:rsidR="00B14C56" w:rsidRDefault="00B14C56" w:rsidP="00741125"/>
+          <w:p w14:paraId="0A9462BF" w14:textId="01D3987D" w:rsidR="00C87BB8" w:rsidRDefault="00C87BB8" w:rsidP="00741125">
+            <w:r>
+              <w:t>Writing SQL Queries</w:t>
+            </w:r>
+            <w:r w:rsidR="00930B10">
+              <w:t>.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="16EF4CAA" w14:textId="77777777" w:rsidR="00C87BB8" w:rsidRDefault="00C87BB8" w:rsidP="00741125"/>
+          <w:p w14:paraId="31680868" w14:textId="77777777" w:rsidR="001D2864" w:rsidRDefault="001D2864" w:rsidP="00741125"/>
+          <w:p w14:paraId="7EA24480" w14:textId="64C31E49" w:rsidR="00C87BB8" w:rsidRPr="00906BEE" w:rsidRDefault="00C87BB8" w:rsidP="00741125"/>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="6916" w:type="dxa"/>
+            <w:tcMar>
+              <w:top w:w="504" w:type="dxa"/>
+              <w:left w:w="0" w:type="dxa"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblStyle w:val="TableGrid"/>
+              <w:tblW w:w="5000" w:type="pct"/>
+              <w:tblBorders>
+                <w:top w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                <w:left w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                <w:bottom w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                <w:right w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                <w:insideH w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                <w:insideV w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+              </w:tblBorders>
+              <w:tblLayout w:type="fixed"/>
+              <w:tblCellMar>
+                <w:left w:w="0" w:type="dxa"/>
+                <w:bottom w:w="835" w:type="dxa"/>
+                <w:right w:w="432" w:type="dxa"/>
+              </w:tblCellMar>
+              <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+              <w:tblDescription w:val="Heading layout table"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="6916"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00C612DA" w:rsidRPr="00906BEE" w14:paraId="09476C03" w14:textId="77777777" w:rsidTr="00823C54">
+              <w:trPr>
+                <w:trHeight w:hRule="exact" w:val="1296"/>
+              </w:trPr>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="6055" w:type="dxa"/>
+                  <w:vAlign w:val="center"/>
+                </w:tcPr>
+                <w:p w14:paraId="322AE002" w14:textId="4CCA5945" w:rsidR="00C612DA" w:rsidRPr="00906BEE" w:rsidRDefault="00000000" w:rsidP="00C612DA">
+                  <w:pPr>
+                    <w:pStyle w:val="Heading1"/>
+                  </w:pPr>
+                  <w:sdt>
+                    <w:sdtPr>
+                      <w:rPr>
+                        <w:color w:val="auto"/>
+                      </w:rPr>
+                      <w:alias w:val="Enter your name:"/>
+                      <w:tag w:val="Enter your name:"/>
+                      <w:id w:val="-296147368"/>
+                      <w:placeholder>
+                        <w:docPart w:val="1936D51F8B0C45CB8D03DE5CC89E4DA1"/>
+                      </w:placeholder>
+                      <w15:dataBinding w:prefixMappings="xmlns:ns0='http://schemas.microsoft.com/temp/samples' " w:xpath="/ns0:employees[1]/ns0:employee[1]/ns0:Address[1]" w:storeItemID="{00000000-0000-0000-0000-000000000000}"/>
+                      <w15:appearance w15:val="hidden"/>
+                    </w:sdtPr>
+                    <w:sdtEndPr>
+                      <w:rPr>
+                        <w:color w:val="000000" w:themeColor="text1"/>
+                      </w:rPr>
+                    </w:sdtEndPr>
+                    <w:sdtContent>
+                      <w:r w:rsidR="00C37C1B" w:rsidRPr="00165919">
+                        <w:rPr>
+                          <w:color w:val="auto"/>
+                        </w:rPr>
+                        <w:t>Lizzy</w:t>
+                      </w:r>
+                      <w:r w:rsidR="00684A4D" w:rsidRPr="00165919">
+                        <w:rPr>
+                          <w:color w:val="auto"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve"> Wilkins</w:t>
+                      </w:r>
+                    </w:sdtContent>
+                  </w:sdt>
+                </w:p>
+                <w:p w14:paraId="7A776E25" w14:textId="6C7EC3AC" w:rsidR="00EF0BFA" w:rsidRDefault="00000000" w:rsidP="00906BEE">
+                  <w:pPr>
+                    <w:pStyle w:val="Heading2"/>
+                    <w:rPr>
+                      <w:rStyle w:val="Hyperlink"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:sdt>
+                    <w:sdtPr>
+                      <w:rPr>
+                        <w:color w:val="0563C1" w:themeColor="hyperlink"/>
+                        <w:u w:val="single"/>
+                      </w:rPr>
+                      <w:alias w:val="Enter Profession or Industry:"/>
+                      <w:tag w:val="Enter Profession or Industry:"/>
+                      <w:id w:val="-223601802"/>
+                      <w:placeholder>
+                        <w:docPart w:val="7F833D01CCDE4BD2A478AA48F13BA497"/>
+                      </w:placeholder>
+                      <w:dataBinding w:prefixMappings="xmlns:ns0='http://purl.org/dc/elements/1.1/' xmlns:ns1='http://schemas.openxmlformats.org/package/2006/metadata/core-properties' " w:xpath="/ns1:coreProperties[1]/ns0:subject[1]" w:storeItemID="{6C3C8BC8-F283-45AE-878A-BAB7291924A1}"/>
+                      <w15:appearance w15:val="hidden"/>
+                      <w:text w:multiLine="1"/>
+                    </w:sdtPr>
+                    <w:sdtEndPr>
+                      <w:rPr>
+                        <w:color w:val="000000" w:themeColor="text1"/>
+                        <w:u w:val="none"/>
+                      </w:rPr>
+                    </w:sdtEndPr>
+                    <w:sdtContent>
+                      <w:r w:rsidR="00CB5378">
+                        <w:t xml:space="preserve">Quality </w:t>
+                      </w:r>
+                      <w:r w:rsidR="00537DD9">
+                        <w:t>AND Compliance manager</w:t>
+                      </w:r>
+                      <w:r w:rsidR="00CB5378">
+                        <w:t xml:space="preserve"> </w:t>
+                      </w:r>
+                      <w:r w:rsidR="0017526B" w:rsidRPr="00961CF4">
+                        <w:br/>
+                      </w:r>
+                      <w:r w:rsidR="00C37C1B" w:rsidRPr="00961CF4">
+                        <w:t/>
+                      </w:r>
+                      <w:r w:rsidR="0017526B" w:rsidRPr="00961CF4">
+                        <w:t/>
+                      </w:r>
+                    </w:sdtContent>
+                  </w:sdt>
+                  <w:r w:rsidR="007D6458" w:rsidRPr="007D6458">
+                    <w:t xml:space="preserve"> | </w:t>
+                  </w:r>
+                  <w:r w:rsidR="00E60183" w:rsidRPr="001608B4">
+                    <w:rPr>
+                      <w:rStyle w:val="Hyperlink"/>
+                    </w:rPr>
+                    <w:t>Linked</w:t>
+                  </w:r>
+                  <w:r w:rsidR="00C90855" w:rsidRPr="001608B4">
+                    <w:rPr>
+                      <w:rStyle w:val="Hyperlink"/>
+                    </w:rPr>
+                    <w:t>In</w:t>
+                  </w:r>
+                </w:p>
+                <w:p w14:paraId="31E069CB" w14:textId="0ED656C9" w:rsidR="00906BEE" w:rsidRPr="00906BEE" w:rsidRDefault="00E60183" w:rsidP="00906BEE">
+                  <w:pPr>
+                    <w:pStyle w:val="Heading2"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:br/>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+          </w:tbl>
+          <w:p w14:paraId="14076BB6" w14:textId="561DD14C" w:rsidR="002C2CDD" w:rsidRPr="00906BEE" w:rsidRDefault="00371CA5" w:rsidP="0018489F">
+            <w:pPr>
+              <w:pStyle w:val="Heading3"/>
+              <w:pBdr>
+                <w:bottom w:val="single" w:sz="48" w:space="1" w:color="70AD47" w:themeColor="accent6"/>
+              </w:pBdr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:noProof/>
+              </w:rPr>
+              <mc:AlternateContent>
+                <mc:Choice Requires="wps"/>
+                <mc:Fallback/>
+              </mc:AlternateContent>
+            </w:r>
+            <w:r w:rsidR="00421FA3">
+              <w:t>experience</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="3899EEB4" w14:textId="431BDC88" w:rsidR="00D11896" w:rsidRDefault="00C37C1B" w:rsidP="007569C1">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Manager, it risk and compliance</w:t>
+            </w:r>
+            <w:r w:rsidR="00AF2EBD">
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidR="002C2CDD" w:rsidRPr="00906BEE">
+              <w:t xml:space="preserve">• </w:t>
+            </w:r>
+            <w:r>
+              <w:t>gilead sciences, INC</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="7BBBD691" w14:textId="7AF77A7E" w:rsidR="002C2CDD" w:rsidRDefault="00C37C1B" w:rsidP="007569C1">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t>mar 2022</w:t>
+            </w:r>
+            <w:r w:rsidR="00D11896">
+              <w:t xml:space="preserve"> – Present</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="7AE115AD" w14:textId="77777777" w:rsidR="00D11896" w:rsidRPr="00906BEE" w:rsidRDefault="00D11896" w:rsidP="007569C1">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="40BD74A4" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="12"/>
+              </w:numPr>
+            </w:pPr>
+            <w:r>
+              <w:t>Lead IT projects that will improve compliance, reduce paper usage, and create time savings for the IT QA Operations team and IT Managers.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="3F308E92" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="12"/>
+              </w:numPr>
+            </w:pPr>
+            <w:r>
+              <w:t>Represent IT business needs in enterprise-wide forums related to training systems and processes.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="44DA4C75" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="12"/>
+              </w:numPr>
+            </w:pPr>
+            <w:r>
+              <w:t>Spearhead efforts to enhance IT Quality Metrics reliability, visibility, and efficiency.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="05B4010B" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="12"/>
+              </w:numPr>
+            </w:pPr>
+            <w:r>
+              <w:t>Oversee the IT Training Coordination support team. Including on-boarding training, escalations, and new process implementations.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="6598C2FC" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="12"/>
+              </w:numPr>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">Proactively collaborate with IT Managers to improve compliance with the IT Training Program. </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="2B548F55" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:ind w:left="360"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="307D1C08" w14:textId="235C69D3" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:ind w:left="360"/>
+            </w:pPr>
+            <w:r>
+              <w:t>From Mar 2022 to Aug 2023 – Completed a rotational role as the GxPLearn Business Process Lead. In this role:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="4AA93A9E" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="12"/>
+              </w:numPr>
+            </w:pPr>
+            <w:r>
+              <w:t>Consistently prioritized simplification of processes, data sets, and interfaces for individuals.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="593AA5D3" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="12"/>
+              </w:numPr>
+            </w:pPr>
+            <w:r>
+              <w:t>Maintained a focus on teamwork, recognizing shared goals across different interpretations, priorities, and opinions.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="39F8751B" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="12"/>
+              </w:numPr>
+            </w:pPr>
+            <w:r>
+              <w:t>Cultivated a collaborative work environment, acknowledging and appreciating the efforts and contributions of colleagues.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="0BB16467" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="12"/>
+              </w:numPr>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">Delivered data mappings to smoothly transition the LMS data-driven assignments to newly structured HR data, which was re-structured for </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+              <w:t>a</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+              <w:t xml:space="preserve"> SAP implementation.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="347EE556" w14:textId="7428C940" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">it quality engineering analyst </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00906BEE">
+              <w:t xml:space="preserve">• </w:t>
+            </w:r>
+            <w:r>
+              <w:t>gilead sciences, INC</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="13E00333" w14:textId="2554DCB7" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t>mar 2021 – mar 2022</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="776F048C" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:r>
+              <w:t>Key Accomplishments in this Role:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="790E62B2" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">Facilitated the transition of the Quality Reporting Team (QRT) to a new Managed Service Provider (MSP). Including: </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="37ED3FF9" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="1"/>
+                <w:numId w:val="16"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Updated KPI, CPI, and Volume Dashboard to align with the new statement of work.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="23BC104C" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="1"/>
+                <w:numId w:val="16"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:lastRenderedPageBreak/>
+              <w:t>Implemented data quality checks to monitor and enhance the quality of request data.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="00C9E91D" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="1"/>
+                <w:numId w:val="16"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Reinforced best practices in Tableau dashboards and Alteryx workflows through this experience.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="5D00A52C" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRPr="009439C5" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="009439C5">
+              <w:t>Managed an IT Intern project to design and develop the Historic IT Quality Dashboard, which saved ~400 working hours annually. I oversaw the project, collaborating with the intern to establish and achieve milestones, and ensure clarity of objectives.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="7CCD6631" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Led the transition of IT training request support to an in-house model to prioritize IT business needs.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="6ED66FF7" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Spearheaded a project to assess and improve all the IT GxP training curricula, which resulted in clearly defined purposes, aligned training contents, reviewed role assignments, and increased onboarding efficiency for several teams.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="339254D6" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Interviewed 9+ consultants for the short-term GxP training curricula project. There was a last-minute cancellation, a no-show, and someone who simply stopped communicating. This resulted in extensive interview experience and several lessons learned about the hiring process.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="0FCD6432" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Key Contributor for the development of a custom in-house training request system. Contributions included design specifications for user interface, workflows, and data structure.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="55898C75" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>As the spokesperson for the custom in-house training request system, I provided project status reports and updates to Senior Management and the global Training Coordinator audience.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="18DE4A7C" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">Organized Internal Women in Technology social events to create a strong sense of community and foster collaboration among women in the IT department. </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="05317457" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="67A4C977" w14:textId="34151F58" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">qa training specialist </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00906BEE">
+              <w:t xml:space="preserve">• </w:t>
+            </w:r>
+            <w:r>
+              <w:t>gilead sciences, INC</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="37D1C9CD" w14:textId="3C9A2133" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t>mar 2019 – mar 2021</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="1A9E2D4D" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:r>
+              <w:t>Key Accomplishments in this Role:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="730BE5A2" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Developed data workflows in Alteryx and Tableau dashboards to automate weekly IT Quality Metrics. This reduced an average of 8 manual working hours per week (~416 hours a year).</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="2A756852" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Supported the successful implementation of a new Quality Document Management System (QDMS) (Veeva Vault) in May 2019, ensuring alignment with the technology roadmap and business priorities.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="752FDDFD" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:lastRenderedPageBreak/>
+              <w:t>Managed IT data enrichment for implementing a new QDMS, training administration material review, and document migration activities for impacted IT documents.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="486428B2" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Led the design and testing for a Periodic Review of Curricula Vitae and Job Descriptor workflow in the QDMS.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="457A232F" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Personally selected by my Senior Director to be a member of a Corporate Efficiency project where I led a small sub-team, fostered cross-functional communication, and collaborated on global process harmonization and implementation.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="79A498D7" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Engaged as a member of multiple global cross-functional teams to explore improvement opportunities across various enterprise systems and processes.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="3A8856FC" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t>Managed the development of three E-Learning courses for 'Good Documentation Practices,' 'Training Program for People Manager,' and 'IT GxP Fundamentals,' providing flexibility and reducing manual efforts.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="1B7DC429" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">Led continuous improvements within IT Training Coordination to ensure IT Managers and workers received exceptional support. </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="1896ACF3" w14:textId="4D80D481" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">qa document associate II </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00906BEE">
+              <w:t xml:space="preserve">• </w:t>
+            </w:r>
+            <w:r>
+              <w:t>gilead sciences, INC</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="6775A032" w14:textId="3E90D7AB" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t>feb 2017 – mar 2019</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="241A041D" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:r>
+              <w:t>Key Accomplishments in this Role:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="60968241" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0017739B" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="18"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0017739B">
+              <w:t>Served as interim IT Document Coordination Lead for eight months, improving the service delivery of the documentation team and reducing compliance gaps such as:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="090FE071" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0017739B" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="1"/>
+                <w:numId w:val="18"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0017739B">
+              <w:t xml:space="preserve">Enforced procedural requirements to archive paper records and led the effort to process the backlog. </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="412206F3" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0017739B" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="1"/>
+                <w:numId w:val="18"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0017739B">
+              <w:t>Reduced the volume of orphaned document workflows in the EDMS by 75% (304 to 75).</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="51715F15" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0017739B" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="17"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0017739B">
+              <w:t xml:space="preserve">Guided and mentored an IT summer intern, offering coaching and support that resulted in the successful completion of a GxP Curriculum Vitae and Job Descriptor initiative to identify GxP Workers within IT and ensure they had the appropriate training records on file. </w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="05599B6C" w14:textId="69FDC280" w:rsidR="00961CF4" w:rsidRPr="0017739B" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="17"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">Executed a review of IT records impacted by the </w:t>
+            </w:r>
+            <w:r w:rsidRPr="0017739B">
+              <w:t>General Data Protection Regulation</w:t>
+            </w:r>
+            <w:r>
+              <w:t xml:space="preserve"> (GDPR) implementation in 2018 and oversaw required updates to ensure all IT records were compliant.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="6AA47522" w14:textId="59AC3C33" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="17"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0017739B">
+              <w:t>Participated in the 2018 IT Mentorship program as a Mentee.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="296F556B" w14:textId="77777777" w:rsidR="00930B10" w:rsidRDefault="00930B10" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="60719069" w14:textId="77777777" w:rsidR="00930B10" w:rsidRDefault="00930B10" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="20F31FC6" w14:textId="2F2CB03B" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:lastRenderedPageBreak/>
+              <w:t xml:space="preserve">qa document associate I </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00906BEE">
+              <w:t xml:space="preserve">• </w:t>
+            </w:r>
+            <w:r>
+              <w:t>gilead sciences, INC</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="2A16ACD2" w14:textId="16308F84" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t>DEC 2015 – FEB 2017</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="42F0CF7A" w14:textId="302ADC7D" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:r>
+              <w:t>Key Responsibilities in this Role:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="7F9FA1F5" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0016434B" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0016434B">
+              <w:t>Create and implement ad-hoc metrics in Excel to enhance reporting accuracy and operational efficiency.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="2A1534E2" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0016434B" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0016434B">
+              <w:t>Supported the on-boarding process for full-time and contract IT staff.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="0A9A85C4" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0016434B" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0016434B">
+              <w:t>Conduct comprehensive training sessions for IT People Managers, to improve adherence to IT Training Program procedures.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="650A6480" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0016434B" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0016434B">
+              <w:t>Facilitate the Audit Prep-Room by monitoring, assigning, and tracking audit requests.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="0A55B71B" w14:textId="18724F8C" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t>IT Quality associate</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00906BEE">
+              <w:t xml:space="preserve">• </w:t>
+            </w:r>
+            <w:r>
+              <w:t>i.t solutions</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="155E4274" w14:textId="59B357F6" w:rsidR="00961CF4" w:rsidRDefault="00930B10" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t>MAR</w:t>
+            </w:r>
+            <w:r w:rsidR="00961CF4">
+              <w:t xml:space="preserve"> 201</w:t>
+            </w:r>
+            <w:r>
+              <w:t>4</w:t>
+            </w:r>
+            <w:r w:rsidR="00961CF4">
+              <w:t xml:space="preserve"> – </w:t>
+            </w:r>
+            <w:r>
+              <w:t>DEC</w:t>
+            </w:r>
+            <w:r w:rsidR="00961CF4">
+              <w:t xml:space="preserve"> 201</w:t>
+            </w:r>
+            <w:r>
+              <w:t>5</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="3AD24E80" w14:textId="1F51E835" w:rsidR="00961CF4" w:rsidRPr="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:r w:rsidRPr="00961CF4">
+              <w:t>Contracting with Gilead Sciences, I</w:t>
+            </w:r>
+            <w:r w:rsidR="00930B10">
+              <w:t>nc.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="5C282618" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:r>
+              <w:t>Key Responsibilities in this Role:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="6752A3C0" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0049395A" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0049395A">
+              <w:t>Monitor the compliance of the IT department through weekly metrics and analysis to ensure that the business needs were met.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="6860DE4E" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0049395A" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0049395A">
+              <w:t>Assist the development and maintenance of training compliance reporting for the IT department.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="673D4334" w14:textId="77777777" w:rsidR="00961CF4" w:rsidRPr="0049395A" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0049395A">
+              <w:t>Support the transition from paper-based quality records to electronic Deviations, CAPA, and Change Management records in Track</w:t>
+            </w:r>
+            <w:r>
+              <w:t>W</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0049395A">
+              <w:t>ise.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="5D9CE6E4" w14:textId="2CE32EA5" w:rsidR="00961CF4" w:rsidRDefault="00961CF4" w:rsidP="00961CF4">
+            <w:pPr>
+              <w:pStyle w:val="ListParagraph"/>
+              <w:numPr>
+                <w:ilvl w:val="0"/>
+                <w:numId w:val="15"/>
+              </w:numPr>
+              <w:spacing w:after="160"/>
+            </w:pPr>
+            <w:r w:rsidRPr="0049395A">
+              <w:t>Assist in internal audits as Request Scribe and Data Gathere</w:t>
+            </w:r>
+            <w:r>
+              <w:t>r.</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="1327DD98" w14:textId="50F9345C" w:rsidR="002C2CDD" w:rsidRDefault="003047F1" w:rsidP="003047F1">
+            <w:pPr>
+              <w:pStyle w:val="Heading3"/>
+              <w:pBdr>
+                <w:bottom w:val="single" w:sz="48" w:space="1" w:color="70AD47" w:themeColor="accent6"/>
+              </w:pBdr>
+            </w:pPr>
+            <w:r>
+              <w:t>Education</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="7B93CB5B" w14:textId="62A79E6E" w:rsidR="00C37C1B" w:rsidRPr="00906BEE" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">bryan college </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00906BEE">
+              <w:t>•</w:t>
+            </w:r>
+            <w:r>
+              <w:t xml:space="preserve"> dayton, tn </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00906BEE">
+              <w:t>•</w:t>
+            </w:r>
+            <w:r>
+              <w:t xml:space="preserve"> 2011 -</w:t>
+            </w:r>
+            <w:r w:rsidR="00930B10">
+              <w:t xml:space="preserve"> DEC </w:t>
+            </w:r>
+            <w:r>
+              <w:t>2013</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="7D2800D1" w14:textId="185C1770" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C37C1B">
+            <w:r>
+              <w:t>Bachelor’s Degree, Music Administration</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="462B060C" w14:textId="77777777" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00CC3593">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+          </w:p>
+          <w:p w14:paraId="6BA35C63" w14:textId="79FBA662" w:rsidR="00CC3593" w:rsidRPr="00906BEE" w:rsidRDefault="00CC3593" w:rsidP="00CC3593">
+            <w:pPr>
+              <w:pStyle w:val="Heading4"/>
+            </w:pPr>
+            <w:r>
+              <w:t xml:space="preserve">las positas college </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00906BEE">
+              <w:t>•</w:t>
+            </w:r>
+            <w:r>
+              <w:t xml:space="preserve"> Livermore, ca </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00906BEE">
+              <w:t>•</w:t>
+            </w:r>
+            <w:r>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidR="00C37C1B">
+              <w:t>2009 - 2011</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="3F59968F" w14:textId="1D7ACF58" w:rsidR="00E65BD4" w:rsidRDefault="00C37C1B" w:rsidP="00C83C88">
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+              <w:t>Associate’s Degree</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+              <w:t>, English</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="10D232E9" w14:textId="5D7C2694" w:rsidR="00C37C1B" w:rsidRDefault="00C37C1B" w:rsidP="00C83C88">
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+              <w:t>Associate’s Degree</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+              <w:t>, Music</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="6E89A43C" w14:textId="6AF1AF3C" w:rsidR="00E65BD4" w:rsidRPr="00906BEE" w:rsidRDefault="00E65BD4" w:rsidP="00C83C88"/>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="74EFC2C5" w14:textId="39D77045" w:rsidR="00C87BB8" w:rsidRPr="00C87BB8" w:rsidRDefault="00C87BB8" w:rsidP="00C87BB8">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="3492"/>
+        </w:tabs>
+      </w:pPr>
+    </w:p>
+    <w:sectPr w:rsidR="00C87BB8" w:rsidRPr="00C87BB8" w:rsidSect="00B82967">
+      <w:headerReference w:type="default" r:id="rId12"/>
+      <w:footerReference w:type="default" r:id="rId13"/>
+      <w:pgSz w:w="12240" w:h="15840"/>
+      <w:pgMar w:top="720" w:right="720" w:bottom="720" w:left="720" w:header="144" w:footer="576" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:titlePg/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
+

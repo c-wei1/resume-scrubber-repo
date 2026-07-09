@@ -1,0 +1,2436 @@
+<?xml version="1.0" ?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14">
+  <w:body>
+    <w:p w14:paraId="17F096EF" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="160"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="32"/>
+        </w:rPr>
+        <w:t>Brittany Humphries</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="03DAFFD5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>LANGUAGES</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="039539EB" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="80"/>
+      </w:pPr>
+      <w:r>
+        <w:t>English (advanced), French (advanced), Mandarin (beginner)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0EDB8DF1" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>EDUCATION</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="17E1186A" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="20"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Doctor of Philosophy, Health Research Methodology, McMaster University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="31726763" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="230" w:hanging="173"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Areas of research: Health technology assessment, patient-reported outcomes</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0CF50261" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="230" w:hanging="173"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Research strategies: Mixed methods, health economic evaluations, systematic literature reviews</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2E690CAB" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00C05133">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="0F17D643" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="20"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Master of Science, Pharmacoepidemiology, Université Laval</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="20838F86" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="230" w:hanging="173"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Areas of research: Epidemiology, biostatistics</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7225D095" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="230" w:hanging="173"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Research strategies: Quantitative analyses of large datasets (RAMQ)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2FBFDA38" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00C05133">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="6E235402" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="20"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Bachelor of Arts, Major in Social Anthropology, Minor in French, Dalhousie University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5C5ABD5F" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="230" w:hanging="173"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Areas of research: Social anthropology</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="201FCE0A" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="230" w:hanging="173"/>
+      </w:pPr>
+      <w:r>
+        <w:t>• Research strategies: Qualitative analyses of primary data (participant observation, interviews, focus groups)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7F301804" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00C05133">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="73164F1B" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>APPOINTMENTS</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="39E5B02D" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2023/11 – 2026/06/01</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Assistant Professor (Part-Time)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3BA48172" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Department of Health Research Methods, Evidence, and Impact</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3106B6C0" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>McMaster University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="699DB066" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2024/04 – 2026/06/01</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Associate Editor</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="61853249" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Value in Health Regional Issues</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4DE716AD" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00C05133">
+      <w:pPr>
+        <w:spacing w:after="20"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="355DC3DD" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>EMPLOYMENT</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="692FC708" w14:textId="4A236E5D" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2026/02</w:t>
+      </w:r>
+      <w:r w:rsidR="0016714F">
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>/01</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> – present</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Contractor</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="094BC7F3" w14:textId="4F78F788" w:rsidR="0016714F" w:rsidRDefault="0016714F" w:rsidP="0016714F">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Kite, Global MM</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="68F35E43" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2025/11/01 – present</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Director of Health Economics and Outcomes Research</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5B7420CE" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>RainCity Analytics</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="111B7154" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2023/6 – 2026/03/01</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Research Coordinator</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="64D76BF8" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Department of Health Research Methods, Evidence, and Impact</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3755FBBC" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>McMaster University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="78A731B0" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2021/9 – 2022/12</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Associate Director and HEOR Methodology Senior Expert</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="412A1756" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Cytel</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="06CE1563" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2021/4 – 2021/9</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Senior Policy Advisor</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2B1733F5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Ontario Ministry of Health</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3431124D" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2017/11 – 2021/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>HEOR Consultant</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5997D4B6" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Freelance (includes projects for Doctors Without Borders, Bruyère</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="30C8218F" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Research Institute, World Health Organization)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="08BC43D1" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2018/10 – 2020/7</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Associate, Health Economic Modeler and Policy Research</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="39826CBD" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>PDCI Market Access</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5B9250E5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2015/11 – 2017/11</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Research Assistant</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="173650EA" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>CHU de Quebec Research Center – Université Laval</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="19CACDD1" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2016/5 – 2017/7</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Teaching Assistant for the course PHA 2064: Strategies to enhance</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1446963B" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>patient medication adherence</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="72FE1DF6" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Faculty of Pharmacy, Université Laval</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="19D05FFA" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:spacing w:after="0"/>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2013/9 – 2015/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Student Assistant</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="69FECC2A" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:ind w:left="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Department of Political Science, Dalhousie University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6EEB58FF" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00C05133">
+      <w:pPr>
+        <w:spacing w:after="20"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="55C2247F" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>FUNDING AWARDS</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="13FF11B4" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2025/08</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Real-world cost-effectiveness analysis of ferric derisomaltose compared to iron sucrose among patients with iron deficiency anemia treated in an ambulatory setting. Pfizer ($29,000)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3B56D9A4" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2025/08</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Development and Implementation of a National Survey on the Patient and Caregiver Burden of Inherited Bleeding Disorders in Canada. Canadian Hemophilia Society ($40,000)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0DE84BB6" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2025/06</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Exploring experience and perception of valuation tasks for valuing EQ-5D-Y- 5L health states: a qualitative study of adults and adolescents. EuroQol Research Foundation (€23,364)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="23AD4482" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>2025/07</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Harnessing Real-World Data to Improve the Efficiency of Healthcare Systems: Cost-Effectiveness Analysis of Innovative Care Models Delivered by Emergency Medical Services in Ontario. Canadian Institutes of Health Research ($140,000)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4929FC54" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2025/01</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Patient-reported, health economic and psychosocial outcomes in Friedreich Ataxia: PROFA Consortium. Biogen (€3,281,179)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6AC1F8D5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2025/01</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Visualization of routinely collected EQ-5D data in hip and knee arthroplasty. EuroQol Research Foundation (€65,474)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2E73E6CF" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2025/01</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>DCE with duration split triplet for valuing the EQ-5D-Y-5L. EuroQol Research Foundation (€219,630)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2F6A6E77" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2024/05</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>A Series of Reviews on Measuring and Valuing Health for Children. Canada’s Drug Agency ($31,250)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="211C87DA" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2024/03</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Comparison of the EQ-5D-Y-5L, EQ-5D-Y-3L and PedsQL in Paediatric Patients with Congenital Heart Disease in China. EuroQol Research Foundation (€44,803)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5E9467A5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2024/03</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Impact of mode of administration on responses and measurement properties of the EQ-5D-Y-3L/-5L and other pediatric preference weight measures: a systematic review. EuroQol Research Foundation (€26,888)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7E5920A5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2024/02</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>The Cost-effectiveness of Stress Ulcer Prophylaxis in the Critically Ill: Economic Evaluation of the REVISE Trial. Hamilton Academic Health Sciences Organization ($95,916)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3C4655E0" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2023/10</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>A convergent parallel mixed methods study to assess the feasibility of using discrete choice experiments among Canadian youth. EuroQol Research Foundation (€55,630)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="715936A2" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00C05133">
+      <w:pPr>
+        <w:spacing w:after="20"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="0691D0E7" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>INDIVIDUAL RECOGNITIONS</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2307DEB3" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2019/10</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Best oral presentation for the 2019 conference hosted by the Canadian Association for Population Therapeutics ($250)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7FF73604" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2018/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Travel Award for the 2018 CADTH Symposium, Canadian Agency for Drugs and Technologies in Health ($1,645)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="49E0321C" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2017/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Frederick Banting &amp; Charles Best Canada Graduate Scholarship, Canadian Institutes of Health Research ($105,000)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="38EF4359" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2017/6</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Best poster presentation, Population Health and Optimal Health Practices Research Unit of the CHU de Quebec Research Center ($150)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4DF78BBE" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2017/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Doctoral Training Award, Fonds de recherche du Québec, Declined ($60,000)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2CB8CCC5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2016/11</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Uniprix Award for a student studying pharmacoepidemiology, Faculty of Pharmacy, Université Laval ($1,000)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="489465C0" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2016/10</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Best abstract submission, Population Health and Optimal Health Practices Research Unit of the CHU de Quebec Research Center ($500)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="00105BD5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2016/9</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Scholarship awarded in recognition of academic excellence, Faculty of Pharmacy, Université Laval ($12,500)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0E9FAF22" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2016/8</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Master’s award for the project ‘Costs of breast cancer for patients and their families’ ($2,500)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1F0E5A09" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2016/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Canada Graduate Scholarship – Master’s, Canadian Institutes of Health Research ($17,500)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="04A0D2A0" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2016/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Best poster presentation, Population Health and Optimal Health Practices Research Unit of the CHU de Quebec Research Center ($150)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="28BCECBD" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2016/2</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Hydro-Québec Scholarship awarded to the student with the highest GPA upon admission to the Master’s program, Faculty of Pharmacy, Université Laval ($5,000)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="72D2D35E" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2015/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Dean's List in recognition of academic excellence, Dalhousie University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1D03ACA5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2015/5</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Representative of the Faculty of Arts and Social Sciences in the Spring 2015 Convocation Magazine, Dalhousie University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3102F435" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2014/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Dean's List in recognition of academic excellence, Dalhousie University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="595F6CEB" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2014/9</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>John and Glenna Towse Scholarship in recognition of academic excellence, Dalhousie University ($2,000)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3CE26124" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2013/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Dean's List in recognition of academic excellence, Dalhousie University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="53B57FE3" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2013/9</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Dalhousie In-Course Scholarship, Dalhousie University ($1,000)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="74F81130" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2011/6</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Ontario Scholar Award in recognition of academic excellence, Ontario Ministry of Education</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6BB84397" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2011/6</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>French Language Certificate, Ontario Ministry of Education</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1705DA17" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00C05133">
+      <w:pPr>
+        <w:spacing w:after="20"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="568C5CED" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>TRAINING AND WORKSHOPS</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="61D5CF41" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2024/02</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Analysis of Secondary Data from Human Participants, CIHR Institute of Gender and Health</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="627CE4AD" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2024/02</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Sex and Gender in Primary Data Collection with Human Participants, CIHR Institute of Gender and Health</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6C5DA88C" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2024/02</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Sex and Gender in Biomedical Research, CIHR Institute of Gender and Health</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6017EBAF" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2024/02</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Good Clinical Practice, NIDA Clinical Trials Network</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="10B976EA" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2023/06</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Visualizing Equity-Based Co-Creation, McMaster University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3613966C" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>2019/04</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>When Off-the-Rack Doesn’t Fit: Alternative Methods for Estimating Preferences for Specific Health Conditions, Canadian Agency for Drugs and Technologies in Health</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="287E758B" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2019/03</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Advanced Excel Training, CompuEase</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="167013D7" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2019/03</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>The Use of Multi-Criteria Decision Analysis for HTA Agencies – Options, Limitations and the Way Forward, International Society For Pharmacoeconomics and Outcomes Research</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="64B5D760" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2018/04</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Using patients voice to bring BIG data to life, International Society For Pharmacoeconomics and Outcomes Research</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2F146786" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2018/04</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Developing flexible, iterative, and transparent decision models, International Society For Pharmacoeconomics and Outcomes Research</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3CD45DDD" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2018/04</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Introduction to the design of Markov models for economic evaluation, Canadian Agency for Drugs and Technologies in Health</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3A21CD7D" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2018/04</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Oncology’s next top model: survival extrapolation methods under the spotlight, Canadian Agency for Drugs and Technologies in Health</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3DD504F5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2018/01</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Estimating health-state utility for economic models in clinical studies, International Society For Pharmacoeconomics and Outcomes Research</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="302C0EF6" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2017/05</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Contacting authors to retrieve individual patient data: a randomized controlled trial, Canadian Institutes of Health Research Drug Safety and Effectiveness Cross-Disciplinary Training Program</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2546B2AF" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2017/02</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Health economics and outcomes research, International Society For Pharmacoeconomics and Outcomes Research</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2441A9B6" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2016/3</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Systematic reviews and meta-analyses, Cochrane Canada</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="06185F32" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2015/9</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Research ethics and the Tri-Council Policy Statement, Laval University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7008BDDA" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2013/4</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Medical terminology self-directed learning program, The Ottawa Hospital</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1A685958" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00C05133">
+      <w:pPr>
+        <w:spacing w:after="20"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="30385644" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>ADMINISTRATIVE RESPONSIBILITIES</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7C524B9C" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2023/09 – present</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Member, Doctoral Admissions Committee for the Health Research Methodology program, McMaster University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7C2BA8DD" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2019/5 – 2021/9</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>President, International Society For Pharmacoeconomics and Outcomes Research, McMaster University Student Chapter</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="31FA169B" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2019/06 – 2019/6</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Abstract Reviewer, International Society For Pharmacoeconomics and Outcomes Research, Europe 2019 Conference</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6241F692" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2017/9 – 2019/5</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Secretary, International Society For Pharmacoeconomics and Outcomes Research, McMaster University Student Chapter</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="179D3D12" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2019/01 – 2019/5</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Abstract Reviewer, International Society For Pharmacoeconomics and Outcomes Research, USA 2019 Conference</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="063CA2F3" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2015/09 – 2016/9</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Member, Graduate student association for the Faculty of Pharmacy, Laval University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5F43FBB9" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2015/09 – 2016/9</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Member, Scholarship committee for the Faculty of Pharmacy, Laval University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4E1CD1EE" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:tabs>
+          <w:tab w:val="left" w:pos="2232"/>
+        </w:tabs>
+        <w:ind w:left="2232" w:hanging="2232"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="17"/>
+        </w:rPr>
+        <w:t>2015/09 – 2016/9</w:t>
+      </w:r>
+      <w:r>
+        <w:tab/>
+        <w:t>Member, Graduate program planning committee for the Faculty of Pharmacy, Laval University</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="42AE7C9D" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00C05133">
+      <w:pPr>
+        <w:spacing w:after="20"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="3AEF751E" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>PUBLICATIONS IN PEER-REVIEWED JOURNALS</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0F6CD0D3" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Zytaruk N, Heels-Ansdell D, Lau V, Rochwerg B, Fowler R, Yao Y, Cook DJ, Xie F; E-REVISE Collaborators &amp; Canadian Critical Care Trials Group. Protocol for an Economic Evaluation Alongside the Re-Evaluating the Inhibition of Stress Erosions (E-REVISE) Trial. BMJ Open [Manuscript in Review] 2025</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5C93E8B8" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Ruhil A, Liu R, Pullenayegum E, Ohinmaa A, Jack SM, Xie F. Exploring the feasibility of using discrete choice experiments to elicit health state preferences among Canadian youth: A convergent parallel mixed methods study. Value in Health [Manuscript in Review] 2025</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3153D248" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Yeretzian ST, Humphries B, Li M, Sanyal C, Talwar G, Xu M, Yan P, Simbulan F, Chen Z, Wang P, Zhou T, Manja V, Jin X, Sun Y, Tse P, Zoratti MJ, Xie S, Xie F. Health Utility Book: A Systematic Review and Meta-Analysis of Health Utilities in Gastric Cancer. Supportive Care in Cancer [Manuscript in Review] 2025</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="77B6DC29" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Yan J, Humphries B, Xie R, Yin Z, Bo Z, Diao S, Cai J, Tse P, Li M, Pullenayegum E, Lee SF, Xie F, et al. Statistical Methods for Analyzing EQ-5D in Randomized Clinical Trials – A Systematic Literature Review. Value Health 2025</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3D290017" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Sun Y, Pernica J, et al. Model-based cost-impact analysis of a diagnostic test for patients with community-acquired pneumonia in Canada. BMC Infectious Diseases 2025</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="68F53B1C" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Zhou T, Chen Z, Humphries B, Xie F, et al. Health utilities used in oncology cost-utility analyses: a registry-based analysis. Quality of Life Research 2025</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="22E98953" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Tse P, Xie S, Yan J, Humphries B, Xie F, et al. Burden of myelodysplastic syndromes: a systematic literature review of economic burden. The European Journal of Health Economics 2025</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7445FB0F" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Pullenayegum E, Ohinmaa A, et al Exploring the feasibility of using discrete choice experiment (DCE) to elicit preferences among children and adolescents: protocol for a convergent parallel mixed methods study. BMJ Open 2025</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3BBD5A59" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:lastRenderedPageBreak/>
+        <w:t>Yan J, Humphries B, Bo Z, Dai L, Simunovic N, Xie F, Ayeni O. Osteochondroplasty with or without labral repair is more cost-effective than arthroscopic lavage with or without labral repair for treatment of young adults with femoroacetabular impingement: A cost-utility analysis based on data from a randomized controlled trial. Journal of ISAKOS 2024</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6A3FD163" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Xie F, Zhou T, Humphries B, Neuman P. Do QALYs Discriminate Against the Elderly? An Empirical Analysis of Published Cost-Effectiveness Analyses. Value in Health 2024</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2D50A0A0" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Gossec L, Humphries B, Rutherford M, Taieb V, Willems D, Tillett W. Improvement in Work Productivity Among Psoriatic Arthritis Patients Treated with Biologic or Targeted Synthetic Drugs: A Systematic Literature Review and Meta-analysis. Arthritis Research and Therapy 2024</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="092EF5EA" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>León-García M, Humphries B, Xie F et al. Values and preferences towards the use of prophylactic low-molecular-weight heparin during pregnancy: A convergent mixedmethods secondary analysis of data from the Decision Analysis in SHared decision making for Thromboprophylaxis during Pregnancy (DASH-TOP) study. Thrombosis 2024</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="699CD90A" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Rudwaleit M, Mørup M, Humphries B, Zannat NE, Willems D, Taieb V, Boonen A. A Systematic Literature Review and Meta-Analysis of Work Productivity in Patients with Axial Spondyloarthritis Treated with Biologic or Targeted Synthetic Disease-Modifying Antirheumatic Drugs. RMD Open 2023</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="413F35F7" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Cox JL, Parkash R, Thabane L, Foster GA, Mackillop J, Nemis-White J, Hamilton L, Ciaccia A, Choudhri SH, Kovic B, Xie F. Resource use and cost associated with computerized decision support system and usual care in managing patients with atrial fibrillation: analysis of IMPACT-AF randomized trial data. BMC Medical Informatics and Decision Making 2023</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="31061CB3" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Tremblay G and Humphries B. A practical guide for clinical and key opinion leader validation of health economic models. Journal of Medical Economics 2023</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5287BBF1" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, León-García M, Bates S, Guyatt G, Eckman M, D’Souza R, Shehata N, Jack S, Alonso-Coello P, Xie F. Decision Analysis in SHared decision making for</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3C42003E" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Thromboprophylaxis during Pregnancy (DASH-TOP): A sequential explanatory mixed methods pilot study. BMJ Evidence Based Medicine 2023</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4B100F62" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Molina M, Humphries B, Guertin JR, Feeny D, Tarride JE. Health Utilities Index Mark 3 scores for children and youth: Population norms for Canada based on cycles 5 (2016 and 2017) and 6 (2018 and 2019) of the Canadian Health Measures Survey. Health Reports 2023</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="422AF9AB" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>León-García M, Humphries B, Bates S, Guyatt G, Eckman M, D’Souza R, Shehata N, Jack S, Alonso-Coello P, Xie F. Assessment of the DASH-TOP Shared decision-making intervention using the decisional conflict scale: A mixed-methods study. BMC Medical Informatics and Decision Making 2023</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="05B8F183" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Abdel Khalik H, Axelrod D, Humphries B, Zoratti M, Johal H. Cost-Utility Analysis of Treatment Strategies for Comminuted Proximal Humerus Fractures in Elderly Individuals: A Comparison of Conservative and Operative Management Approaches. Clinical Orthopaedics and Related Research 2022</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2315E0A5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Leon‑Garcia M, Humphries B, Maraboto A, Rabassa M, Boehmer KR, Perestelo‑Perez L, Xie F, Pelayo I, Eckman M, Bates S, Selva A, Alonso‑Coello P. Women’s values and preferences on low‑molecular‑weight heparin and pregnancy: a mixed‑methods systematic review. BMC Pregnancy and Childhood 2022</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1957DA4F" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, León-García M, Niño de Guzman Quispe E, Canelo Aybar C, Valli C, Pacheco Barrios K, Mirabi S, Bates S, Guyatt G, Eckman M, Alonso-Coello P, Xie F. Decision analysis for shared decision making: a scoping review for the Decision Analysis in SHared decision making for Thromboprophylaxis during Pregnancy (DASH- TOP) study. Journal of Clinical Epidemiology 2022</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5A5EBD4C" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Cox J, Parkash R, Thabane L, Foster G, MacKillop J, S, Nemis-White J, Ciaccia A, Xie F, for the IMPACT-AF investigators. Patient reported outcomes and patient reported experience of atrial fibrillation in the IMPACT-AF clinical trial. Journal of the American Heart Association 2021</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7F90FA13" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, León-García M, Bates S, Guyatt G, Eckman M, D’Souza R, Shehata N, Jack S, Alonso-Coello P, Xie F. Decision Analysis in SHared decision making for Thromboprophylaxis during Pregnancy (DASH-TOP): A sequential explanatory mixed methods pilot study protocol. BMJ Open 2020</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="77D6B990" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Guertin JR, Conombo B, Langevin R, Bergeron F, Holbrook A, Humphries B, Matteau A, Potter BJ, Renoux C, Tarride JÉ, Durand M. A Systematic Review of Methods Used for Confounding Adjustment in Observational Economic Evaluations in Cardiology Conducted between 2013 and 2017. Medical Decision Making 2020</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0399C386" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Lauzier S, Guillaume L, Humphries B, Villeneuve D, Grégoire JP, Moisan J, Beaucage C. Psychosocial factors associated with pharmacists’ antidepressant drug treatment</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3CEEA90C" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>monitoring: a cross-sectional study using the theory of planned behaviour. Journal of the American Pharmacists Association 2020</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2AD80222" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Xie F. Canada’s Amendment to Patented Drug Price Regulation: A Prescription for Global Drug Cost Control? JAMA 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3BD6A4D9" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Lauzier S, Maunsell E. Wage losses among spouses of women with nonmetastatic breast cancer. Journal of American Cancer Society 2019 Humphries B, Irwin A, Zorrati M, Xie F. How do financial (dis)incentives influence health behaviour and costs? Protocol for a systematic literature review of randomised controlled trials. BMJ Open 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="347EF226" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Guertin JR, Humphries B, Feeny D, Tarride JE. Health Utilities Index Mark 3 Scores for Major Chronic Conditions: Population Norms for Canada Based on the 2013-2014 Canadian Community Health Survey. Health Reports 2018</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="051C6311" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Collins S, Guillaumie L, Lemieux J, Dionne A, Provencher L, Moisan J, Lauzier S. Women’s beliefs on early adherence to adjuvant endocrine therapy for breast cancer: A theory-based qualitative study to guide the development of community pharmacist interventions. Pharmacy MDPI 2018 Humphries B, Radice M, Lauzier S. Comparing ‘insider’ and ‘outsider’ news coverage of the 2014 Ebola outbreak. Canadian Journal of Public Health 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2D112CB0" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>NON-PEER REVIEWED PUBLICATIONS</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="06EC278B" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Xie F, Humphries B. Medicare’s Drug Price Negotiation and Innovation: What’s Off the Table Matters Too. Health Affairs Forefront. 2025.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2CB5BD8A" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Measuring and valuing health for children: A review of the evidence (Health Technology Review No. MH0023). Ottawa, ON: CADTH. 2025</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="533519E5" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Dowson JP, Humphries B, Bosnic T, Lamb-Palmer D. Managing drug costs by regulating prices… balancing budget and access risks in the search for sustainability. Article published by TELUS Health Insights Magazine 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="372F39F6" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Lawrence D, Humphries B, Lamb-Palmer D. Debunking Price Regulations Based on the Pharmacoeconomic Value Factor. Whitepaper published by PDCI Market Access 2019 Dowson JP, Humphries B, Shen J. Challenges and Gaps in Gene &amp; Cell Therapy Assessment and Reimbursement Pathway. Infographic published by PDCI Market Access 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="29CF6F0E" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>CONFERENCE PANELS</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="15E43A04" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Incorporating the Child’s Perspective in Health Technology Assessment in Canada. Moderator: Feng Xie. Panelists: Brittany Humphries, Wendy Ungar, Jesse Elliott. Issue</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6F925B54" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>panel for a conference hosted by the International Society For Pharmacoeconomics and Outcomes Research, Montreal, 2025 Incorporating the Child’s Perspective in Health Technology Assessment in Canada. Moderator: Feng Xie. Panelists: Brittany Humphries, Wendy Ungar, Jesse Elliott. Canada’s Drug Agency Symposium, Ottawa, 2024 Value vs Value Traps: How to Control Prices for Highly Effective High-Priced Therapies? Panelists: Nicola Magrini (Secretary, WHO Expert Committee on the Selection and Use of Essential Medicines), Feng Xie (Professor, McMaster University), Michael Drummond (Professor, York University). Moderator: Brittany Humphries (PhD candidate, McMaster University). Issue panel for a conference hosted by the International Society For Pharmacoeconomics and Outcomes Research, Copenhagen, 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5CC6A857" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>CONFERENCE WORKSHOPS</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4C34F123" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Yea or Nay? Making Coverage Decisions for Disruptive Therapies. Hosts: Humphries B, Xie F. Health Technology Assessment International (HTAi), Bejing, 2020</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2613BC42" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" w:space="1" w:color="9A9A9A"/>
+        </w:pBdr>
+        <w:spacing w:before="120" w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>PRESENTATIONS</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5E2A0312" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Pullenayegum E, Ohinmaa A, Jack SM, Xie F. Can children and adolescents understand and complete discrete choice experiments to value EQ-5D-5L- Y? A mixed methods study in Canada. EuroQol Academy 2025.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0CC4B43E" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Ayeni O, Yuan J, Humphries B, Bo Z, Dai L, Simunovic N, Xie F. Cost-Utility Analysis of Osteochondroplasty Compared to Lavage for Treatment of Young Adults with Femoroacetabular Impingement in Canada. ISHA Annual Scientific Meeting, Washington, 2024</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="714354CF" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Pullenayegum E, Ohinmaa A, Xie F. Measuring and Valuing Child Health in Canada. Poster presentation for a conference hosted by The Professional Society for Health Economics and Outcomes Research, Atlanta, 2024</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3F19826F" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Xie, S, Tse P, Elliott J, Xie F. Measuring and Valuing Health for Children: A Series of Reviews to Inform Health Technology Assessment Poster presentation for a conference hosted The Professional Society for Health Economics and Outcomes Research, Atlanta, 2024</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="50ADB244" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Zhou T, Humphries B, Neumann PJ, Xie F. Do QALYs Discriminate Against the Elderly? Poster presentation for a conference hosted by The Professional Society for Health Economics and Outcomes Research, Atlanta, 2024</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="329CC1A8" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Rudwaleit M, Mørup M, Humphries B, Zannat NE, Willems D, Taieb V, Boonen A. A Systematic Literature Review and Meta-Analysis of Work Productivity in Patients with Axial Spondyloarthritis Treated with Biologic or Targeted Synthetic Disease-Modifying</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="42BE1389" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Antirheumatic Drugs. Poster presentation for a conference hosted by The Professional Society for Health Economics and Outcomes Research, Boston, 2023</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="11004FE1" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Kaproulia A, Humphries B, Tremblay G, Heeg B, Verhoek A. Utility Analysis Methods: Can One Method Fit It All or Is a Case-By-Case Approach Required? Poster presentation for a conference hosted by The Professional Society for Health Economics and Outcomes Research, Vienna, 2022</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="54052DCC" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Radhakrishnan A, Sarri G, Faulkner MR, Rutherford M, Zannat NE, Humphries B. Practical Considerations for Developing PICO Statements for Humanistic Burden Reviews: How to Get It Right? Poster presentation for a conference hosted by The Professional Society for Health Economics and Outcomes Research, Vienna, 2022</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="65BADAC0" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Verhoek A, Kaproulia A, Tremblay G, Heeg B. Safe to Assume? Unpacking Regression Assumptions for Utility Data. Poster presentation for a conference hosted by The Professional Society for Health Economics and Outcomes Research, Vienna, 2022</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4C66EA51" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Cox J, Parkash R, Thabane L, Foster G, MacKillop J, Nemis-White J, Hamilton L, Ciaccia A, Choudhri S, Kovic B, Xie F. Resource Use and Costs Associated With Computerized Decision Support System for Managing Patients With Atrial Fibrillation. Poster presentation for a conference hosted by The Professional Society for Health Economics and Outcomes Research, Vienna, 2022</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2337F4DA" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>León-García M, Humphries B, Alonso-Coello P, Xie F. Women's use of a decision aid containing a decision analysis model to support the shared decision-making process regarding thromboprophylaxis during pregnancy: DASH-TOP pilot study. Poster presentation for Society For Medical Decision Making Annual Meeting, virtual, 2021</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="34B9175A" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Adebayo W, Lamb-Palmer D, Henricks P. Case study to explore patientlevel impact of adoption of subsequent entry biologic anti-TNF medicines. Oral presentation for a conference hosted by the Canadian Association for Population Therapeutics, Toronto, 2020</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3BC1AE76" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:lastRenderedPageBreak/>
+        <w:t>Humphries B, Guertin JR, Feeny D, Tarride JE. Health Utilities Index Mark 3 Scores for Major Chronic Conditions: Population Norms for Canada Based on the 2013-2014 Canadian Community Health Survey. Poster presentation for a conference hosted by the Canadian Association for Population Therapeutics, Toronto, 2020</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="104ECBBF" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Guertin JR, Feeny D, Tarride JE. Health Utilities Index Mark 3 Scores for Major Chronic Conditions: Population Norms for Canada Based on the 2013-2014 Canadian Community Health Survey. Poster presentation for a conference hosted by the Canadian Agency for Drugs and Technologies in Health, Toronto, 2020</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="39EB20EC" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Nemis-White J, MacKillop J, Hamilton L, Parkash R, Thabane L, Foster G, Xie F, Humphries B, Cox J. Can a Web Tool Help Primary Care Providers Meet Canadian</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0C5AE2F7" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Guidelines for Atrial Fibrillation Management? Oral Presentation, Canadian Association for Health Services and Policy Research Scientific Conference, 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="15C1E06B" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Xie F. Shared decision making for thromboprophylaxis during pregnancy: A mixed methods experimental study. Evaluation of Medicines Research Group Summer Student Research Day, Hamilton, 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="49CB35AC" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Xie F. Can Decision Analysis Improve Shared Decision Making with Patients? Evaluation of Medicines Research Group October Rounds, Hamilton, 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="13D6E84B" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Irwin A, Zorrati M, Xie F. Impact of patient-targeted financial incentives on healthcare costs: A systematic review of randomized controlled trials. Oral presentation for a conference hosted by the Canadian Association for Population Therapeutics, Toronto, 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="369A52CC" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Dowson JP, Humphries B, Bosnic T, Lamb-Palmer D. A case study of the proposed amendments to patented medicine price review regulations in Canada. Poster presentation for a conference hosted by the Canadian Association for Population Therapeutics, Toronto, 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="596735DF" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Guertin JR, Conombo B, Langevin R, Bergeron F, Holbrook A, Humphries B, Matteau A, Potter BJ, Renoux C, Tarride JE, Durand M. Confounding adjustment in observational economic evaluations needs to be improved, a systematic review. Poster presentation for a conference hosted by the Canadian Association for Population Therapeutics, Toronto, 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="678A9D14" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>MacKillop J, Cox J, Parkash R, Thabane L, Foster G, Xie F, Humphries B, Hamilton L, Nemis-White J, for the IMPACT-AF Investigators. Can a Web Tool Help Primary Care Providers Meet Canadian Guidelines for Atrial Fibrillation Management? Oral presentation for a conference hosted by the Canadian Association for Health Services and Policy Research, Halifax, 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4BB8E5C7" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Irwin A, Zorrati M, Xie F. Impact of patient-targeted financial incentives on healthcare costs: A systematic review of randomized controlled trials. Poster presentation for a conference hosted by the International Society For Pharmacoeconomics and Outcomes Research, New Orleans, 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0F53D126" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Guertin JR, Humphries B, Feeny D, Tarride JE. Health Utilities Index Mark 3 Scores for Major Chronic Conditions: Population Norms for Canada Based on the 2013-2014 Canadian Community Health Survey. Poster presentation for a conference hosted by the Canadian Association for Population Therapeutics, Toronto, 2018</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1D8B47B8" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Guertin JR, Lambert-Côté L, Maunsell E, Lauzier S. Wage losses among caregivers of adult cancer patients: a systematic literature review. Poster presentation for a conference hosted by the Quebec Network on Drug Research, Quebec, 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="034B1811" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Lauzier S, Maunsell E, Drolet M, Coyle D, Mâsse B, Provencher L, Robidoux A. Wage losses incurred among the spouses of non-metastatic breast cancer</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="72E6FCD2" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>patients in the six months following diagnosis. Oral presentation for the Centre for Evaluation of Medicines, Hamilton, 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="227DEA6C" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Guertin JR, Lambert-Côté L, Maunsell E, Lauzier S. Wage losses among caregivers of adult cancer patients: a systematic literature review. Poster presentation for a conference hosted by the Population Health and Optimal Health Practices Research Unit of the CHU de Quebec Research Center, Quebec, 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5396EB74" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Lauzier S, Maunsell E, Drolet M, Coyle D, Mâsse B, Provencher L, Robidoux A. Wage losses incurred among the spouses of non-metastatic breast cancer patients in the six months following diagnosis. Oral presentation for the Canadian Association of Psychosocial Oncology, Vancouver, 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5FD3A026" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Lauzier S, Maunsell E, Drolet M, Coyle D, Mâsse B, Provencher L, Robidoux A. Lost wages among spouses of non-metastatic breast cancer patients in the six months after diagnosis. Oral presentation for the Chair on Adherence to Treatments, Quebec, 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="54B3B7EE" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Collins S, Guillaumie L, Lemieux J, Dionne A, Provencher L, Moisan J, Lauzier S. Expérience des femmes atteintes de cancer du sein avec l’hormonothérapie adjuvante : Une étude qualitative. Invited speaker for the 2016-2017 conference season of Michel-Sarrazin’s research team in psychosocial oncology and palliative care, Quebec, 2016</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0DA41568" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Lauzier S, Maunsell E, Drolet M, Coyle D, Mâsse B, Provencher L, Robidoux A. Wage losses incurred among the spouses of non-metastatic breast cancer patients in the six months following diagnosis. Poster presentation for Michel-Sarrazin’s research team in psychosocial oncology and palliative care, Quebec, 2016</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6AD5F87E" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B, Radice M, Lauzier S. Comparing news coverage of the 2014 Ebola Outbreak. Poster presentation for a conference hosted by the Population Health and Optimal Health Practices Research Unit of the CHU de Quebec Research Center, Quebec, 2016</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2DAADF14" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B. Media and Risk Communication during the 2014 Ebola Outbreak. Invited speaker for the course SOSA 3186: Colonialism and the Body, Dalhousie University, Halifax, 2015</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0F3CCBEC" w14:textId="77777777" w:rsidR="00C05133" w:rsidRDefault="00000000">
+      <w:pPr>
+        <w:spacing w:after="60"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Humphries B. Risk and Responsibility: Insider and Outsider Media Perspectives of the 2014 Ebola Outbreak. Presentation open to the public, Halifax, 2015</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr w:rsidR="00C05133">
+      <w:footerReference w:type="default" r:id="rId8"/>
+      <w:pgSz w:w="12240" w:h="15840"/>
+      <w:pgMar w:top="720" w:right="893" w:bottom="720" w:left="893" w:header="720" w:footer="720" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
+
