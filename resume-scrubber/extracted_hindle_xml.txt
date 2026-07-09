@@ -1,8 +1,10 @@
+
+======================================================================
+TEXTEXTRACTOR OUTPUT
+======================================================================
 Laura Hindle
 Director, Regulatory Affairs
-[NEWLINE]
-[NEWLINE]
-[NEWLINE]
+
 Current work experience
 Global Regulatory Lead - Gilead Sciences, Oncology
 Director (Apr 26 – Present ), Associate director (Jun 24 – Apr 26),
@@ -20,7 +22,7 @@ Coordinated and led EU health authority interactions and developed global HA int
 Leading global filing sequencing, utilising strong collaborations with Commercial, Market Access, Global development and CMC. Identifying optimum global submission sequence, presenting to senior leaders and negotiating resource to support submissions.
 Lead the strategy and agency interactions and obtained successful CHMP opinions for 4 x highly complex orphan designation applications in a parallel
 Regulatory lead for a number of due diligence activities, identifying and communicating RA risks and conducting gap analysis for potential clinical development plans
-[NEWLINE]
+
 Previous work experience
 Associate director – Virology - Gilead Sciences International, UK
 Oct 21 – May 24
@@ -39,7 +41,7 @@ Led regulatory in audits/inspections and leading deviations and CAPAs.
 Key Achievements:
 Shaped global product development for a COVID-19 product through strategic agency interactions.
 Manged a team working on extensive parallel post authorisation activities (15+ Specific Obligations, RMP commitments, 20+ Recommendations, type II variations and PSURs) under exceptionally tight timelines and high workload, ensuring appropriate prioritisation to meet deadlines while avoiding team burnout and managing cross-functional expectations and deliverables.
-[NEWLINE]
+
 Gilead Sciences International, UK
 Senior Manager (Aug 20 – Oct 21), Manager (Nov 18 - Aug 20), Associate Manager (Apr 18 – Nov 18), Senior Regulatory Affairs Associate (Jul 16 – April 18)
 Jul 16 - Oct 21
@@ -57,21 +59,21 @@ Supported and led key elements of the EU conditional MAA for Veklury (remdesivir
 Led the authoring of a novel SmPC in the absence of a core label on accelerated timelines.
 Led Module 1 components for MAAs (initial submission and throughout assessment) and supported preparation and provided regulatory strategy for all other modules.
 Led complex PIP strategy discussions and presented to and led discussions with EMA at PIP pre-submission meetings.
-[NEWLINE]
+
 Regulatory Project manager - GSK HIV marketed products
 Oct 15 – Jun 16
 EU regulatory lead for a number of HIV marketed products.
 Led numerous post-approval submissions.
 Worked with and coordinated colleagues in other disciplines.
 Represented Regulatory Affairs in matrix teams.
-[NEWLINE]
-[NEWLINE]
+
+
 Regulatory Affairs Associate - GSK Future leader programme
 Sept 13 – Sept 15
 Selected out of 400 applicants to be part of the GSK future leader 2 year programme.
 Worked within 4 regulatory departments, proactively seeking a wide variety of work.
 Departments included the inflammation therapeutic group, global labelling, CMC and non-clinical regulatory.
-[NEWLINE]
+
 Industrial placement - DMPK scientist, GSK, UK
 Sept 07 - Sept 08
 Education
@@ -89,3 +91,5 @@ GCSEs: 6A*’s 3A’s
 Publications
 Kaposi’s sarcoma-associated herpesvirus viral interferon regulatory factor-2 inhibits type 1 interferon signalling by targeting interferon-stimulated gene factor-3
 M.Mutocheluh, L.Hindle, C.Areste, S.A.Chanas, L.M.Butler, K.Lowry, K.Shah, J.Evansand D.J.Blackbourn. J Gen Virol, 2011. 92(Pt 10): p. 2394-8.
+
+

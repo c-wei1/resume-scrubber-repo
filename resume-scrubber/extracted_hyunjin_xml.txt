@@ -1,7 +1,11 @@
+
+======================================================================
+TEXTEXTRACTOR OUTPUT
+======================================================================
 HyunJin Kim
-[NEWLINE]
+
 E d u c a t i o n & Co m p e t e n c i e s
-[NEWLINE]
+
 Sookmyung Women’s University (Mar 2015 - Feb 2019) Seoul, Korea
 Major: Business Administration
 Core Competencies
@@ -14,10 +18,10 @@ Fluent in both Korean and English (TOEIC 980), Intermediate proficiency in Japan
 Driver’s License
 Microsoft Office Specialist (Expert in PowerPoint, Excel, Word, Publisher, SharePoint, Outlook etc.)
 Other Certificates: Trade English, ERP Logistics Level 1, Distribution Manager
-[NEWLINE]
+
 Linkedin : https://www.linkedin.com/in/kimhyunjinee/
 Pr o f e s s i o n a l Ex p e r i e n c e
-[NEWLINE]
+
 Syneos Health (May 2026 - Present) Seoul, Korea (Remote)
 Senior Site Contract Specialist /FSP Gilead Team
 - Work on multi-country projects including negotiating and preparing contracts, budgets, and related documents for participation in industry-sponsored clinical trials.
@@ -27,7 +31,7 @@ Senior Site Contract Specialist /FSP Gilead Team
 - Works closely with SSU lead, Clinical Operations and Finance to validate the load of departmental budgets and corresponding backlog.
 - Identifies possible contract or process operational risk and proactively works within the team to provide solutions. Establishes strong working relationships with SSU lead, customer and internal project teams. Escalates deviations to department leadership and/or Site Contract Service Center and/or Legal Department.
 - Facilitates the execution of contracts by company signatories.
-[NEWLINE]
+
 IQVIA (May 2024 – May 2026) Seoul, Korea (Remote)
 Site Contract & Budget Associate /FSP Amgen Team
 Currently in charge of various tasks related to budget and payment issues for clinical trial in South Korea
@@ -36,7 +40,7 @@ Dealing with contracts: Drafted contracts for initial CTA, Amendments and CDA (C
 Study payment: Was responsible for all payment-related processes for clinical trial
 Study close-out: Was responsible for final reconciliation of budget during study close-out
 Working on Informed Consent Form: Reviewed and drafted Informed Consent Form
-[NEWLINE]
+
 ICON plc (Mar 2022 – May 2024) Seoul, Korea (Remote)
 Contract Representative/APAC Core Team
 Supported CRM/Contract related tasks by communicating with hospitals in various parts of APAC on behalf of pharmaceutical companies at a global CRO called "ICON plc"
@@ -44,7 +48,7 @@ Liaising between sponsors and hospitals: Communicated directly with sponsors (ph
 Negotiating budget: Negotiated budgets with hospitals for clinical trial
 Dealing with contracts: Drafted and executed contracts and CDA (Confidential Disclosure Amendment) for clinical trial
 Managing data: Was responsible for filing of fully executed Contracts on company and sponsor’s Internal system
-[NEWLINE]
+
 doTERRA Korea (Nov 2020 – Mar 2022) Seoul, Korea
 Account Manager / Sales team
 Supported overall sales support/CRM tasks at a branch of an American company that sells essential oils and other related products called “doTERRA Korea” located in Seoul, South Korea
@@ -52,7 +56,7 @@ Supported Wellness Advocates and their business: Provided strategic advice to We
 Supported operation process: Dealt with product returns, cancellation, Internal Requisition Form and other operation-related activities.
 Assisted in promotional events: Created sales report about the regular BOGO promotion and monthly promotion
 Managed Data resources: Collected weekly and monthly reports from US headquarter and online error cases from other account managers and Wellness Advocates
-[NEWLINE]
+
 JC SALES (Jan 2020 – April 2020) CA, USA
 Intern / purchasing team
 Supported various sales support tasks at the general merchandise wholesaler called “JC SALES”, located in California, USA
@@ -60,4 +64,5 @@ Assisted in promotional events: Except for the EDLP items, assisted in planning 
 Assisted buyers with their work: Received requests from buyers. Check the inventory to figure out the amount of the stock on requested items
 Ordered existing items and reported the result to the buyer: Ordered existing items to the vendors based on the purchasing order form. Kept track of the results and report the current situation to the buyer regularly
 Utilized internal ERP sales module: Enrolled newly introduced products on the internal item insight, created 5-digit product codes through the ERP system
-[NEWLINE]
+
+

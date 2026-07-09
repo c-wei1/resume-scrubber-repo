@@ -1,3 +1,7 @@
+
+======================================================================
+TEXTEXTRACTOR OUTPUT
+======================================================================
 Brittany Humphries
 LANGUAGES
 English (advanced), French (advanced), Mandarin (beginner)
@@ -5,22 +9,22 @@ EDUCATION
 Doctor of Philosophy, Health Research Methodology, McMaster University
 • Areas of research: Health technology assessment, patient-reported outcomes
 • Research strategies: Mixed methods, health economic evaluations, systematic literature reviews
-[NEWLINE]
+
 Master of Science, Pharmacoepidemiology, Université Laval
 • Areas of research: Epidemiology, biostatistics
 • Research strategies: Quantitative analyses of large datasets (RAMQ)
-[NEWLINE]
+
 Bachelor of Arts, Major in Social Anthropology, Minor in French, Dalhousie University
 • Areas of research: Social anthropology
 • Research strategies: Qualitative analyses of primary data (participant observation, interviews, focus groups)
-[NEWLINE]
+
 APPOINTMENTS
 2023/11 – 2026/06/01Assistant Professor (Part-Time)
 Department of Health Research Methods, Evidence, and Impact
 McMaster University
 2024/04 – 2026/06/01Associate Editor
 Value in Health Regional Issues
-[NEWLINE]
+
 EMPLOYMENT
 2026/02/01 – presentContractor
 Kite, Global MM
@@ -45,7 +49,7 @@ patient medication adherence
 Faculty of Pharmacy, Université Laval
 2013/9 – 2015/4Student Assistant
 Department of Political Science, Dalhousie University
-[NEWLINE]
+
 FUNDING AWARDS
 2025/08Real-world cost-effectiveness analysis of ferric derisomaltose compared to iron sucrose among patients with iron deficiency anemia treated in an ambulatory setting. Pfizer ($29,000)
 2025/08Development and Implementation of a National Survey on the Patient and Caregiver Burden of Inherited Bleeding Disorders in Canada. Canadian Hemophilia Society ($40,000)
@@ -59,7 +63,7 @@ FUNDING AWARDS
 2024/03Impact of mode of administration on responses and measurement properties of the EQ-5D-Y-3L/-5L and other pediatric preference weight measures: a systematic review. EuroQol Research Foundation (€26,888)
 2024/02The Cost-effectiveness of Stress Ulcer Prophylaxis in the Critically Ill: Economic Evaluation of the REVISE Trial. Hamilton Academic Health Sciences Organization ($95,916)
 2023/10A convergent parallel mixed methods study to assess the feasibility of using discrete choice experiments among Canadian youth. EuroQol Research Foundation (€55,630)
-[NEWLINE]
+
 INDIVIDUAL RECOGNITIONS
 2019/10Best oral presentation for the 2019 conference hosted by the Canadian Association for Population Therapeutics ($250)
 2018/4Travel Award for the 2018 CADTH Symposium, Canadian Agency for Drugs and Technologies in Health ($1,645)
@@ -81,7 +85,7 @@ INDIVIDUAL RECOGNITIONS
 2013/9Dalhousie In-Course Scholarship, Dalhousie University ($1,000)
 2011/6Ontario Scholar Award in recognition of academic excellence, Ontario Ministry of Education
 2011/6French Language Certificate, Ontario Ministry of Education
-[NEWLINE]
+
 TRAINING AND WORKSHOPS
 2024/02Analysis of Secondary Data from Human Participants, CIHR Institute of Gender and Health
 2024/02Sex and Gender in Primary Data Collection with Human Participants, CIHR Institute of Gender and Health
@@ -101,7 +105,7 @@ TRAINING AND WORKSHOPS
 2016/3Systematic reviews and meta-analyses, Cochrane Canada
 2015/9Research ethics and the Tri-Council Policy Statement, Laval University
 2013/4Medical terminology self-directed learning program, The Ottawa Hospital
-[NEWLINE]
+
 ADMINISTRATIVE RESPONSIBILITIES
 2023/09 – presentMember, Doctoral Admissions Committee for the Health Research Methodology program, McMaster University
 2019/5 – 2021/9President, International Society For Pharmacoeconomics and Outcomes Research, McMaster University Student Chapter
@@ -111,7 +115,7 @@ ADMINISTRATIVE RESPONSIBILITIES
 2015/09 – 2016/9Member, Graduate student association for the Faculty of Pharmacy, Laval University
 2015/09 – 2016/9Member, Scholarship committee for the Faculty of Pharmacy, Laval University
 2015/09 – 2016/9Member, Graduate program planning committee for the Faculty of Pharmacy, Laval University
-[NEWLINE]
+
 PUBLICATIONS IN PEER-REVIEWED JOURNALS
 Humphries B, Zytaruk N, Heels-Ansdell D, Lau V, Rochwerg B, Fowler R, Yao Y, Cook DJ, Xie F; E-REVISE Collaborators & Canadian Critical Care Trials Group. Protocol for an Economic Evaluation Alongside the Re-Evaluating the Inhibition of Stress Erosions (E-REVISE) Trial. BMJ Open [Manuscript in Review] 2025
 Humphries B, Ruhil A, Liu R, Pullenayegum E, Ohinmaa A, Jack SM, Xie F. Exploring the feasibility of using discrete choice experiments to elicit health state preferences among Canadian youth: A convergent parallel mixed methods study. Value in Health [Manuscript in Review] 2025
