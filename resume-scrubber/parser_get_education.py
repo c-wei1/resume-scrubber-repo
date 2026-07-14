@@ -1,4 +1,6 @@
 import re
+from typing import Any, Dict, List, Optional
+
 class EducationParser:
     """Parse the Education section into structured entries."""
 
@@ -89,12 +91,11 @@ class EducationParser:
         """
         if not EducationParser._contains_any(line, EducationParser.DEGREE_PATTERNS):
             return False
-        stripped = EducationParser._strip_bullet_tag(line).strip()
-        if len(stripped) > EducationParser.DEGREE_MAX_CHARS:
+        if len(line) > EducationParser.DEGREE_MAX_CHARS:
             return False
-        if len(stripped.split()) > EducationParser.DEGREE_MAX_WORDS:
+        if len(line.split()) > EducationParser.DEGREE_MAX_WORDS:
             return False
-        if stripped.endswith("."):        # ends in a full sentence → likely prose
+        if line.endswith("."):        # ends in a full sentence → likely prose
             return False
         return True
 
@@ -133,9 +134,20 @@ class EducationParser:
             return existing
         return existing + " | " + new_degree
 
+    # @staticmethod
+    # def _has_content(entry: Dict[str, str]) -> bool:
+    #     return any(v.strip() for v in entry.values())
     @staticmethod
-    def _has_content(entry: Dict[str, str]) -> bool:
-        return any(v.strip() for v in entry.values())
+    def _has_content(entry: Dict) -> bool:
+        if entry.get("type") == "school":
+            school = entry.get("school", {})
+            return any(str(v).strip() for v in school.values())
+
+        if entry.get("type") == "certification":
+            cert = entry.get("certification", {})
+            return any(str(v).strip() for v in cert.values())
+
+        return False
 
     # ─────────────────────────────────────────────────────────────
     # Main entry point
@@ -143,18 +155,33 @@ class EducationParser:
     @staticmethod
     def parse(text: str) -> List[Dict[str, Any]]:
         """
-        Parse education section into entries using keyword-based detection.
+        Output schema:
 
-        Output schema per entry:
-            {"degree": "", "school": "", "year": ""}
-        or
-            {"certification": "", "year": ""}
+        {
+            "education": [
+                {
+                    "type": "school",
+                    "school": {
+                        "institution": "",
+                        "degree": "",
+                        "year": ""
+                    }
+                },
+                {
+                    "type": "certification",
+                    "certification": {
+                        "name": "",
+                        "year": ""
+                    }
+                }
+            ]
+        }
         """
         entries: List[Dict[str, str]] = []
 
         # 1) Preprocess: split lines, drop empties, strip any [BULLET] tag.
         lines = [
-            EducationParser._strip_bullet_tag(line)
+            line
             for line in text.split("\n")
             if line.strip()
         ]
@@ -186,11 +213,17 @@ class EducationParser:
             if has_cert:
                 finalize_degree()
                 if current_cert is None:
-                    current_cert = {"certification": "", "year": ""}
-                if not current_cert["certification"]:
-                    current_cert["certification"] = line
-                if year and not current_cert["year"]:
-                    current_cert["year"] = year
+                    current_cert = {
+                        "type": "certification",
+                        "certification": {
+                            "name": "",
+                            "year": ""
+                        }
+                    }
+                if not current_cert["certification"]["name"]:
+                    current_cert["certification"]["name"] = line
+                if year and not current_cert["certification"]["year"]:
+                    current_cert["certification"]["year"] = year
                 continue
 
             # ── Degree / school branch ───────────────────────────
@@ -199,35 +232,41 @@ class EducationParser:
 
                 # Start a new degree entry only when the school changes.
                 if (current_degree and school
-                        and current_degree["school"]
-                        and current_degree["school"].lower() != school.lower()):
+                        and current_degree["school"]["institution"]
+                        and current_degree["school"]["institution"].lower() != school.lower()):
                     finalize_degree()
                 if current_degree is None:
-                    current_degree = {"degree": "", "school": "", "year": ""}
-
-                if has_school and school and not current_degree["school"]:
-                    current_degree["school"] = school
+                    current_degree = {
+                        "type": "school",
+                        "school": {
+                            "institution": "",
+                            "degree": "",
+                            "year": ""
+                        }
+                    }
+                if has_school and school and not current_degree["school"]["institution"]:
+                    current_degree["school"]["institution"] = school
 
                 if has_degree:
-                    current_degree["degree"] = EducationParser._append_degree(
-                        current_degree["degree"], line
+                    current_degree["school"]["degree"] = EducationParser._append_degree(
+                        current_degree["school"]["degree"], line
                     )
 
-                if year and not current_degree["year"]:
-                    current_degree["year"] = year
+                if year and not current_degree["school"]["year"]:
+                    current_degree["school"]["year"] = year
                 continue
 
             # ── Continuation line: fill missing fields on active entry ──
             if current_degree is not None:
-                if year and not current_degree["year"]:
-                    current_degree["year"] = year
-                elif not current_degree["degree"]:
-                    current_degree["degree"] = line
+                if year and not current_degree["school"]["year"]:
+                    current_degree["school"]["year"] = year
+                elif not current_degree["school"]["degree"]:
+                    current_degree["school"]["degree"] = line
             elif current_cert is not None:
-                if year and not current_cert["year"]:
-                    current_cert["year"] = year
-                elif not current_cert["certification"]:
-                    current_cert["certification"] = line
+                if year and not current_cert["certification"]["year"]:
+                    current_cert["certification"]["year"] = year
+                elif not current_cert["certification"]["name"]:
+                    current_cert["certification"]["name"] = line
 
         finalize_degree()
         finalize_cert()
