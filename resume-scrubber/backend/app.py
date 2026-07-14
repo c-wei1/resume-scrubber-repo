@@ -1,5 +1,7 @@
 import io
+import os
 import re
+import sys
 import zipfile
 import tempfile
 from pathlib import Path
@@ -9,6 +11,14 @@ from flask_cors import CORS
 from lxml import etree
 
 from address_identifier import redact_addresses, is_address_line
+
+# Add parent directory to path so we can import the parser modules
+# sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from parser_get_text import TextExtractor
+from parser_get_education import EducationParser
+from parser_get_experience import ExperienceParser
+from parser_get_section import SectionParser
+from populate_template import DocxPopulator
 
 
 
@@ -141,7 +151,6 @@ def _build_run_map(t_nodes):
         run_map.append((offset, offset + len(txt), t_el))
         offset += len(txt)
     combined = ''.join((t.text or '') for t in t_nodes)
-    print(run_map)
     return combined, run_map
 
 
@@ -210,12 +219,12 @@ def _scrub_paragraphs(tree):
             continue
 
         # Full-paragraph address check (uses scoring engine)
-        # if is_address_line(combined):
-        #     for run in list(para.xpath(".//w:r", namespaces=NS)):
-        #         parent = run.getparent()
-        #         if parent is not None:
-        #             parent.remove(run)
-        #     continue
+        if is_address_line(combined):
+            for run in list(para.xpath(".//w:r", namespaces=NS)):
+                parent = run.getparent()
+                if parent is not None:
+                    parent.remove(run)
+            continue
         
 
         # Token-level PII: detect on combined text, redact in individual runs
@@ -223,13 +232,41 @@ def _scrub_paragraphs(tree):
         
         _redact_spans_in_runs(spans, run_map, para)
 
-        xml_after = etree.tostring(tree.getroot(), encoding="unicode")
-        
-    if "lizzywilkins.ee" in xml_after or "@gmail.com" in xml_after:
-        print("EMAIL STILL IN TREE AFTER SCRUB")
-    else:
-        print("EMAIL REMOVED FROM TREE")
+    # Clean up floating "|" separators left after redaction
+    _clean_floating_pipes(tree)
+
     return tree
+
+
+def _clean_floating_pipes(tree):
+    """Remove '|' characters that have no meaningful text on both sides after redaction."""
+    root = tree.getroot()
+    for para in root.xpath("//w:p", namespaces=NS):
+        t_nodes = para.xpath(".//w:t", namespaces=NS)
+        if not t_nodes:
+            continue
+
+        # Work on the combined paragraph text to detect floating pipes
+        combined = ''.join((t.text or '') for t in t_nodes)
+
+        if '|' not in combined:
+            continue
+
+        # Remove pipes that have only whitespace (or nothing) on either side:
+        # " | " at end, "text | |", "| text |", leading "|", trailing "|"
+        # Strategy: split on |, keep only non-empty segments, rejoin
+        parts = [p.strip() for p in combined.split('|')]
+        cleaned = ' | '.join(p for p in parts if p)
+
+        if cleaned == combined:
+            continue
+
+        # Redistribute the cleaned text back into the <w:t> nodes
+        # Put all text in the first node, clear the rest
+        if t_nodes:
+            t_nodes[0].text = cleaned
+            for t_el in t_nodes[1:]:
+                t_el.text = ''
 
 def _scrub_metadata_xml(xml_file: Path):
     tree = etree.parse(str(xml_file))
@@ -365,16 +402,6 @@ def process_docx(input_bytes: bytes) -> io.BytesIO:
                     z.write(f, f.relative_to(tmpdir))
         output.seek(0)
 
-        with zipfile.ZipFile(output, "r") as z:
-            for name in z.namelist():
-                if name.endswith(".xml") or name.endswith(".rels"):
-                    data = z.read(name).decode("utf-8", errors="ignore")
-                    if "lizzywilkins.ee" in data or "@gmail.com" in data:
-                        print("EMAIL FOUND IN FINAL DOCX PART:", name)
-
-        output.seek(0)
-
-
         return output
 
 
@@ -398,6 +425,88 @@ def remove_images():
         download_name=download_name,
         max_age=0,
     )
+
+
+# Path to the template docx
+TEMPLATE_PATH = Path(__file__).resolve().parent.parent.parent / "Downloads" / "FRM-11110-CarolineWei.docx"
+# Fallback: check common location
+if not TEMPLATE_PATH.exists():
+    TEMPLATE_PATH = Path(os.path.expanduser("~/Downloads/FRM-11110-CarolineWei.docx"))
+
+
+@app.route("/populate-template", methods=["POST"])
+def populate_template():
+    if "file" not in request.files:
+        return jsonify({"error": "No file provided"}), 400
+
+    file = request.files["file"]
+
+    if not file.filename.lower().endswith(".docx"):
+        return jsonify({"error": "Only .docx files are supported"}), 400
+
+    if not TEMPLATE_PATH.exists():
+        return jsonify({"error": "Template file not found on server"}), 500
+
+    try:
+        # Save uploaded file to a temp location
+        with tempfile.NamedTemporaryFile(suffix=".docx", delete=False) as tmp_in:
+            tmp_in.write(file.read())
+            tmp_input_path = Path(tmp_in.name)
+
+        # Extract text from the uploaded resume
+        text = TextExtractor.extract(tmp_input_path)
+
+        # Find sections
+        sections = SectionParser.find_sections(text)
+
+        # Parse education
+        education_entries = []
+        education_text = sections.get("education")
+        if education_text:
+            education_entries = EducationParser.parse(education_text)
+
+        # Parse experience
+        experience_entries = []
+        experience_text = sections.get("experience")
+        if experience_text:
+            experience_entries = ExperienceParser.parse(experience_text)
+
+        # Populate the template
+        with tempfile.NamedTemporaryFile(suffix=".docx", delete=False) as tmp_out:
+            tmp_output_path = Path(tmp_out.name)
+
+        DocxPopulator.populate_docx(
+            str(TEMPLATE_PATH),
+            str(tmp_output_path),
+            education_entries,
+            experience_entries,
+        )
+
+        # Read the populated file into memory
+        output = io.BytesIO(tmp_output_path.read_bytes())
+        output.seek(0)
+
+        # Clean up temp files
+        tmp_input_path.unlink(missing_ok=True)
+        tmp_output_path.unlink(missing_ok=True)
+
+        download_name = f"populated_{file.filename}"
+
+        return send_file(
+            output,
+            mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            as_attachment=True,
+            download_name=download_name,
+            max_age=0,
+        )
+
+    except Exception as e:
+        # Clean up on error
+        if 'tmp_input_path' in locals():
+            tmp_input_path.unlink(missing_ok=True)
+        if 'tmp_output_path' in locals():
+            tmp_output_path.unlink(missing_ok=True)
+        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == "__main__":

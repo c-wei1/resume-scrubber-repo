@@ -144,6 +144,7 @@ def main():
     print("EXPERIENCEPARSER OUTPUT")
     print("=" * 70)
 
+    experience_entries = []
     experience_text = sections.get("experience")
 
     if not experience_text:
@@ -163,11 +164,16 @@ def main():
         except Exception as e:
             print(f"ExperienceParser failed: {e}")
 
+    output_path = args.input.with_stem(args.input.stem + "-Populated")
+
     DocxPopulator.populate_docx(
         "/Users/cwei1/Downloads/FRM-11110-CarolineWei.docx",
-        "FRM-11110-CarolineWei-Populated.docx",
+        output_path,
         education_entries,
+        experience_entries,
     )
+
+    print(f"\nPopulated document saved to: {output_path}")
 
 if __name__ == "__main__":
     main()

@@ -6,6 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/remove-images': 'http://localhost:5000',
+      '/populate-template': 'http://localhost:5000',
     },
   },
 })

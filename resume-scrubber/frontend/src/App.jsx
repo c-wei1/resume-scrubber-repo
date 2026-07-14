@@ -50,6 +50,19 @@ const styles = {
     cursor: disabled ? 'not-allowed' : 'pointer',
     transition: 'background .15s',
   }),
+  buttonSecondary: (disabled) => ({
+    marginTop: 10,
+    width: '100%',
+    padding: '12px 0',
+    background: disabled ? '#e2e8f0' : '#16a34a',
+    color: disabled ? '#94a3b8' : '#fff',
+    border: 'none',
+    borderRadius: 7,
+    fontSize: 15,
+    fontWeight: 600,
+    cursor: disabled ? 'not-allowed' : 'pointer',
+    transition: 'background .15s',
+  }),
   success: {
     marginTop: 14,
     padding: '10px 14px',
@@ -65,8 +78,10 @@ export default function App() {
   const [file, setFile] = useState(null)
   const [dragging, setDragging] = useState(false)
   const [loading, setLoading] = useState(false)
+  const [populating, setPopulating] = useState(false)
   const [error, setError] = useState(null)
   const [done, setDone] = useState(false)
+  const [donePopulate, setDonePopulate] = useState(false)
   const inputRef = useRef()
 
   const accept = (f) => {
@@ -79,6 +94,7 @@ export default function App() {
     setFile(f)
     setError(null)
     setDone(false)
+    setDonePopulate(false)
   }
 
   const handleDrop = (e) => {
@@ -123,12 +139,47 @@ export default function App() {
     }
   }
 
+  const handlePopulate = async () => {
+    if (!file) return
+
+    setPopulating(true)
+    setError(null)
+    setDonePopulate(false)
+
+    const body = new FormData()
+    body.append('file', file)
+
+    try {
+      const res = await fetch('/populate-template', { method: 'POST', body })
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}))
+        throw new Error(data.error || `Server error ${res.status}`)
+      }
+
+      const blob = await res.blob()
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = `populated_${file.name}`
+      document.body.appendChild(a)
+      a.click()
+      a.remove()
+      URL.revokeObjectURL(url)
+      setDonePopulate(true)
+    } catch (err) {
+      setError(err.message)
+    } finally {
+      setPopulating(false)
+    }
+  }
+
   return (
     <div style={styles.page}>
       <div style={styles.card}>
-        <h1 style={styles.title}>Resume Image Scrubber</h1>
+        <h1 style={styles.title}>Resume Processor</h1>
         <p style={styles.subtitle}>
-          Upload a .docx resume to strip all embedded images, then download the cleaned file.
+          Upload a .docx resume to scrub PII or populate a CV template.
         </p>
 
         <form onSubmit={handleSubmit}>
@@ -159,14 +210,29 @@ export default function App() {
 
           {done && (
             <div style={styles.success}>
-              Download started — check your downloads folder.
+              Scrubbed file download started — check your downloads folder.
             </div>
           )}
 
-          <button type="submit" disabled={!file || loading} style={styles.button(!file || loading)}>
-            {loading ? 'Processing…' : 'Remove Images & Download'}
+          {donePopulate && (
+            <div style={styles.success}>
+              Populated template download started — check your downloads folder.
+            </div>
+          )}
+
+          <button type="submit" disabled={!file || loading || populating} style={styles.button(!file || loading || populating)}>
+            {loading ? 'Scrubbing…' : 'Scrub Resume & Download'}
           </button>
         </form>
+
+        <button
+          type="button"
+          disabled={!file || loading || populating}
+          style={styles.buttonSecondary(!file || loading || populating)}
+          onClick={handlePopulate}
+        >
+          {populating ? 'Populating…' : 'Populate Template & Download'}
+        </button>
       </div>
     </div>
   )
