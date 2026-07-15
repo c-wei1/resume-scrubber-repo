@@ -72,6 +72,25 @@ const styles = {
     fontSize: 13,
     color: '#15803d',
   },
+  inputGroup: {
+    marginBottom: 12,
+  },
+  label: {
+    display: 'block',
+    fontSize: 13,
+    fontWeight: 600,
+    color: '#374151',
+    marginBottom: 4,
+  },
+  input: {
+    width: '100%',
+    padding: '8px 12px',
+    border: '1px solid #d1d5db',
+    borderRadius: 6,
+    fontSize: 14,
+    boxSizing: 'border-box',
+    outline: 'none',
+  },
 }
 
 export default function App() {
@@ -82,6 +101,9 @@ export default function App() {
   const [error, setError] = useState(null)
   const [done, setDone] = useState(false)
   const [donePopulate, setDonePopulate] = useState(false)
+  const [name, setName] = useState('')
+  const [jobTitle, setJobTitle] = useState('')
+  const [department, setDepartment] = useState('')
   const inputRef = useRef()
 
   const accept = (f) => {
@@ -113,6 +135,9 @@ export default function App() {
 
     const body = new FormData()
     body.append('file', file)
+    body.append('name', name)
+    body.append('title', jobTitle)
+    body.append('department', department)
 
     try {
       const res = await fetch('/remove-images', { method: 'POST', body })
@@ -148,6 +173,9 @@ export default function App() {
 
     const body = new FormData()
     body.append('file', file)
+    body.append('name', name)
+    body.append('title', jobTitle)
+    body.append('department', department)
 
     try {
       const res = await fetch('/populate-template', { method: 'POST', body })
@@ -183,6 +211,19 @@ export default function App() {
         </p>
 
         <form onSubmit={handleSubmit}>
+          <div style={styles.inputGroup}>
+            <label style={styles.label}>Name</label>
+            <input style={styles.input} value={name} onChange={(e) => setName(e.target.value)} placeholder="e.g. John Smith" />
+          </div>
+          <div style={styles.inputGroup}>
+            <label style={styles.label}>Title</label>
+            <input style={styles.input} value={jobTitle} onChange={(e) => setJobTitle(e.target.value)} placeholder="e.g. Senior Manager" />
+          </div>
+          <div style={styles.inputGroup}>
+            <label style={styles.label}>Department</label>
+            <input style={styles.input} value={department} onChange={(e) => setDepartment(e.target.value)} placeholder="e.g. Regulatory Affairs" />
+          </div>
+
           <div
             style={styles.dropzone(dragging || !!file)}
             onClick={() => inputRef.current.click()}

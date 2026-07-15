@@ -405,6 +405,66 @@ def process_docx(input_bytes: bytes) -> io.BytesIO:
         return output
 
 
+def _prepend_user_info(docx_bytes: io.BytesIO, name: str, title: str, department: str) -> io.BytesIO:
+    """
+    Prepend name, title, and department as a paragraph at the top of the
+    first page in 12pt Times New Roman.
+    """
+    W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        tmpdir = Path(tmpdir)
+        with zipfile.ZipFile(docx_bytes, "r") as z:
+            z.extractall(tmpdir)
+
+        doc_xml = tmpdir / "word" / "document.xml"
+        tree = etree.parse(str(doc_xml))
+        root = tree.getroot()
+
+        body = root.find(f"{{{W}}}body")
+        if body is None:
+            docx_bytes.seek(0)
+            return docx_bytes
+
+        # Build info lines
+        info_parts = [p for p in [name, title, department] if p]
+        info_text = " | ".join(info_parts)
+
+        # Create a new paragraph with 12pt Times New Roman
+        new_para = etree.SubElement(body, f"{{{W}}}p")
+        body.remove(new_para)
+        body.insert(0, new_para)
+
+        pPr = etree.SubElement(new_para, f"{{{W}}}pPr")
+        run = etree.SubElement(new_para, f"{{{W}}}r")
+        rPr = etree.SubElement(run, f"{{{W}}}rPr")
+
+        # Times New Roman font
+        rFonts = etree.SubElement(rPr, f"{{{W}}}rFonts")
+        rFonts.set(f"{{{W}}}ascii", "Times New Roman")
+        rFonts.set(f"{{{W}}}hAnsi", "Times New Roman")
+
+        # 12pt = 24 half-points
+        sz = etree.SubElement(rPr, f"{{{W}}}sz")
+        sz.set(f"{{{W}}}val", "24")
+        szCs = etree.SubElement(rPr, f"{{{W}}}szCs")
+        szCs.set(f"{{{W}}}val", "24")
+
+        t = etree.SubElement(run, f"{{{W}}}t")
+        t.text = info_text
+        t.set(f"{{{W}}}space", "preserve")
+
+        tree.write(str(doc_xml), encoding="UTF-8", xml_declaration=True, standalone=True)
+
+        output = io.BytesIO()
+        with zipfile.ZipFile(output, "w", zipfile.ZIP_DEFLATED) as z:
+            for f in tmpdir.rglob("*"):
+                if f.is_file():
+                    z.write(f, f.relative_to(tmpdir))
+        output.seek(0)
+        return output
+
+
 @app.route("/remove-images", methods=["POST"])
 def remove_images():
     if "file" not in request.files:
@@ -415,7 +475,16 @@ def remove_images():
     if not file.filename.lower().endswith(".docx"):
         return jsonify({"error": "Only .docx files are supported"}), 400
 
+    user_name = request.form.get("name", "").strip()
+    user_title = request.form.get("title", "").strip()
+    user_department = request.form.get("department", "").strip()
+
     output = process_docx(file.read())
+
+    # Prepend name/title/department to the first page if provided
+    if user_name or user_title or user_department:
+        output = _prepend_user_info(output, user_name, user_title, user_department)
+
     download_name = f"scrubbed_{file.filename}"
 
     return send_file(
@@ -446,6 +515,10 @@ def populate_template():
 
     if not TEMPLATE_PATH.exists():
         return jsonify({"error": "Template file not found on server"}), 500
+
+    user_name = request.form.get("name", "").strip()
+    user_title = request.form.get("title", "").strip()
+    user_department = request.form.get("department", "").strip()
 
     try:
         # Save uploaded file to a temp location
@@ -481,6 +554,32 @@ def populate_template():
             education_entries,
             experience_entries,
         )
+
+        # Replace name/title/department placeholders in the populated file
+        if user_name or user_title or user_department:
+            with tempfile.TemporaryDirectory() as _td:
+                _td = Path(_td)
+                with zipfile.ZipFile(str(tmp_output_path), "r") as z:
+                    z.extractall(_td)
+                doc_xml = _td / "word" / "document.xml"
+                tree = etree.parse(str(doc_xml))
+                root = tree.getroot()
+                W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                for t_node in root.iter(f"{{{W}}}t"):
+                    if t_node.text is None:
+                        continue
+                    if "INSERT_NAME" in t_node.text:
+                        t_node.text = t_node.text.replace("INSERT_NAME", user_name)
+                    if "INSERT_TITLE" in t_node.text:
+                        t_node.text = t_node.text.replace("INSERT_TITLE", user_title)
+                    if "INSERT_DEPARTMENT" in t_node.text:
+                        t_node.text = t_node.text.replace("INSERT_DEPARTMENT", user_department)
+                tree.write(str(doc_xml), encoding="UTF-8", xml_declaration=True, standalone=True)
+                # Repack
+                with zipfile.ZipFile(str(tmp_output_path), "w", zipfile.ZIP_DEFLATED) as z:
+                    for f in _td.rglob("*"):
+                        if f.is_file():
+                            z.write(f, f.relative_to(_td))
 
         # Read the populated file into memory
         output = io.BytesIO(tmp_output_path.read_bytes())
