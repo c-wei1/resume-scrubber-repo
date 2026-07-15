@@ -136,9 +136,9 @@ def main():
         except Exception as e:
             print(f"EducationParser failed: {e}")
     
-    education_entries = EducationParser.parse(
-        sections["education"]
-    )
+    education_entries = []
+    if sections.get("education"):
+        education_entries = EducationParser.parse(sections["education"])
 
     print("\n" + "=" * 70)
     print("EXPERIENCEPARSER OUTPUT")

@@ -114,13 +114,71 @@ class TextExtractor:
 
 
     @classmethod
+    def _clean_line(cls, text: str) -> str:
+        """Replace control/whitespace unicode characters with their visual equivalents."""
+        text = text.replace("\t", "    ")       # tab → spaces
+        text = text.replace("\xa0", " ")        # non-breaking space → space
+        text = text.replace("\u200b", "")       # zero-width space → remove
+        text = text.replace("\u00ad", "")       # soft hyphen → remove
+        text = text.replace("\u2011", "-")      # non-breaking hyphen → hyphen
+        text = text.replace("\u2013", "–")      # en dash
+        text = text.replace("\u2014", "—")      # em dash
+        text = text.replace("\u2018", "'")      # left single quote
+        text = text.replace("\u2019", "'")      # right single quote
+        text = text.replace("\u201c", '"')      # left double quote
+        text = text.replace("\u201d", '"')      # right double quote
+        text = text.replace("\u2026", "...")     # ellipsis
+        text = text.replace("\u2022", "•")      # bullet (keep as-is, already visible)
+        return text
+
+    @classmethod
+    def _get_paragraph_text(cls, p_el):
+        """
+        Get text from a <w:p> element, but only from <w:t> nodes that
+        belong directly to this paragraph — not from nested paragraphs
+        inside text boxes or drawings.
+        """
+        P_TAG = qn("w:p")
+        parts = []
+        for t in p_el.iter(cls._T_TAG):
+            # Check if this <w:t> is inside a NESTED <w:p> (text box, etc.)
+            # by walking up from the <w:t> to see if we hit another <w:p>
+            # before reaching our p_el
+            parent = t.getparent()
+            nested = False
+            while parent is not None and parent is not p_el:
+                if parent.tag == P_TAG:
+                    nested = True
+                    break
+                parent = parent.getparent()
+            if not nested and t.text:
+                parts.append(t.text)
+        return "".join(parts)
+
+    @classmethod
     def extract_docx(cls, docx_path: Path) -> str:
         doc = Document(str(docx_path))
 
         lines = []
-        for p in cls._iter_body_paragraphs(doc):
-            text = cls._paragraph_text_from_element(p)
-            lines.append(text) # if text else NEWLINE_TAG)
+        seen_texts = set()
+        body = doc.element.body
+
+        # Iterate ALL <w:p> elements in document order — this includes
+        # paragraphs inside tables, SDTs (content controls), text boxes, etc.
+        for p_el in body.iter(qn("w:p")):
+            text = cls._get_paragraph_text(p_el)
+            cleaned = cls._clean_line(text)
+
+            # Deduplicate identical consecutive lines (merged table cells)
+            text_key = cleaned.strip()
+            if text_key and text_key in seen_texts:
+                continue
+            # Track last N texts for dedup; reset when we see new content
+            if text_key:
+                seen_texts.add(text_key)
+
+            lines.append(cleaned)
+
         return "\n".join(lines)
 
     @classmethod
