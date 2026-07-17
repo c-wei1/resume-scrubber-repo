@@ -216,7 +216,7 @@ export default function App() {
             <input style={styles.input} value={name} onChange={(e) => setName(e.target.value)} placeholder="e.g. John Smith" />
           </div>
           <div style={styles.inputGroup}>
-            <label style={styles.label}>Title</label>
+            <label style={styles.label}>Job Title</label>
             <input style={styles.input} value={jobTitle} onChange={(e) => setJobTitle(e.target.value)} placeholder="e.g. Senior Manager" />
           </div>
           <div style={styles.inputGroup}>

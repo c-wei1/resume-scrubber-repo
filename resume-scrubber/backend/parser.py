@@ -6,8 +6,8 @@ from pathlib import Path
 from typing import Any, Dict
 
 from parser_get_text import TextExtractor
-from parser_get_education import EducationParser
-from parser_get_experience import ExperienceParser
+# from parser_get_education import EducationParser
+# from parser_get_experience import ExperienceParser
 from parser_get_section import SectionParser
 from populate_template import DocxPopulator
 
@@ -38,6 +38,10 @@ def main():
     # 1. Extract text
     try:
         text = TextExtractor.extract(args.input)
+        # Also extract pairs for the new SectionParser API
+        pairs = None
+        if str(args.input).lower().endswith(".docx"):
+            pairs = TextExtractor.extract_pairs(args.input)
     except ValueError as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(2)
@@ -66,25 +70,26 @@ def main():
     for k, v in SectionParser._get_canonical_lookup().items():
         print(k, "->", v)
 
-    sections = SectionParser.find_sections(text)
+    sections = SectionParser.find_sections(pairs)
 
     if not sections:
         print("(no sections detected)")
         return
 
-    for name, body in sections.items():
+    for name, section_pairs in sections.items():
         print()
         print("-" * 70)
         print(f"[{name}]")
         print("-" * 70)
-        print(body)
+        print(SectionParser.section_text(section_pairs))
 
     # 4. Quick summary at the end
     print()
     print("=" * 70)
     print("SECTION SUMMARY")
     print("=" * 70)
-    for name, body in sections.items():
+    for name, section_pairs in sections.items():
+        body = SectionParser.section_text(section_pairs)
         line_count = len(body.splitlines())
         char_count = len(body)
         print(f"  {name:<40} lines={line_count:<4} chars={char_count}")
@@ -113,33 +118,33 @@ def main():
     # for key in sections:
     #     print(f"  - {key}")
 
-    print("\n" + "=" * 70)
-    print("EDUCATIONPARSER OUTPUT")
-    print("=" * 70)
+    # print("\n" + "=" * 70)
+    # print("EDUCATIONPARSER OUTPUT")
+    # print("=" * 70)
 
-    education_text = sections.get("education")
+    # education_text = sections.get("education")
 
-    if not education_text:
-        print("No education section detected.")
-    else:
-        print("\nEducation section:")
-        print("-" * 70)
-        print(education_text)
+    # if not education_text:
+    #     print("No education section detected.")
+    # else:
+    #     print("\nEducation section:")
+    #     print("-" * 70)
+    #     print(education_text)
 
-        try:
-            entries = EducationParser.parse(education_text)
+    #     try:
+    #         entries = EducationParser.parse(education_text)
 
-            print("\nParsed education entries:")
-            print(f"Count: {len(entries)}")
-            print(json.dumps(entries, indent=2, ensure_ascii=False))
+    #         print("\nParsed education entries:")
+    #         print(f"Count: {len(entries)}")
+    #         print(json.dumps(entries, indent=2, ensure_ascii=False))
 
-        except Exception as e:
-            print(f"EducationParser failed: {e}")
+    #     except Exception as e:
+    #         print(f"EducationParser failed: {e}")
     
-    education_entries = []
-    if sections.get("education"):
-        education_entries = EducationParser.parse(sections["education"])
-    print(education_entries)
+    # education_entries = []
+    # if sections.get("education"):
+    #     education_entries = EducationParser.parse(sections["education"])
+    # print(education_entries)
 
     # print("\n" + "=" * 70)
     # print("EXPERIENCEPARSER OUTPUT")
