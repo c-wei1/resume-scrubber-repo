@@ -89,29 +89,29 @@ def main():
         char_count = len(body)
         print(f"  {name:<40} lines={line_count:<4} chars={char_count}")
 
-    # print("\n" + "=" * 70)
-    # print("TEXTEXTRACTOR OUTPUT")
-    # print("=" * 70)
+    # # print("\n" + "=" * 70)
+    # # print("TEXTEXTRACTOR OUTPUT")
+    # # print("=" * 70)
 
-    # try:
-    #     text = TextExtractor.extract(args.input)
-    # except ValueError as e:
-    #     print(f"Error: {e}", file=sys.stderr)
-    #     sys.exit(2)
-    # except Exception as e:
-    #     print(f"Failed to extract text: {e}", file=sys.stderr)
-    #     sys.exit(3)
+    # # try:
+    # #     text = TextExtractor.extract(args.input)
+    # # except ValueError as e:
+    # #     print(f"Error: {e}", file=sys.stderr)
+    # #     sys.exit(2)
+    # # except Exception as e:
+    # #     print(f"Failed to extract text: {e}", file=sys.stderr)
+    # #     sys.exit(3)
 
-    # if args.output:
-    #     args.output.parent.mkdir(parents=True, exist_ok=True)
-    #     args.output.write_text(text, encoding="utf-8")
-    #     print(f"Wrote extracted text to {args.output}", file=sys.stderr)
-    # else:
-    #     print(text)
+    # # if args.output:
+    # #     args.output.parent.mkdir(parents=True, exist_ok=True)
+    # #     args.output.write_text(text, encoding="utf-8")
+    # #     print(f"Wrote extracted text to {args.output}", file=sys.stderr)
+    # # else:
+    # #     print(text)
 
-    print("\nDetected sections:")
-    for key in sections:
-        print(f"  - {key}")
+    # print("\nDetected sections:")
+    # for key in sections:
+    #     print(f"  - {key}")
 
     print("\n" + "=" * 70)
     print("EDUCATIONPARSER OUTPUT")
@@ -139,41 +139,42 @@ def main():
     education_entries = []
     if sections.get("education"):
         education_entries = EducationParser.parse(sections["education"])
+    print(education_entries)
 
-    print("\n" + "=" * 70)
-    print("EXPERIENCEPARSER OUTPUT")
-    print("=" * 70)
+    # print("\n" + "=" * 70)
+    # print("EXPERIENCEPARSER OUTPUT")
+    # print("=" * 70)
 
-    experience_entries = []
-    experience_text = sections.get("experience")
+    # experience_entries = []
+    # experience_text = sections.get("experience")
 
-    if not experience_text:
-        print("No experience section detected.")
-    else:
-        print("\nExperience section:")
-        print("-" * 70)
-        print(experience_text)
+    # if not experience_text:
+    #     print("No experience section detected.")
+    # else:
+    #     print("\nExperience section:")
+    #     print("-" * 70)
+    #     print(experience_text)
 
-        try:
-            experience_entries = ExperienceParser.parse(experience_text)
+    #     try:
+    #         experience_entries = ExperienceParser.parse(experience_text)
 
-            print("\nParsed experience entries:")
-            print(f"Count: {len(experience_entries)}")
-            print(json.dumps(experience_entries, indent=2, ensure_ascii=False))
+    #         print("\nParsed experience entries:")
+    #         print(f"Count: {len(experience_entries)}")
+    #         print(json.dumps(experience_entries, indent=2, ensure_ascii=False))
 
-        except Exception as e:
-            print(f"ExperienceParser failed: {e}")
+    #     except Exception as e:
+    #         print(f"ExperienceParser failed: {e}")
 
-    output_path = args.input.with_stem(args.input.stem + "-Populated")
+    # output_path = args.input.with_stem(args.input.stem + "-Populated")
 
-    DocxPopulator.populate_docx(
-        "/Users/cwei1/Downloads/FRM-11110-CarolineWei.docx",
-        output_path,
-        education_entries,
-        experience_entries,
-    )
+    # DocxPopulator.populate_docx(
+    #     "/Users/cwei1/Downloads/FRM-11110-CarolineWei.docx",
+    #     output_path,
+    #     education_entries,
+    #     experience_entries,
+    # )
 
-    print(f"\nPopulated document saved to: {output_path}")
+    # print(f"\nPopulated document saved to: {output_path}")
 
 if __name__ == "__main__":
     main()
