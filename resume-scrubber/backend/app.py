@@ -430,33 +430,44 @@
 #             docx_bytes.seek(0)
 #             return docx_bytes
 
-#         # Build info lines
-#         info_parts = [p for p in [name, title, department] if p]
-#         info_text = " | ".join(info_parts)
+#         # Build label-value pairs for Name, Job Title, Department
+#         info_lines = []
+#         if name:
+#             info_lines.append(("Name:", name))
+#         if title:
+#             info_lines.append(("Job Title:", title))
+#         if department:
+#             info_lines.append(("Department:", department))
 
-#         # Create a new paragraph with 12pt Times New Roman
-#         new_para = etree.SubElement(body, f"{{{W}}}p")
-#         body.remove(new_para)
-#         body.insert(0, new_para)
+#         def _make_para(text, bold=False):
+#             """Create a <w:p> with 12pt Times New Roman."""
+#             para = etree.Element(f"{{{W}}}p")
+#             pPr = etree.SubElement(para, f"{{{W}}}pPr")
+#             # No extra spacing between these lines
+#             spacing = etree.SubElement(pPr, f"{{{W}}}spacing")
+#             spacing.set(f"{{{W}}}after", "0")
+#             spacing.set(f"{{{W}}}line", "240")
+#             spacing.set(f"{{{W}}}lineRule", "auto")
+#             run = etree.SubElement(para, f"{{{W}}}r")
+#             rPr = etree.SubElement(run, f"{{{W}}}rPr")
+#             rFonts = etree.SubElement(rPr, f"{{{W}}}rFonts")
+#             rFonts.set(f"{{{W}}}ascii", "Times New Roman")
+#             rFonts.set(f"{{{W}}}hAnsi", "Times New Roman")
+#             sz = etree.SubElement(rPr, f"{{{W}}}sz")
+#             sz.set(f"{{{W}}}val", "24")
+#             szCs = etree.SubElement(rPr, f"{{{W}}}szCs")
+#             szCs.set(f"{{{W}}}val", "24")
+#             if bold:
+#                 b = etree.SubElement(rPr, f"{{{W}}}b")
+#             t = etree.SubElement(run, f"{{{W}}}t")
+#             t.text = text
+#             t.set(f"{{{W}}}space", "preserve")
+#             return para
 
-#         pPr = etree.SubElement(new_para, f"{{{W}}}pPr")
-#         run = etree.SubElement(new_para, f"{{{W}}}r")
-#         rPr = etree.SubElement(run, f"{{{W}}}rPr")
-
-#         # Times New Roman font
-#         rFonts = etree.SubElement(rPr, f"{{{W}}}rFonts")
-#         rFonts.set(f"{{{W}}}ascii", "Times New Roman")
-#         rFonts.set(f"{{{W}}}hAnsi", "Times New Roman")
-
-#         # 12pt = 24 half-points
-#         sz = etree.SubElement(rPr, f"{{{W}}}sz")
-#         sz.set(f"{{{W}}}val", "24")
-#         szCs = etree.SubElement(rPr, f"{{{W}}}szCs")
-#         szCs.set(f"{{{W}}}val", "24")
-
-#         t = etree.SubElement(run, f"{{{W}}}t")
-#         t.text = info_text
-#         t.set(f"{{{W}}}space", "preserve")
+#         # Insert in reverse order so final order is correct
+#         for label, value in reversed(info_lines):
+#             body.insert(0, _make_para(value))
+#             body.insert(0, _make_para(label, bold=True))
 
 #         tree.write(str(doc_xml), encoding="UTF-8", xml_declaration=True, standalone=True)
 
@@ -994,29 +1005,43 @@ def _prepend_user_info(
             docx_bytes.seek(0)
             return docx_bytes
 
-        info_parts = [p for p in [name, title, department] if p]
-        info_text = " | ".join(info_parts)
+        # Build label-value pairs for Name, Job Title, Department
+        info_lines = []
+        if name:
+            info_lines.append(("Name:", name))
+        if title:
+            info_lines.append(("Job Title:", title))
+        if department:
+            info_lines.append(("Department:", department))
 
-        new_para = etree.SubElement(body, f"{{{W}}}p")
-        body.remove(new_para)
-        body.insert(0, new_para)
+        def _make_para(text, bold=False):
+            """Create a <w:p> with 12pt Times New Roman, no extra spacing."""
+            para = etree.Element(f"{{{W}}}p")
+            pPr = etree.SubElement(para, f"{{{W}}}pPr")
+            spacing = etree.SubElement(pPr, f"{{{W}}}spacing")
+            spacing.set(f"{{{W}}}after", "0")
+            spacing.set(f"{{{W}}}line", "240")
+            spacing.set(f"{{{W}}}lineRule", "auto")
+            run = etree.SubElement(para, f"{{{W}}}r")
+            rPr = etree.SubElement(run, f"{{{W}}}rPr")
+            rFonts = etree.SubElement(rPr, f"{{{W}}}rFonts")
+            rFonts.set(f"{{{W}}}ascii", "Times New Roman")
+            rFonts.set(f"{{{W}}}hAnsi", "Times New Roman")
+            sz = etree.SubElement(rPr, f"{{{W}}}sz")
+            sz.set(f"{{{W}}}val", "24")
+            szCs = etree.SubElement(rPr, f"{{{W}}}szCs")
+            szCs.set(f"{{{W}}}val", "24")
+            if bold:
+                etree.SubElement(rPr, f"{{{W}}}b")
+            t = etree.SubElement(run, f"{{{W}}}t")
+            t.text = text
+            t.set(f"{{{W}}}space", "preserve")
+            return para
 
-        pPr = etree.SubElement(new_para, f"{{{W}}}pPr")
-        run = etree.SubElement(new_para, f"{{{W}}}r")
-        rPr = etree.SubElement(run, f"{{{W}}}rPr")
-
-        rFonts = etree.SubElement(rPr, f"{{{W}}}rFonts")
-        rFonts.set(f"{{{W}}}ascii", "Times New Roman")
-        rFonts.set(f"{{{W}}}hAnsi", "Times New Roman")
-
-        sz = etree.SubElement(rPr, f"{{{W}}}sz")
-        sz.set(f"{{{W}}}val", "24")
-        szCs = etree.SubElement(rPr, f"{{{W}}}szCs")
-        szCs.set(f"{{{W}}}val", "24")
-
-        t = etree.SubElement(run, f"{{{W}}}t")
-        t.text = info_text
-        t.set(f"{{{W}}}space", "preserve")
+        # Insert in reverse order so final order is correct
+        for label, value in reversed(info_lines):
+            body.insert(0, _make_para(value))
+            body.insert(0, _make_para(label, bold=True))
 
         tree.write(
             str(doc_xml),
