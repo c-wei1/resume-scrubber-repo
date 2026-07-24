@@ -54,7 +54,7 @@ const styles = {
     marginTop: 10,
     width: '100%',
     padding: '12px 0',
-    background: disabled ? '#e2e8f0' : '#16a34a',
+    background: disabled ? '#e2e8f0' : '#2563eb',
     color: disabled ? '#94a3b8' : '#fff',
     border: 'none',
     borderRadius: 7,
@@ -63,6 +63,19 @@ const styles = {
     cursor: disabled ? 'not-allowed' : 'pointer',
     transition: 'background .15s',
   }),
+  buttonTertiary: {
+    marginTop: 10,
+    width: '100%',
+    padding: '12px 0',
+    background: '#0f172a',
+    color: '#fff',
+    border: 'none',
+    borderRadius: 7,
+    fontSize: 15,
+    fontWeight: 600,
+    cursor: 'pointer',
+    transition: 'background .15s',
+  },
   success: {
     marginTop: 14,
     padding: '10px 14px',
@@ -104,7 +117,17 @@ export default function App() {
   const [name, setName] = useState('')
   const [jobTitle, setJobTitle] = useState('')
   const [department, setDepartment] = useState('')
+  const [validationMsg, setValidationMsg] = useState(null)
   const inputRef = useRef()
+
+  const getMissingFields = () => {
+    const missing = []
+    if (!name.trim()) missing.push('Name')
+    if (!jobTitle.trim()) missing.push('Job Title')
+    if (!department.trim()) missing.push('Department')
+    if (!file) missing.push('Resume file')
+    return missing
+  }
 
   const accept = (f) => {
     if (!f) return
@@ -127,7 +150,12 @@ export default function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    if (!file) return
+    const missing = getMissingFields()
+    if (missing.length > 0) {
+      setValidationMsg(`Please provide: ${missing.join(', ')}`)
+      return
+    }
+    setValidationMsg(null)
 
     setLoading(true)
     setError(null)
@@ -165,7 +193,12 @@ export default function App() {
   }
 
   const handlePopulate = async () => {
-    if (!file) return
+    const missing = getMissingFields()
+    if (missing.length > 0) {
+      setValidationMsg(`Please provide: ${missing.join(', ')}`)
+      return
+    }
+    setValidationMsg(null)
 
     setPopulating(true)
     setError(null)
@@ -212,15 +245,15 @@ export default function App() {
 
         <form onSubmit={handleSubmit}>
           <div style={styles.inputGroup}>
-            <label style={styles.label}>Name</label>
+            <label style={styles.label}>Name <span style={{ color: '#dc2626' }}>*</span></label>
             <input style={styles.input} value={name} onChange={(e) => setName(e.target.value)} placeholder="e.g. John Smith" />
           </div>
           <div style={styles.inputGroup}>
-            <label style={styles.label}>Job Title</label>
+            <label style={styles.label}>Job Title <span style={{ color: '#dc2626' }}>*</span></label>
             <input style={styles.input} value={jobTitle} onChange={(e) => setJobTitle(e.target.value)} placeholder="e.g. Senior Manager" />
           </div>
           <div style={styles.inputGroup}>
-            <label style={styles.label}>Department</label>
+            <label style={styles.label}>Department <span style={{ color: '#dc2626' }}>*</span></label>
             <input style={styles.input} value={department} onChange={(e) => setDepartment(e.target.value)} placeholder="e.g. Regulatory Affairs" />
           </div>
 
@@ -248,10 +281,11 @@ export default function App() {
           </div>
 
           {error && <p style={styles.error}>{error}</p>}
+          {validationMsg && <p style={styles.error}>{validationMsg}</p>}
 
           {done && (
             <div style={styles.success}>
-              Scrubbed file download started — check your downloads folder.
+              Redacted file download started — check your downloads folder.
             </div>
           )}
 
@@ -261,18 +295,26 @@ export default function App() {
             </div>
           )}
 
-          <button type="submit" disabled={!file || loading || populating} style={styles.button(!file || loading || populating)}>
-            {loading ? 'Scrubbing…' : 'Scrub Resume & Download'}
+          <button type="submit" disabled={loading || populating} style={styles.button(loading || populating)}>
+            {loading ? 'Redacting...' : 'Redact sensitive information & Download'}
           </button>
         </form>
 
         <button
           type="button"
-          disabled={!file || loading || populating}
-          style={styles.buttonSecondary(!file || loading || populating)}
+          disabled={loading || populating}
+          style={styles.buttonSecondary(loading || populating)}
           onClick={handlePopulate}
         >
-          {populating ? 'Populating…' : 'Populate Template & Download'}
+          {populating ? 'Populating...' : 'Populate Template & Download'}
+        </button>
+
+        <button
+          type="button"
+          style={styles.buttonTertiary}
+          onClick={() => window.open('https://login.veevavault.com/auth', '_blank')}
+        >
+          Upload CV
         </button>
       </div>
     </div>
