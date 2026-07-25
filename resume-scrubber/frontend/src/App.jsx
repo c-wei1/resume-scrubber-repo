@@ -139,8 +139,10 @@ export default function App() {
     }
     setFile(f)
     setError(null)
+    setValidationMsg(null)
     setDone(false)
     setDonePopulate(false)
+    setEmptySections([])
   }
 
   const handleDrop = (e) => {

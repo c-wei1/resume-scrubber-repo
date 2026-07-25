@@ -10,7 +10,7 @@ from pathlib import Path
 # Ensure backend modules are importable
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from app import process_docx, TEMPLATE_PATH
+from backend.app_old import process_docx, TEMPLATE_PATH
 from parser_get_text import TextExtractor
 from parser_get_section import SectionParser
 from parser_get_education import EducationParser
