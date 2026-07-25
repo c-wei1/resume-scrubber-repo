@@ -48,12 +48,31 @@ HYPERLINK_REL_TYPE = (
 # PII patterns
 # ═════════════════════════════════════════════════════════════════════
 
-# Phone: +1 (555) 123-4567 | 555.123.4567 | (555)123-4567 | international +44 ...
+# Phone: comprehensive first-pass extractor (intl prefixes, parens, ext.)
+# Aggressive on purpose — the digit-count validator below rejects false positives.
 _PHONE_RE = re.compile(
-    r'(\+?1[\s.\-]?)?'
-    r'(\(?\d{3}\)?[\s.\-]?)'
-    r'\d{3}[\s.\-]\d{4}'
+    r'(?<![\w@.])'                          # not inside emails/decimals/IDs
+    r'(?:(?:\+|00)\s?\d{1,3}[\s.\-]?)?'     # optional +XX / 00XX intl prefix
+    r'(?:\(\s?\d{1,4}\s?\)[\s.\-]?)?'       # optional (area code)
+    r'\d{1,4}(?:[\s.\-]?\d{1,4}){1,5}'      # 2–6 digit groups (≥2 required)
+    r'(?:\s?(?:ext|x|extension)\.?\s?\d{1,5})?'  # optional extension
+    r'(?![\w])',                            # not followed by a word char
+    re.IGNORECASE,
 )
+
+
+def is_plausible_phone(match: str) -> bool:
+    """Digit-count gate: real phone numbers have 7–15 digits (E.164 caps at 15)."""
+    digits = re.sub(r'\D', '', match)
+    return 7 <= len(digits) <= 15
+
+
+def _redact_phones_sub(text: str) -> str:
+    """Regex + validation for plain-string substitution (metadata scrubbing)."""
+    return _PHONE_RE.sub(
+        lambda m: "" if is_plausible_phone(m.group(0)) else m.group(0),
+        text,
+    )
 
 _EMAIL_RE = re.compile(
     r'[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}'
@@ -111,19 +130,26 @@ def _strip_image_children(el):
 # ═════════════════════════════════════════════════════════════════════
 # PII redaction
 # ═════════════════════════════════════════════════════════════════════
-
 def _find_pii_spans(text: str) -> list[tuple[int, int]]:
     """Return sorted, merged character spans of all PII matches in text."""
     spans: list[tuple[int, int]] = []
-    for pattern in (_EMAIL_RE, _URL_RE, _PHONE_RE):
+
+    # Email + URL: match directly (unchanged)
+    for pattern in (_EMAIL_RE, _URL_RE):
         for m in pattern.finditer(text):
             spans.append(m.span())
+
+    # Phone: regex first-pass, then validate digit count before accepting
+    for m in _PHONE_RE.finditer(text):
+        if is_plausible_phone(m.group(0)):
+            spans.append(m.span())
+
     if not spans:
         return spans
     spans.sort()
     merged = [spans[0]]
     for s, e in spans[1:]:
-        if s <= merged[-1][1]:
+        if s <= merged[-1]:
             merged[-1] = (merged[-1][0], max(merged[-1][1], e))
         else:
             merged.append((s, e))
@@ -246,7 +272,7 @@ def _scrub_metadata_xml(xml_file: Path):
         }:
             text = tag.text
             text = _EMAIL_RE.sub("", text)
-            text = _PHONE_RE.sub("", text)
+            text = _redact_phones_sub(text)
             text = _URL_RE.sub("", text)
             tag.text = text.strip()
 
@@ -517,7 +543,7 @@ def remove_images():
             output, user_name, user_title, user_department
         )
 
-    download_name = f"scrubbed_{file.filename}"
+    download_name = f"clean_{file.filename}"
 
     return send_file(
         output,
@@ -620,13 +646,20 @@ def populate_template():
             user_department,
         )
 
-        # ── 5. Send back to caller ───────────────────────────
+        # ── 5. Detect empty sections ─────────────────────────
+        empty_sections = []
+        if not education_pairs:
+            empty_sections.append("Education")
+        if not experience_pairs:
+            empty_sections.append("Experience")
+
+        # ── 6. Send back to caller ───────────────────────────
         output = io.BytesIO(tmp_output_path.read_bytes())
         output.seek(0)
 
         download_name = f"populated_{file.filename}"
 
-        return send_file(
+        response = send_file(
             output,
             mimetype=(
                 "application/vnd.openxmlformats-officedocument"
@@ -636,6 +669,12 @@ def populate_template():
             download_name=download_name,
             max_age=0,
         )
+
+        if empty_sections:
+            response.headers["X-Empty-Sections"] = ",".join(empty_sections)
+        response.headers["Access-Control-Expose-Headers"] = "X-Empty-Sections"
+
+        return response
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500

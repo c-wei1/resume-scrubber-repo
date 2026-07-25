@@ -114,6 +114,7 @@ export default function App() {
   const [error, setError] = useState(null)
   const [done, setDone] = useState(false)
   const [donePopulate, setDonePopulate] = useState(false)
+  const [emptySections, setEmptySections] = useState([])
   const [name, setName] = useState('')
   const [jobTitle, setJobTitle] = useState('')
   const [department, setDepartment] = useState('')
@@ -179,7 +180,7 @@ export default function App() {
       const url = URL.createObjectURL(blob)
       const a = document.createElement('a')
       a.href = url
-      a.download = `scrubbed_${file.name}`
+      a.download = `clean_${file.name}`
       document.body.appendChild(a)
       a.click()
       a.remove()
@@ -203,6 +204,7 @@ export default function App() {
     setPopulating(true)
     setError(null)
     setDonePopulate(false)
+    setEmptySections([])
 
     const body = new FormData()
     body.append('file', file)
@@ -216,6 +218,11 @@ export default function App() {
       if (!res.ok) {
         const data = await res.json().catch(() => ({}))
         throw new Error(data.error || `Server error ${res.status}`)
+      }
+
+      const emptyHeader = res.headers.get('X-Empty-Sections')
+      if (emptyHeader) {
+        setEmptySections(emptyHeader.split(',').map(s => s.trim()))
       }
 
       const blob = await res.blob()
@@ -240,7 +247,7 @@ export default function App() {
       <div style={styles.card}>
         <h1 style={styles.title}>Resume Processor</h1>
         <p style={styles.subtitle}>
-          Upload a .docx resume to scrub PII or populate a CV template.
+          Upload your resume as a .docx file to get a validated CV.
         </p>
 
         <form onSubmit={handleSubmit}>
@@ -292,6 +299,16 @@ export default function App() {
           {donePopulate && (
             <div style={styles.success}>
               Populated template download started — check your downloads folder.
+            </div>
+          )}
+
+          {emptySections.length > 0 && (
+            <div style={{ marginTop: 10, padding: '10px 14px', background: '#fef9c3', border: '1px solid #fde047', borderRadius: 6, fontSize: 13, color: '#854d0e' }}>
+              {emptySections.map(section => (
+                <p key={section} style={{ margin: '4px 0' }}>
+                  ⚠ No <strong>{section}</strong> section detected — please add a header for {section} in the original resume.
+                </p>
+              ))}
             </div>
           )}
 

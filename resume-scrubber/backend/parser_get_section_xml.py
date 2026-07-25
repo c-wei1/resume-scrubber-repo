@@ -166,6 +166,41 @@ class SectionXmlParser:
         return num_ids
 
     @staticmethod
+    def _force_abstract_num_to_bullets(
+        abstract_num: etree._Element,
+    ) -> None:
+
+        for lvl in abstract_num.xpath(".//w:lvl", namespaces=NS):
+
+            num_fmt = lvl.find(f"{{{W_URI}}}numFmt")
+            if num_fmt is not None:
+                num_fmt.set(f"{{{W_URI}}}val", "bullet")
+
+            lvl_text = lvl.find(f"{{{W_URI}}}lvlText")
+            if lvl_text is not None:
+                lvl_text.set(f"{{{W_URI}}}val", "•")
+
+            # Ensure Word renders the bullet properly
+            rpr = lvl.find(f"{{{W_URI}}}rPr")
+
+            if rpr is None:
+                rpr = etree.SubElement(
+                    lvl,
+                    f"{{{W_URI}}}rPr"
+                )
+
+            fonts = rpr.find(f"{{{W_URI}}}rFonts")
+
+            if fonts is None:
+                fonts = etree.SubElement(
+                    rpr,
+                    f"{{{W_URI}}}rFonts"
+                )
+
+            fonts.set(f"{{{W_URI}}}ascii", "Symbol")
+            fonts.set(f"{{{W_URI}}}hAnsi", "Symbol")
+
+    @staticmethod
     def extract_numbering(
         source_docx: Path,
         referenced_num_ids: Optional[Set[str]] = None,
@@ -177,12 +212,18 @@ class SectionXmlParser:
         If `referenced_num_ids` is supplied, only those num definitions
         (and their transitively referenced abstractNums) are returned.
         Otherwise, everything is returned.
+
+        Any extracted abstract numbering definitions are converted
+        to bullet lists so ordered lists become unordered lists when
+        inserted into the target template.
         """
         try:
             with zipfile.ZipFile(str(source_docx)) as z:
                 if "word/numbering.xml" not in z.namelist():
                     return [], []
+
                 data = z.read("word/numbering.xml")
+
         except (KeyError, zipfile.BadZipFile):
             return [], []
 
@@ -191,28 +232,74 @@ class SectionXmlParser:
         all_num = root.xpath("w:num", namespaces=NS)
         all_abstract = root.xpath("w:abstractNum", namespaces=NS)
 
+        # If no filtering requested, use all numbering definitions
         if referenced_num_ids is None:
-            return all_abstract, all_num
 
-        # Filter num elements
+            converted_abstracts = []
+
+            for abstract in all_abstract:
+                abstract_copy = etree.fromstring(
+                    etree.tostring(abstract)
+                )
+
+                SectionXmlParser._force_abstract_num_to_bullets(
+                    abstract_copy
+                )
+
+                converted_abstracts.append(abstract_copy)
+
+            return converted_abstracts, all_num
+
+        # ----------------------------------------------------------
+        # Filter num elements actually referenced by this section
+        # ----------------------------------------------------------
+
         wanted_num: List[etree._Element] = []
         wanted_abstract_ids: Set[str] = set()
 
         for num_el in all_num:
+
             nid = num_el.get(f"{{{W_URI}}}numId")
+
             if nid in referenced_num_ids:
-                wanted_num.append(num_el)
+
+                wanted_num.append(
+                    etree.fromstring(etree.tostring(num_el))
+                )
+
                 for abs_ref in num_el.xpath(
-                    "w:abstractNumId", namespaces=NS
+                    "w:abstractNumId",
+                    namespaces=NS,
                 ):
                     aid = abs_ref.get(f"{{{W_URI}}}val")
+
                     if aid:
                         wanted_abstract_ids.add(aid)
 
-        wanted_abstract = [
-            a for a in all_abstract
-            if a.get(f"{{{W_URI}}}abstractNumId") in wanted_abstract_ids
-        ]
+        # ----------------------------------------------------------
+        # Collect matching abstract numbering definitions
+        # ----------------------------------------------------------
+
+        wanted_abstract: List[etree._Element] = []
+
+        for abstract in all_abstract:
+
+            abstract_id = abstract.get(
+                f"{{{W_URI}}}abstractNumId"
+            )
+
+            if abstract_id in wanted_abstract_ids:
+
+                abstract_copy = etree.fromstring(
+                    etree.tostring(abstract)
+                )
+
+                SectionXmlParser._force_abstract_num_to_bullets(
+                    abstract_copy
+                )
+
+                wanted_abstract.append(abstract_copy)
+
         return wanted_abstract, wanted_num
 
     # ─────────────────────────────────────────────────────────────
