@@ -127,15 +127,7 @@ def remove_images():
 
 
 # Path to the template docx
-TEMPLATE_PATH = (
-    Path(__file__).resolve().parent.parent.parent
-    / "Downloads"
-    / "FRM-11110-CarolineWei.docx"
-)
-if not TEMPLATE_PATH.exists():
-    TEMPLATE_PATH = Path(
-        os.path.expanduser("~/Downloads/FRM-11110-CarolineWei.docx")
-    )
+TEMPLATE_PATH = Path(__file__).resolve().parent / "FRM-11110-Template.docx"
 
 
 @app.route("/populate-template", methods=["POST"])
