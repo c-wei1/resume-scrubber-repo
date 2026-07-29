@@ -17,8 +17,15 @@ from clean_resume import process_docx, _prepend_user_info
 from populate_with_model import populate_from_source_with_model
 
 
-app = Flask(__name__)
+STATIC_DIR = Path(__file__).resolve().parent / "static"
+
+app = Flask(__name__, static_folder=str(STATIC_DIR), static_url_path="")
 CORS(app)
+
+
+@app.route("/")
+def serve_index():
+    return app.send_static_file("index.html")
 
 
 # ═════════════════════════════════════════════════════════════════════
