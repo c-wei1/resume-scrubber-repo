@@ -5,6 +5,9 @@ import zipfile
 import tempfile
 from pathlib import Path
 
+# Ensure sibling modules are importable when run as a package (e.g. gunicorn backend.app:app)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 from flask import Flask, request, send_file, jsonify
 from flask_cors import CORS
 from lxml import etree
