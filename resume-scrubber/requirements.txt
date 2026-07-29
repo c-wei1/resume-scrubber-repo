@@ -2,4 +2,7 @@ flask
 flask-cors
 gunicorn
 lxml
+numpy
+python-docx
+scikit-learn
 spacy>=3.8.0,<3.9.0
