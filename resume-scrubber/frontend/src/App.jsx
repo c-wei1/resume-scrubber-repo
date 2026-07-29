@@ -119,6 +119,7 @@ export default function App() {
   const [jobTitle, setJobTitle] = useState('')
   const [department, setDepartment] = useState('')
   const [validationMsg, setValidationMsg] = useState(null)
+  const [showWarning, setShowWarning] = useState(false)
   const inputRef = useRef()
 
   const getMissingFields = () => {
@@ -188,6 +189,7 @@ export default function App() {
       a.remove()
       URL.revokeObjectURL(url)
       setDone(true)
+      setShowWarning(true)
     } catch (err) {
       setError(err.message)
     } finally {
@@ -237,6 +239,7 @@ export default function App() {
       a.remove()
       URL.revokeObjectURL(url)
       setDonePopulate(true)
+      setShowWarning(true)
     } catch (err) {
       setError(err.message)
     } finally {
@@ -336,6 +339,31 @@ export default function App() {
           Upload CV
         </button>
       </div>
+
+      {showWarning && (
+        <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000 }}>
+          <div style={{ background: '#fff', borderRadius: 12, padding: '32px 36px', maxWidth: 420, width: '90%', boxShadow: '0 8px 32px rgba(0,0,0,0.2)' }}>
+            <h2 style={{ fontSize: 18, fontWeight: 700, color: '#0f172a', marginTop: 0, marginBottom: 12 }}>
+              ⚠️ Please Review Your CV
+            </h2>
+            <p style={{ fontSize: 14, color: '#374151', lineHeight: 1.6, margin: '0 0 8px' }}>
+              Before submitting, carefully check the returned CV to ensure no personal data remains, including:
+            </p>
+            <ul style={{ fontSize: 14, color: '#374151', lineHeight: 1.8, margin: '0 0 20px', paddingLeft: 20 }}>
+              <li>Personal email addresses</li>
+              <li>Home addresses</li>
+              <li>Website links (LinkedIn, personal sites, etc.)</li>
+              <li>Phone numbers</li>
+            </ul>
+            <button
+              onClick={() => setShowWarning(false)}
+              style={{ width: '100%', padding: '10px 0', background: '#2563eb', color: '#fff', border: 'none', borderRadius: 7, fontSize: 15, fontWeight: 600, cursor: 'pointer' }}
+            >
+              I understand
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
