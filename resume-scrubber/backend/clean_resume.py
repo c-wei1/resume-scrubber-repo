@@ -366,10 +366,11 @@ def _prepend_user_info(
     name: str,
     title: str,
     department: str,
+    responsibilities: str = "",
 ) -> io.BytesIO:
     """
-    Prepend name, title, and department as a paragraph at the top of the
-    first page in 12pt Times New Roman.
+    Prepend name, title, department, and responsibilities as paragraphs at
+    the top of the first page in 12pt Times New Roman.
     """
     W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 
@@ -421,6 +422,16 @@ def _prepend_user_info(
             return para
 
         # Insert in reverse order so final order is correct
+        # (responsibilities go after name/title/department)
+        # First, insert responsibility bullets (reversed)
+        if responsibilities:
+            resp_lines = [l for l in responsibilities.splitlines() if l.strip()]
+            for line in reversed(resp_lines):
+                # Ensure each line starts with a bullet
+                bullet_line = line if line.strip().startswith("\u2022") else f"\u2022 {line.strip()}"
+                body.insert(0, _make_para(bullet_line))
+            body.insert(0, _make_para("Current Responsibilities at Gilead:", bold=True))
+
         for label, value in reversed(info_lines):
             body.insert(0, _make_para(value))
             body.insert(0, _make_para(label, bold=True))

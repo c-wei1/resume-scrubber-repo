@@ -37,12 +37,13 @@ def _replace_user_info_placeholders(
     user_name: str,
     user_title: str,
     user_department: str,
+    user_responsibilities: str = "",
 ) -> None:
     """
-    Fill INSERT_NAME / INSERT_TITLE / INSERT_DEPARTMENT placeholders inside
-    an already-populated template docx.
+    Fill INSERT_NAME / INSERT_TITLE / INSERT_DEPARTMENT / INSERT_RESPONSIBILITIES
+    placeholders inside an already-populated template docx.
     """
-    if not (user_name or user_title or user_department):
+    if not (user_name or user_title or user_department or user_responsibilities):
         return
 
     W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
@@ -71,6 +72,53 @@ def _replace_user_info_placeholders(
                 t_node.text = t_node.text.replace(
                     "INSERT_DEPARTMENT", user_department
                 )
+            if "INSERT_RESPONSIBILITIES" in t_node.text:
+                if user_responsibilities:
+                    # Replace the placeholder with the first bullet line;
+                    # remaining bullets are added as sibling <w:p> elements.
+                    lines = [l for l in user_responsibilities.splitlines() if l.strip()]
+                    t_node.text = t_node.text.replace(
+                        "INSERT_RESPONSIBILITIES",
+                        lines[0] if lines else "",
+                    )
+                    if len(lines) > 1:
+                        # Insert additional bullet paragraphs after the current <w:p>
+                        current_p = t_node.getparent()  # <w:r>
+                        while current_p is not None and current_p.tag != f"{{{W}}}p":
+                            current_p = current_p.getparent()
+                        if current_p is not None:
+                            # Copy paragraph properties from the original for
+                            # correct table-cell word wrapping
+                            from copy import deepcopy
+                            orig_pPr = current_p.find(f"{{{W}}}pPr")
+                            parent = current_p.getparent()
+                            idx = list(parent).index(current_p)
+                            for i, line in enumerate(lines[1:], start=1):
+                                new_p = etree.SubElement(parent, f"{{{W}}}p")
+                                parent.remove(new_p)
+                                parent.insert(idx + i, new_p)
+                                if orig_pPr is not None:
+                                    new_p.insert(0, deepcopy(orig_pPr))
+                                new_r = etree.SubElement(new_p, f"{{{W}}}r")
+                                new_rPr = etree.SubElement(new_r, f"{{{W}}}rPr")
+                                new_rStyle = etree.SubElement(new_rPr, f"{{{W}}}rStyle")
+                                new_rStyle.set(f"{{{W}}}val", "BodyTextChar")
+                                new_rFonts = etree.SubElement(new_rPr, f"{{{W}}}rFonts")
+                                new_rFonts.set(f"{{{W}}}eastAsiaTheme", "minorHAnsi")
+                                new_t = etree.SubElement(new_r, f"{{{W}}}t")
+                                new_t.text = line
+                                new_t.set(f"{{{W}}}space", "preserve")
+                else:
+                    t_node.text = t_node.text.replace(
+                        "INSERT_RESPONSIBILITIES", ""
+                    )
+
+        # Ensure all tables use fixed layout so cells don't expand
+        # beyond the page when text is long.
+        for tblPr in root.iter(f"{{{W}}}tblPr"):
+            if tblPr.find(f"{{{W}}}tblLayout") is None:
+                layout = etree.SubElement(tblPr, f"{{{W}}}tblLayout")
+                layout.set(f"{{{W}}}type", "fixed")
 
         tree.write(
             str(doc_xml),
@@ -104,12 +152,14 @@ def remove_images():
     user_name = request.form.get("name", "").strip()
     user_title = request.form.get("title", "").strip()
     user_department = request.form.get("department", "").strip()
+    user_responsibilities = request.form.get("responsibilities", "").strip()
 
     output = process_docx(file.read())
 
     if user_name or user_title or user_department:
         output = _prepend_user_info(
-            output, user_name, user_title, user_department
+            output, user_name, user_title, user_department,
+            user_responsibilities,
         )
 
     download_name = f"clean_{file.filename}"
@@ -146,6 +196,7 @@ def populate_template():
     user_name = request.form.get("name", "").strip()
     user_title = request.form.get("title", "").strip()
     user_department = request.form.get("department", "").strip()
+    user_responsibilities = request.form.get("responsibilities", "").strip()
 
     tmp_input_path: Path = None
     tmp_output_path: Path = None
@@ -176,6 +227,7 @@ def populate_template():
             user_name,
             user_title,
             user_department,
+            user_responsibilities,
         )
 
         # ── 4. Detect empty sections ─────────────────────────

@@ -118,17 +118,22 @@ export default function App() {
   const [name, setName] = useState('')
   const [jobTitle, setJobTitle] = useState('')
   const [department, setDepartment] = useState('')
+  const [responsibilities, setResponsibilities] = useState('')
   const [validationMsg, setValidationMsg] = useState(null)
   const [showWarning, setShowWarning] = useState(false)
   const [outputFormat, setOutputFormat] = useState('keep')
   const [downloadedFileName, setDownloadedFileName] = useState('')
   const inputRef = useRef()
 
+  const responsibilitiesCharCount = responsibilities.length
+  const responsibilitiesTooShort = responsibilitiesCharCount > 0 && responsibilitiesCharCount < 150
+
   const getMissingFields = () => {
     const missing = []
     if (!name.trim()) missing.push('Name')
     if (!jobTitle.trim()) missing.push('Job Title')
     if (!department.trim()) missing.push('Department')
+    if (!responsibilities.trim()) missing.push('Current Responsibilities at Gilead')
     if (!file) missing.push('Resume file')
     return missing
   }
@@ -161,6 +166,10 @@ export default function App() {
       setValidationMsg(`Please provide ${missing.join(', ')}`)
       return
     }
+    if (responsibilitiesTooShort) {
+      setValidationMsg('Current Responsibilities must be at least 150 characters.')
+      return
+    }
     setValidationMsg(null)
 
     if (outputFormat === 'template') {
@@ -177,6 +186,7 @@ export default function App() {
     body.append('name', name)
     body.append('title', jobTitle)
     body.append('department', department)
+    body.append('responsibilities', responsibilities)
 
     try {
       const res = await fetch('/remove-images', { method: 'POST', body })
@@ -212,6 +222,10 @@ export default function App() {
       setValidationMsg(`Please provide ${missing.join(', ')}`)
       return
     }
+    if (responsibilitiesTooShort) {
+      setValidationMsg('Current Responsibilities must be at least 150 characters.')
+      return
+    }
     setValidationMsg(null)
 
     setPopulating(true)
@@ -224,6 +238,7 @@ export default function App() {
     body.append('name', name)
     body.append('title', jobTitle)
     body.append('department', department)
+    body.append('responsibilities', responsibilities)
 
     try {
       const res = await fetch('/populate-template', { method: 'POST', body })
@@ -280,6 +295,40 @@ export default function App() {
             <label style={styles.label}>Department <span style={{ color: '#dc2626' }}>*</span></label>
             <input style={styles.input} value={department} onChange={(e) => setDepartment(e.target.value)} placeholder="e.g. Regulatory Affairs" />
           </div>
+          <div style={styles.inputGroup}>
+            <label style={styles.label}>Current Responsibilities at Gilead <span style={{ color: '#dc2626' }}>*</span></label>
+            <div style={{ position: 'relative' }}>
+              <textarea
+                style={{ ...styles.input, minHeight: 120, resize: 'vertical', fontFamily: 'inherit', lineHeight: 1.5 }}
+                value={responsibilities}
+                onChange={(e) => setResponsibilities(e.target.value)}
+                placeholder={'Responsibility 1\nResponsibility 2\nResponsibility 3'}
+              />
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 4 }}>
+                <button
+                  type="button"
+                  onClick={() => {
+                    const lines = responsibilities.split('\n').map(l => {
+                      const stripped = l.replace(/^[\s•\-\*]+/, '').trim()
+                      return stripped ? `• ${stripped}` : ''
+                    })
+                    setResponsibilities(lines.join('\n'))
+                  }}
+                  style={{ background: 'none', border: '1px solid #d1d5db', borderRadius: 5, padding: '3px 10px', fontSize: 12, color: '#374151', cursor: 'pointer' }}
+                >
+                  ● Format as bullet points
+                </button>
+                <span style={{ fontSize: 11, color: '#94a3b8' }}>
+                  {responsibilitiesCharCount} characters
+                </span>
+              </div>
+            </div>
+            {responsibilitiesTooShort && (
+              <p style={{ color: '#dc2626', fontSize: 13, marginTop: 4, marginBottom: 0 }}>
+                Error: &quot;Current Responsibilities&quot; should have a minimum of 150 characters.
+              </p>
+            )}
+          </div>
 
           <h3 style={{ fontSize: 14, fontWeight: 700, color: '#0f172a', marginBottom: 12, marginTop: 20 }}>Step 2: Upload Your Resume</h3>
           <div
@@ -308,13 +357,7 @@ export default function App() {
           {error && <p style={styles.error}>{error}</p>}
           {validationMsg && <p style={styles.error}>{validationMsg}</p>}
 
-          {done && (
-            <div style={styles.success}>
-              Downloaded as: <strong>{downloadedFileName}</strong>
-            </div>
-          )}
-
-          {donePopulate && (
+          {(done || donePopulate) && (
             <div style={styles.success}>
               Downloaded as: <strong>{downloadedFileName}</strong>
             </div>
