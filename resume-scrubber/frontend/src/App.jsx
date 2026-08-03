@@ -120,6 +120,8 @@ export default function App() {
   const [department, setDepartment] = useState('')
   const [validationMsg, setValidationMsg] = useState(null)
   const [showWarning, setShowWarning] = useState(false)
+  const [outputFormat, setOutputFormat] = useState('keep')
+  const [downloadedFileName, setDownloadedFileName] = useState('')
   const inputRef = useRef()
 
   const getMissingFields = () => {
@@ -156,10 +158,15 @@ export default function App() {
     e.preventDefault()
     const missing = getMissingFields()
     if (missing.length > 0) {
-      setValidationMsg(`Please provide: ${missing.join(', ')}`)
+      setValidationMsg(`Please provide ${missing.join(', ')}`)
       return
     }
     setValidationMsg(null)
+
+    if (outputFormat === 'template') {
+      handlePopulate()
+      return
+    }
 
     setLoading(true)
     setError(null)
@@ -181,13 +188,15 @@ export default function App() {
 
       const blob = await res.blob()
       const url = URL.createObjectURL(blob)
+      const downloadName = `clean_${file.name}`
       const a = document.createElement('a')
       a.href = url
-      a.download = `clean_${file.name}`
+      a.download = downloadName
       document.body.appendChild(a)
       a.click()
       a.remove()
       URL.revokeObjectURL(url)
+      setDownloadedFileName(downloadName)
       setDone(true)
       setShowWarning(true)
     } catch (err) {
@@ -200,7 +209,7 @@ export default function App() {
   const handlePopulate = async () => {
     const missing = getMissingFields()
     if (missing.length > 0) {
-      setValidationMsg(`Please provide: ${missing.join(', ')}`)
+      setValidationMsg(`Please provide ${missing.join(', ')}`)
       return
     }
     setValidationMsg(null)
@@ -231,13 +240,15 @@ export default function App() {
 
       const blob = await res.blob()
       const url = URL.createObjectURL(blob)
+      const downloadName = `populated_${file.name}`
       const a = document.createElement('a')
       a.href = url
-      a.download = `populated_${file.name}`
+      a.download = downloadName
       document.body.appendChild(a)
       a.click()
       a.remove()
       URL.revokeObjectURL(url)
+      setDownloadedFileName(downloadName)
       setDonePopulate(true)
       setShowWarning(true)
     } catch (err) {
@@ -252,10 +263,11 @@ export default function App() {
       <div style={styles.card}>
         <h1 style={styles.title}>Resume Processor</h1>
         <p style={styles.subtitle}>
-          Upload your resume as a .docx file to get a validated CV.
+          Upload your resume as a .docx file to receive a GVault-ready CV
         </p>
 
         <form onSubmit={handleSubmit}>
+          <h3 style={{ fontSize: 14, fontWeight: 700, color: '#0f172a', marginBottom: 12, marginTop: 0 }}>Step 1: Fill in Your Information</h3>
           <div style={styles.inputGroup}>
             <label style={styles.label}>Name <span style={{ color: '#dc2626' }}>*</span></label>
             <input style={styles.input} value={name} onChange={(e) => setName(e.target.value)} placeholder="e.g. John Smith" />
@@ -269,6 +281,7 @@ export default function App() {
             <input style={styles.input} value={department} onChange={(e) => setDepartment(e.target.value)} placeholder="e.g. Regulatory Affairs" />
           </div>
 
+          <h3 style={{ fontSize: 14, fontWeight: 700, color: '#0f172a', marginBottom: 12, marginTop: 20 }}>Step 2: Upload Your Resume</h3>
           <div
             style={styles.dropzone(dragging || !!file)}
             onClick={() => inputRef.current.click()}
@@ -297,13 +310,13 @@ export default function App() {
 
           {done && (
             <div style={styles.success}>
-              Redacted file download started — check your downloads folder.
+              Downloaded as: <strong>{downloadedFileName}</strong>
             </div>
           )}
 
           {donePopulate && (
             <div style={styles.success}>
-              Populated template download started — check your downloads folder.
+              Downloaded as: <strong>{downloadedFileName}</strong>
             </div>
           )}
 
@@ -311,26 +324,31 @@ export default function App() {
             <div style={{ marginTop: 10, padding: '10px 14px', background: '#fef9c3', border: '1px solid #fde047', borderRadius: 6, fontSize: 13, color: '#854d0e' }}>
               {emptySections.map(section => (
                 <p key={section} style={{ margin: '4px 0' }}>
-                  ⚠ No <strong>{section}</strong> section detected — please add a header for {section} in the original resume.
+                  ⚠ No <strong>{section}</strong> section detected — please add a header for <strong>{section}</strong> in the original resume and re-upload, or fill out <strong>{section}</strong> in <strong>{downloadedFileName}</strong> before continuing to <strong>Step 5</strong>.
                 </p>
               ))}
             </div>
           )}
 
+          <div style={{ marginTop: 20, marginBottom: 12 }}>
+            <h3 style={{ fontSize: 14, fontWeight: 700, color: '#0f172a', marginBottom: 8, marginTop: 0 }}>Step 3: Select Your Output Format</h3>
+            <label style={{ display: 'flex', alignItems: 'center', fontSize: 14, color: '#1e293b', cursor: 'pointer', marginBottom: 6 }}>
+              <input type="radio" name="outputFormat" value="keep" checked={outputFormat === 'keep'} onChange={() => setOutputFormat('keep')} style={{ marginRight: 8 }} />
+              Keep my resume format
+            </label>
+            <label style={{ display: 'flex', alignItems: 'center', fontSize: 14, color: '#1e293b', cursor: 'pointer' }}>
+              <input type="radio" name="outputFormat" value="template" checked={outputFormat === 'template'} onChange={() => setOutputFormat('template')} style={{ marginRight: 8 }} />
+              Use provided CV template
+            </label>
+          </div>
+
+          <h3 style={{ fontSize: 14, fontWeight: 700, color: '#0f172a', marginBottom: 12, marginTop: 20 }}>Step 4: Download</h3>
           <button type="submit" disabled={loading || populating} style={styles.button(loading || populating)}>
-            {loading ? 'Redacting...' : 'Redact sensitive information & Download'}
+            {loading || populating ? 'Processing...' : 'Download'}
           </button>
         </form>
 
-        <button
-          type="button"
-          disabled={loading || populating}
-          style={styles.buttonSecondary(loading || populating)}
-          onClick={handlePopulate}
-        >
-          {populating ? 'Populating...' : 'Populate Template & Download'}
-        </button>
-
+        <h3 style={{ fontSize: 14, fontWeight: 700, color: '#0f172a', marginBottom: 12, marginTop: 20 }}>Step 5: Upload CV to GVault</h3>
         <button
           type="button"
           style={styles.buttonTertiary}
