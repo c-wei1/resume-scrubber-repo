@@ -302,7 +302,7 @@ export default function App() {
                 style={{ ...styles.input, minHeight: 120, resize: 'vertical', fontFamily: 'inherit', lineHeight: 1.5 }}
                 value={responsibilities}
                 onChange={(e) => setResponsibilities(e.target.value)}
-                placeholder={'Responsibility 1\nResponsibility 2\nResponsibility 3'}
+                placeholder={'• Collaborate with cross-functional teams to support project execution and business objectives.\n• Analyze data and processes to identify improvements and recommend solutions.\n• Create documentation, reports, and presentations to support team initiatives and decision-making.'}
               />
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 4 }}>
                 <button
