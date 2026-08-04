@@ -1,0 +1,24 @@
+.ql-editor {
+  min-height: 120px;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ql-toolbar.ql-snow {
+  border: none;
+  border-bottom: 1px solid #d1d5db;
+  background: #f8fafc;
+  padding: 6px 8px;
+}
+
+.ql-container.ql-snow {
+  border: none;
+}
+
+/* Hide font and color options - only allow bullets and basic formatting */
+.ql-snow .ql-picker.ql-font,
+.ql-snow .ql-picker.ql-size,
+.ql-snow .ql-color-picker {
+  display: none;
+}

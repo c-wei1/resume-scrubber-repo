@@ -1,4 +1,7 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useMemo } from 'react'
+import ReactQuill from 'react-quill'
+import 'react-quill/dist/quill.snow.css'
+import './quill-custom.css'
 
 const styles = {
   page: {
@@ -104,6 +107,13 @@ const styles = {
     boxSizing: 'border-box',
     outline: 'none',
   },
+  fieldError: {
+    color: '#dc2626',
+    fontSize: 12,
+    marginTop: 4,
+    marginBottom: 0,
+    fontWeight: 500,
+  },
 }
 
 export default function App() {
@@ -119,23 +129,64 @@ export default function App() {
   const [jobTitle, setJobTitle] = useState('')
   const [department, setDepartment] = useState('')
   const [responsibilities, setResponsibilities] = useState('')
-  const [validationMsg, setValidationMsg] = useState(null)
+  const [fieldErrors, setFieldErrors] = useState({})
   const [showWarning, setShowWarning] = useState(false)
   const [outputFormat, setOutputFormat] = useState('keep')
   const [downloadedFileName, setDownloadedFileName] = useState('')
   const inputRef = useRef()
+  const nameRef = useRef()
+  const jobTitleRef = useRef()
+  const departmentRef = useRef()
+  const responsibilitiesRef = useRef()
+  const fileRef = useRef()
 
-  const responsibilitiesCharCount = responsibilities.length
+  const getPlainTextLength = (html) => {
+    const tmp = document.createElement('div')
+    tmp.innerHTML = html
+    return (tmp.textContent || tmp.innerText || '').trim().length
+  }
+
+  const responsibilitiesCharCount = getPlainTextLength(responsibilities)
   const responsibilitiesTooShort = responsibilitiesCharCount > 0 && responsibilitiesCharCount < 150
 
-  const getMissingFields = () => {
-    const missing = []
-    if (!name.trim()) missing.push('Name')
-    if (!jobTitle.trim()) missing.push('Job Title')
-    if (!department.trim()) missing.push('Department')
-    if (!responsibilities.trim()) missing.push('Current Responsibilities at Gilead')
-    if (!file) missing.push('Resume file')
-    return missing
+  const quillModules = useMemo(() => ({
+    toolbar: {
+      container: [
+        [{ 'list': 'ordered' }, { 'list': 'bullet' }],
+        [{ 'indent': '-1' }, { 'indent': '+1' }],
+        ['bold', 'italic', 'underline'],
+        ['clean'],
+      ],
+    },
+  }), [])
+
+  const quillFormats = ['list', 'indent', 'bold', 'italic', 'underline']
+
+  const validateFields = () => {
+    const errors = {}
+    if (!name.trim()) errors.name = 'Name is required'
+    if (!jobTitle.trim()) errors.jobTitle = 'Job Title is required'
+    if (!department.trim()) errors.department = 'Department is required'
+    if (!responsibilities.trim() || getPlainTextLength(responsibilities) === 0) errors.responsibilities = 'Current Responsibilities at Gilead is required'
+    else if (responsibilitiesTooShort) errors.responsibilities = 'Current Responsibilities must be at least 150 characters.'
+    if (!file) errors.file = 'Resume file is required'
+    return errors
+  }
+
+  const scrollToFirstError = (errors) => {
+    const fieldOrder = [
+      { key: 'name', ref: nameRef },
+      { key: 'jobTitle', ref: jobTitleRef },
+      { key: 'department', ref: departmentRef },
+      { key: 'responsibilities', ref: responsibilitiesRef },
+      { key: 'file', ref: fileRef },
+    ]
+    for (const field of fieldOrder) {
+      if (errors[field.key] && field.ref.current) {
+        field.ref.current.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        break
+      }
+    }
   }
 
   const accept = (f) => {
@@ -147,7 +198,7 @@ export default function App() {
     }
     setFile(f)
     setError(null)
-    setValidationMsg(null)
+    setFieldErrors((prev) => ({ ...prev, file: undefined }))
     setDone(false)
     setDonePopulate(false)
     setEmptySections([])
@@ -161,16 +212,13 @@ export default function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    const missing = getMissingFields()
-    if (missing.length > 0) {
-      setValidationMsg(`Please provide ${missing.join(', ')}`)
+    const errors = validateFields()
+    if (Object.keys(errors).length > 0) {
+      setFieldErrors(errors)
+      scrollToFirstError(errors)
       return
     }
-    if (responsibilitiesTooShort) {
-      setValidationMsg('Current Responsibilities must be at least 150 characters.')
-      return
-    }
-    setValidationMsg(null)
+    setFieldErrors({})
 
     if (outputFormat === 'template') {
       handlePopulate()
@@ -217,16 +265,13 @@ export default function App() {
   }
 
   const handlePopulate = async () => {
-    const missing = getMissingFields()
-    if (missing.length > 0) {
-      setValidationMsg(`Please provide ${missing.join(', ')}`)
+    const errors = validateFields()
+    if (Object.keys(errors).length > 0) {
+      setFieldErrors(errors)
+      scrollToFirstError(errors)
       return
     }
-    if (responsibilitiesTooShort) {
-      setValidationMsg('Current Responsibilities must be at least 150 characters.')
-      return
-    }
-    setValidationMsg(null)
+    setFieldErrors({})
 
     setPopulating(true)
     setError(null)
@@ -283,79 +328,75 @@ export default function App() {
 
         <form onSubmit={handleSubmit}>
           <h3 style={{ fontSize: 14, fontWeight: 700, color: '#0f172a', marginBottom: 12, marginTop: 0 }}>Step 1: Fill in Your Information</h3>
-          <div style={styles.inputGroup}>
+          <div style={styles.inputGroup} ref={nameRef}>
             <label style={styles.label}>Name <span style={{ color: '#dc2626' }}>*</span></label>
-            <input style={styles.input} value={name} onChange={(e) => setName(e.target.value)} placeholder="e.g. John Smith" />
+            <input style={{ ...styles.input, ...(fieldErrors.name ? { borderColor: '#dc2626' } : {}) }} value={name} onChange={(e) => { setName(e.target.value); setFieldErrors((prev) => ({ ...prev, name: undefined })) }} placeholder="e.g. John Smith" />
+            {fieldErrors.name && <p style={styles.fieldError}>{fieldErrors.name}</p>}
           </div>
-          <div style={styles.inputGroup}>
+          <div style={styles.inputGroup} ref={jobTitleRef}>
             <label style={styles.label}>Job Title <span style={{ color: '#dc2626' }}>*</span></label>
-            <input style={styles.input} value={jobTitle} onChange={(e) => setJobTitle(e.target.value)} placeholder="e.g. Senior Manager" />
+            <input style={{ ...styles.input, ...(fieldErrors.jobTitle ? { borderColor: '#dc2626' } : {}) }} value={jobTitle} onChange={(e) => { setJobTitle(e.target.value); setFieldErrors((prev) => ({ ...prev, jobTitle: undefined })) }} placeholder="e.g. Senior Manager" />
+            {fieldErrors.jobTitle && <p style={styles.fieldError}>{fieldErrors.jobTitle}</p>}
           </div>
-          <div style={styles.inputGroup}>
+          <div style={styles.inputGroup} ref={departmentRef}>
             <label style={styles.label}>Department <span style={{ color: '#dc2626' }}>*</span></label>
-            <input style={styles.input} value={department} onChange={(e) => setDepartment(e.target.value)} placeholder="e.g. Regulatory Affairs" />
+            <input style={{ ...styles.input, ...(fieldErrors.department ? { borderColor: '#dc2626' } : {}) }} value={department} onChange={(e) => { setDepartment(e.target.value); setFieldErrors((prev) => ({ ...prev, department: undefined })) }} placeholder="e.g. Regulatory Affairs" />
+            {fieldErrors.department && <p style={styles.fieldError}>{fieldErrors.department}</p>}
           </div>
-          <div style={styles.inputGroup}>
+          <div style={styles.inputGroup} ref={responsibilitiesRef}>
             <label style={styles.label}>Current Responsibilities at Gilead <span style={{ color: '#dc2626' }}>*</span></label>
-            <div style={{ position: 'relative' }}>
-              <textarea
-                style={{ ...styles.input, minHeight: 120, resize: 'vertical', fontFamily: 'inherit', lineHeight: 1.5 }}
+            <div style={{ border: fieldErrors.responsibilities ? '1px solid #dc2626' : '1px solid #d1d5db', borderRadius: 6, overflow: 'hidden' }}>
+              <ReactQuill
+                theme="snow"
                 value={responsibilities}
-                onChange={(e) => setResponsibilities(e.target.value)}
+                onChange={(val) => { setResponsibilities(val); setFieldErrors((prev) => ({ ...prev, responsibilities: undefined })) }}
+                modules={quillModules}
+                formats={quillFormats}
                 placeholder={'• Collaborate with cross-functional teams to support project execution and business objectives.\n• Analyze data and processes to identify improvements and recommend solutions.\n• Create documentation, reports, and presentations to support team initiatives and decision-making.'}
+                style={{ minHeight: 150 }}
               />
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 4 }}>
-                <button
-                  type="button"
-                  onClick={() => {
-                    const lines = responsibilities.split('\n').map(l => {
-                      const stripped = l.replace(/^[\s•\-\*]+/, '').trim()
-                      return stripped ? `• ${stripped}` : ''
-                    })
-                    setResponsibilities(lines.join('\n'))
-                  }}
-                  style={{ background: 'none', border: '1px solid #d1d5db', borderRadius: 5, padding: '3px 10px', fontSize: 12, color: '#374151', cursor: 'pointer' }}
-                >
-                  ● Format as bullet points
-                </button>
-                <span style={{ fontSize: 11, color: '#94a3b8' }}>
-                  {responsibilitiesCharCount} characters
-                </span>
-              </div>
             </div>
-            {responsibilitiesTooShort && (
-              <p style={{ color: '#dc2626', fontSize: 13, marginTop: 4, marginBottom: 0 }}>
-                Error: &quot;Current Responsibilities&quot; should have a minimum of 150 characters.
+            <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', marginTop: 4 }}>
+              <span style={{ fontSize: 11, color: '#94a3b8' }}>
+                {responsibilitiesCharCount} characters
+              </span>
+            </div>
+            {fieldErrors.responsibilities && <p style={styles.fieldError}>{fieldErrors.responsibilities}</p>}
+            {!fieldErrors.responsibilities && responsibilitiesTooShort && (
+              <p style={styles.fieldError}>
+                Error: Current Responsibilities should have a minimum of 150 characters.
               </p>
             )}
           </div>
 
           <h3 style={{ fontSize: 14, fontWeight: 700, color: '#0f172a', marginBottom: 12, marginTop: 20 }}>Step 2: Upload Your Resume</h3>
-          <div
-            style={styles.dropzone(dragging || !!file)}
-            onClick={() => inputRef.current.click()}
-            onDragOver={(e) => { e.preventDefault(); setDragging(true) }}
-            onDragLeave={() => setDragging(false)}
-            onDrop={handleDrop}
-          >
-            <input
-              ref={inputRef}
-              type="file"
-              accept=".docx"
-              style={{ display: 'none' }}
-              onChange={(e) => accept(e.target.files[0])}
-            />
-            {file ? (
-              <p style={styles.fileName}>&#x2713; {file.name}</p>
-            ) : (
-              <p style={styles.dropLabel(dragging)}>
-                {dragging ? 'Drop it here' : 'Click or drag & drop a .docx file'}
-              </p>
-            )}
+          <div ref={fileRef}>
+            <div
+              style={styles.dropzone(dragging || !!file)}
+              onClick={() => inputRef.current.click()}
+              onDragOver={(e) => { e.preventDefault(); setDragging(true) }}
+              onDragLeave={() => setDragging(false)}
+              onDrop={handleDrop}
+            >
+              <input
+                ref={inputRef}
+                type="file"
+                accept=".docx"
+                style={{ display: 'none' }}
+                onChange={(e) => accept(e.target.files[0])}
+              />
+              {file ? (
+                <p style={styles.fileName}>&#x2713; {file.name}</p>
+              ) : (
+                <p style={styles.dropLabel(dragging)}>
+                  {dragging ? 'Drop it here' : 'Click or drag & drop a .docx file'}
+                </p>
+              )}
+            </div>
+            {fieldErrors.file && <p style={styles.fieldError}>{fieldErrors.file}</p>}
           </div>
 
           {error && <p style={styles.error}>{error}</p>}
-          {validationMsg && <p style={styles.error}>{validationMsg}</p>}
 
           {(done || donePopulate) && (
             <div style={styles.success}>
