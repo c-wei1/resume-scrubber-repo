@@ -13,6 +13,7 @@ from flask_cors import CORS
 from lxml import etree
 
 from clean_resume import process_docx, _prepend_user_info
+from html_to_docx import parse_quill_html
 
 from populate_with_model import populate_from_source_with_model
 
@@ -32,6 +33,38 @@ def serve_index():
 # Template population
 # ═════════════════════════════════════════════════════════════════════
 
+def _runs_to_prefix(para_data: dict, ol_counter: int) -> str:
+    """Return a bullet/number prefix string based on the paragraph's list type."""
+    lt = para_data.get('list_type')
+    combined = ''.join(r['text'] for r in para_data.get('runs', [])).strip()
+    if lt == 'bullet':
+        if not combined.startswith('\u2022'):
+            return '\u2022 '
+    elif lt == 'ordered':
+        return f'{ol_counter}. '
+    return ''
+
+
+def _add_run(parent_p, text, W, bold=False, italic=False, underline=False):
+    """Add a <w:r> element with optional formatting to a paragraph."""
+    new_r = etree.SubElement(parent_p, f"{{{W}}}r")
+    new_rPr = etree.SubElement(new_r, f"{{{W}}}rPr")
+    new_rStyle = etree.SubElement(new_rPr, f"{{{W}}}rStyle")
+    new_rStyle.set(f"{{{W}}}val", "BodyTextChar")
+    new_rFonts = etree.SubElement(new_rPr, f"{{{W}}}rFonts")
+    new_rFonts.set(f"{{{W}}}eastAsiaTheme", "minorHAnsi")
+    if bold:
+        etree.SubElement(new_rPr, f"{{{W}}}b")
+    if italic:
+        etree.SubElement(new_rPr, f"{{{W}}}i")
+    if underline:
+        u_el = etree.SubElement(new_rPr, f"{{{W}}}u")
+        u_el.set(f"{{{W}}}val", "single")
+    new_t = etree.SubElement(new_r, f"{{{W}}}t")
+    new_t.text = text
+    new_t.set(f"{{{W}}}space", "preserve")
+
+
 def _replace_user_info_placeholders(
     docx_path: Path,
     user_name: str,
@@ -42,6 +75,8 @@ def _replace_user_info_placeholders(
     """
     Fill INSERT_NAME / INSERT_TITLE / INSERT_DEPARTMENT / INSERT_RESPONSIBILITIES
     placeholders inside an already-populated template docx.
+    Supports Quill HTML in user_responsibilities to preserve bold/italic/underline
+    and bullet/ordered list formatting.
     """
     if not (user_name or user_title or user_department or user_responsibilities):
         return
@@ -74,40 +109,84 @@ def _replace_user_info_placeholders(
                 )
             if "INSERT_RESPONSIBILITIES" in t_node.text:
                 if user_responsibilities:
-                    # Replace the placeholder with the first bullet line;
-                    # remaining bullets are added as sibling <w:p> elements.
-                    lines = [l for l in user_responsibilities.splitlines() if l.strip()]
-                    t_node.text = t_node.text.replace(
-                        "INSERT_RESPONSIBILITIES",
-                        lines[0] if lines else "",
-                    )
-                    if len(lines) > 1:
-                        # Insert additional bullet paragraphs after the current <w:p>
-                        current_p = t_node.getparent()  # <w:r>
-                        while current_p is not None and current_p.tag != f"{{{W}}}p":
-                            current_p = current_p.getparent()
-                        if current_p is not None:
-                            # Copy paragraph properties from the original for
-                            # correct table-cell word wrapping
-                            from copy import deepcopy
-                            orig_pPr = current_p.find(f"{{{W}}}pPr")
-                            parent = current_p.getparent()
-                            idx = list(parent).index(current_p)
-                            for i, line in enumerate(lines[1:], start=1):
-                                new_p = etree.SubElement(parent, f"{{{W}}}p")
-                                parent.remove(new_p)
-                                parent.insert(idx + i, new_p)
-                                if orig_pPr is not None:
-                                    new_p.insert(0, deepcopy(orig_pPr))
-                                new_r = etree.SubElement(new_p, f"{{{W}}}r")
-                                new_rPr = etree.SubElement(new_r, f"{{{W}}}rPr")
-                                new_rStyle = etree.SubElement(new_rPr, f"{{{W}}}rStyle")
-                                new_rStyle.set(f"{{{W}}}val", "BodyTextChar")
-                                new_rFonts = etree.SubElement(new_rPr, f"{{{W}}}rFonts")
-                                new_rFonts.set(f"{{{W}}}eastAsiaTheme", "minorHAnsi")
-                                new_t = etree.SubElement(new_r, f"{{{W}}}t")
-                                new_t.text = line
-                                new_t.set(f"{{{W}}}space", "preserve")
+                    parsed = parse_quill_html(user_responsibilities)
+                    if parsed:
+                        # Build numbered-list counters
+                        ol_counter = 0
+                        flat_lines = []
+                        for p in parsed:
+                            if p['list_type'] == 'ordered':
+                                ol_counter += 1
+                            else:
+                                if p['list_type'] != 'ordered':
+                                    ol_counter = 0
+                            flat_lines.append((p, ol_counter))
+
+                        # First paragraph: replace placeholder text with first line
+                        first_para, first_ol = flat_lines[0]
+                        first_text = _runs_to_prefix(first_para, first_ol) + ''.join(
+                            r['text'] for r in first_para['runs']
+                        ).strip()
+                        t_node.text = t_node.text.replace(
+                            "INSERT_RESPONSIBILITIES", first_text
+                        )
+
+                        # Additional paragraphs as rich runs
+                        if len(flat_lines) > 1:
+                            current_p = t_node.getparent()
+                            while current_p is not None and current_p.tag != f"{{{W}}}p":
+                                current_p = current_p.getparent()
+                            if current_p is not None:
+                                from copy import deepcopy
+                                orig_pPr = current_p.find(f"{{{W}}}pPr")
+                                parent = current_p.getparent()
+                                idx = list(parent).index(current_p)
+                                for i, (para_data, ol_num) in enumerate(flat_lines[1:], start=1):
+                                    new_p = etree.SubElement(parent, f"{{{W}}}p")
+                                    parent.remove(new_p)
+                                    parent.insert(idx + i, new_p)
+                                    if orig_pPr is not None:
+                                        new_p.insert(0, deepcopy(orig_pPr))
+
+                                    # Add bullet/number prefix
+                                    prefix = _runs_to_prefix(para_data, ol_num)
+                                    if prefix:
+                                        _add_run(new_p, prefix, W)
+
+                                    # Add each formatted run
+                                    for run_data in para_data['runs']:
+                                        text = run_data['text']
+                                        if not text:
+                                            continue
+                                        _add_run(
+                                            new_p, text, W,
+                                            bold=run_data.get('bold', False),
+                                            italic=run_data.get('italic', False),
+                                            underline=run_data.get('underline', False),
+                                        )
+                    else:
+                        # Fallback: plain text
+                        lines = [l for l in user_responsibilities.splitlines() if l.strip()]
+                        t_node.text = t_node.text.replace(
+                            "INSERT_RESPONSIBILITIES",
+                            lines[0] if lines else "",
+                        )
+                        if len(lines) > 1:
+                            current_p = t_node.getparent()
+                            while current_p is not None and current_p.tag != f"{{{W}}}p":
+                                current_p = current_p.getparent()
+                            if current_p is not None:
+                                from copy import deepcopy
+                                orig_pPr = current_p.find(f"{{{W}}}pPr")
+                                parent = current_p.getparent()
+                                idx = list(parent).index(current_p)
+                                for i, line in enumerate(lines[1:], start=1):
+                                    new_p = etree.SubElement(parent, f"{{{W}}}p")
+                                    parent.remove(new_p)
+                                    parent.insert(idx + i, new_p)
+                                    if orig_pPr is not None:
+                                        new_p.insert(0, deepcopy(orig_pPr))
+                                    _add_run(new_p, line, W)
                 else:
                     t_node.text = t_node.text.replace(
                         "INSERT_RESPONSIBILITIES", ""

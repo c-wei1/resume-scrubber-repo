@@ -7,6 +7,7 @@ from pathlib import Path
 from lxml import etree
 
 from address_identifier import redact_addresses, is_address_line
+from html_to_docx import parse_quill_html
 
 
 NS = {
@@ -397,15 +398,9 @@ def _prepend_user_info(
         if department:
             info_lines.append(("Department:", department))
 
-        def _make_para(text, bold=False):
-            """Create a <w:p> with 12pt Times New Roman, no extra spacing."""
-            para = etree.Element(f"{{{W}}}p")
-            pPr = etree.SubElement(para, f"{{{W}}}pPr")
-            spacing = etree.SubElement(pPr, f"{{{W}}}spacing")
-            spacing.set(f"{{{W}}}after", "0")
-            spacing.set(f"{{{W}}}line", "240")
-            spacing.set(f"{{{W}}}lineRule", "auto")
-            run = etree.SubElement(para, f"{{{W}}}r")
+        def _make_run(parent, text, bold=False, italic=False, underline=False):
+            """Add a <w:r> with 12pt Times New Roman and optional formatting."""
+            run = etree.SubElement(parent, f"{{{W}}}r")
             rPr = etree.SubElement(run, f"{{{W}}}rPr")
             rFonts = etree.SubElement(rPr, f"{{{W}}}rFonts")
             rFonts.set(f"{{{W}}}ascii", "Times New Roman")
@@ -416,20 +411,88 @@ def _prepend_user_info(
             szCs.set(f"{{{W}}}val", "24")
             if bold:
                 etree.SubElement(rPr, f"{{{W}}}b")
+            if italic:
+                etree.SubElement(rPr, f"{{{W}}}i")
+            if underline:
+                u = etree.SubElement(rPr, f"{{{W}}}u")
+                u.set(f"{{{W}}}val", "single")
             t = etree.SubElement(run, f"{{{W}}}t")
             t.text = text
             t.set(f"{{{W}}}space", "preserve")
+            return run
+
+        def _make_para(text, bold=False):
+            """Create a <w:p> with 12pt Times New Roman, no extra spacing."""
+            para = etree.Element(f"{{{W}}}p")
+            pPr = etree.SubElement(para, f"{{{W}}}pPr")
+            spacing = etree.SubElement(pPr, f"{{{W}}}spacing")
+            spacing.set(f"{{{W}}}after", "0")
+            spacing.set(f"{{{W}}}line", "240")
+            spacing.set(f"{{{W}}}lineRule", "auto")
+            _make_run(para, text, bold=bold)
+            return para
+
+        def _make_rich_para(runs_data, list_type=None):
+            """Create a <w:p> with multiple formatted runs."""
+            para = etree.Element(f"{{{W}}}p")
+            pPr = etree.SubElement(para, f"{{{W}}}pPr")
+            spacing = etree.SubElement(pPr, f"{{{W}}}spacing")
+            spacing.set(f"{{{W}}}after", "0")
+            spacing.set(f"{{{W}}}line", "240")
+            spacing.set(f"{{{W}}}lineRule", "auto")
+
+            # Add bullet/number prefix
+            if list_type == 'bullet':
+                combined = ''.join(r['text'] for r in runs_data).strip()
+                if not combined.startswith('\u2022'):
+                    _make_run(para, '\u2022 ')
+            elif list_type == 'ordered':
+                # The counter prefix is added by the caller
+                pass
+
+            for run_data in runs_data:
+                text = run_data['text']
+                if not text:
+                    continue
+                _make_run(
+                    para, text,
+                    bold=run_data.get('bold', False),
+                    italic=run_data.get('italic', False),
+                    underline=run_data.get('underline', False),
+                )
             return para
 
         # Insert in reverse order so final order is correct
-        # (responsibilities go after name/title/department)
-        # First, insert responsibility bullets (reversed)
         if responsibilities:
-            resp_lines = [l for l in responsibilities.splitlines() if l.strip()]
-            for line in reversed(resp_lines):
-                # Ensure each line starts with a bullet
-                bullet_line = line if line.strip().startswith("\u2022") else f"\u2022 {line.strip()}"
-                body.insert(0, _make_para(bullet_line))
+            parsed = parse_quill_html(responsibilities)
+            if parsed:
+                ol_counter = 0
+                rich_paras = []
+                for p in parsed:
+                    if p['list_type'] == 'ordered':
+                        ol_counter += 1
+                        # Prepend number to the first run
+                        first_run = p['runs'][0] if p['runs'] else None
+                        if first_run:
+                            prefix_text = first_run['text'].strip()
+                            if not prefix_text.startswith(f'{ol_counter}.'):
+                                p['runs'].insert(0, {
+                                    'text': f'{ol_counter}. ',
+                                    'bold': False, 'italic': False, 'underline': False
+                                })
+                    else:
+                        if p['list_type'] != 'ordered':
+                            ol_counter = 0
+                    rich_paras.append(p)
+
+                for p in reversed(rich_paras):
+                    body.insert(0, _make_rich_para(p['runs'], p['list_type']))
+            else:
+                # Fallback: plain text
+                resp_lines = [l for l in responsibilities.splitlines() if l.strip()]
+                for line in reversed(resp_lines):
+                    bullet_line = line if line.strip().startswith("\u2022") else f"\u2022 {line.strip()}"
+                    body.insert(0, _make_para(bullet_line))
             body.insert(0, _make_para("Current Responsibilities at Gilead:", bold=True))
 
         for label, value in reversed(info_lines):
