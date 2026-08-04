@@ -75,12 +75,16 @@ def _combine_numbering_defs(
     return abstracts, nums
 
 
+_BACKEND_DIR = Path(__file__).resolve().parent
+_DEFAULT_MODEL_PATH = str(_BACKEND_DIR / "resume_ner_model")
+
+
 # ── Main entry point ──────────────────────────────────────────────────────────
 def populate_from_source_with_model(
     source_docx: Path,
     template_docx: Path,
     output_docx: Path,
-    model_path: str = "./resume_ner_model",
+    model_path: str = _DEFAULT_MODEL_PATH,
     use_model: bool = True,
     education_as_xml: bool = True,
 ) -> dict:
