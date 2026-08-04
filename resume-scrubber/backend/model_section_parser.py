@@ -133,6 +133,7 @@ class ModelSectionParser:
             try:
                 import spacy
                 self.nlp = spacy.load(model_path)
+                print(f"[ModelSectionParser] Loaded spaCy model from '{model_path}'")
             except Exception as e:  # degrade gracefully to header-only
                 print(f"[ModelSectionParser] WARN: could not load model "
                       f"'{model_path}' ({str(e)[:70]}). Falling back to header-only.")
@@ -211,7 +212,14 @@ class ModelSectionParser:
             if z in ("education", "experience"):
                 section[i] = z
             elif z == "other":
-                section[i] = None
+                # Inside an 'other' header zone (SKILLS, SUMMARY, etc.).
+                # Still allow the model to recover education/experience
+                # paragraphs when the resume has NO header for that section.
+                v = votes[i]
+                if v == "education" and not has_edu_header:
+                    section[i] = "education"
+                elif v == "experience" and not has_exp_header:
+                    section[i] = "experience"
             else:  # z is None
                 v = votes[i]
                 if v == "education" and not has_edu_header:
