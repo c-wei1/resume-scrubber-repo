@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 .DS_Store
 node_modules/
+*.docx
+!resume-scrubber/backend/FRM-11110-Template.docx
