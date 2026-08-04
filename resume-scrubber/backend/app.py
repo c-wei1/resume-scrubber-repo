@@ -113,13 +113,6 @@ def _replace_user_info_placeholders(
                         "INSERT_RESPONSIBILITIES", ""
                     )
 
-        # Ensure all tables use fixed layout so cells don't expand
-        # beyond the page when text is long.
-        for tblPr in root.iter(f"{{{W}}}tblPr"):
-            if tblPr.find(f"{{{W}}}tblLayout") is None:
-                layout = etree.SubElement(tblPr, f"{{{W}}}tblLayout")
-                layout.set(f"{{{W}}}type", "fixed")
-
         tree.write(
             str(doc_xml),
             encoding="UTF-8",
