@@ -209,19 +209,29 @@ class ModelSectionParser:
             if is_header[i]:
                 continue
             z = zone[i]
+            v = votes[i]
+
             if z in ("education", "experience"):
-                section[i] = z
+                # Inside a header zone. Trust the header by default, but
+                # allow the model to override when the voted section has
+                # NO header of its own (e.g. education content trailing
+                # after an experience header with no education header).
+                if v and v != z and (
+                    (v == "education" and not has_edu_header) or
+                    (v == "experience" and not has_exp_header)
+                ):
+                    section[i] = v
+                else:
+                    section[i] = z
             elif z == "other":
                 # Inside an 'other' header zone (SKILLS, SUMMARY, etc.).
-                # Still allow the model to recover education/experience
+                # Allow the model to recover education/experience
                 # paragraphs when the resume has NO header for that section.
-                v = votes[i]
                 if v == "education" and not has_edu_header:
                     section[i] = "education"
                 elif v == "experience" and not has_exp_header:
                     section[i] = "experience"
             else:  # z is None
-                v = votes[i]
                 if v == "education" and not has_edu_header:
                     section[i] = "education"
                 elif v == "experience" and not has_exp_header:
