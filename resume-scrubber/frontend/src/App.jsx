@@ -170,7 +170,7 @@ export default function App() {
     if (!jobTitle.trim()) errors.jobTitle = 'Job Title is required'
     if (!department.trim()) errors.department = 'Department is required'
     if (!startDate.trim()) errors.startDate = 'Start Date is required'
-    else if (!/^[A-Za-z]{3}\/\d{4}$/.test(startDate.trim())) errors.startDate = 'Start Date must be in Mon/YYYY format (e.g. Jan/2025)'
+    else if (!/^[A-Za-z]{3}\s\d{4}$/.test(startDate.trim())) errors.startDate = 'Start Date must be in Mon YYYY format (e.g. Jan 2025)'
     if (!responsibilities.trim() || getPlainTextLength(responsibilities) === 0) errors.responsibilities = 'Current Responsibilities at Gilead is required'
     else if (responsibilitiesTooShort) errors.responsibilities = 'Current Responsibilities must be at least 150 characters.'
     if (!file) errors.file = 'Resume file is required'
@@ -352,7 +352,7 @@ export default function App() {
           </div>
           <div style={styles.inputGroup} ref={startDateRef}>
             <label style={styles.label}>Start Date at Gilead <span style={{ color: '#dc2626' }}>*</span></label>
-            <input style={{ ...styles.input, ...(fieldErrors.startDate ? { borderColor: '#dc2626' } : {}) }} value={startDate} onChange={(e) => { setStartDate(e.target.value); setFieldErrors((prev) => ({ ...prev, startDate: undefined })) }} placeholder="Mon/YYYY (e.g. Jan/2025)" maxLength={8} />
+            <input style={{ ...styles.input, ...(fieldErrors.startDate ? { borderColor: '#dc2626' } : {}) }} value={startDate} onChange={(e) => { setStartDate(e.target.value); setFieldErrors((prev) => ({ ...prev, startDate: undefined })) }} placeholder="Mon YYYY (e.g. Jan 2025)" maxLength={8} />
             {fieldErrors.startDate && <p style={styles.fieldError}>{fieldErrors.startDate}</p>}
           </div>
           <div style={styles.inputGroup} ref={responsibilitiesRef}>

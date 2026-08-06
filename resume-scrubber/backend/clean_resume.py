@@ -598,7 +598,7 @@ def _insert_experience_entry(
         tmp_path.write_bytes(docx_bytes.read())
 
         # ── 1. Build paragraph specs from user input ─────────────
-        left_parts = [p for p in [title, department, "Gilead"] if p]
+        left_parts = [p for p in [title, department, "Gilead Sciences Inc."] if p]
         left_text = ",  ".join(left_parts) if left_parts else ""
         date_text = f"{start_date} - Present" if start_date else ""
 
