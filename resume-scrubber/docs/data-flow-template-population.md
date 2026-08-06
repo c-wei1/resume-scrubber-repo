@@ -94,10 +94,24 @@ ModelSectionParser.find_sections(pairs)
 ├─ Resolution
 │   │
 │   ├─ Header zones always win (high confidence)
-│   ├─ Model votes fill gaps outside header zones
-│   ├─ "Other" zones (SKILLS, SUMMARY, OBJECTIVE) → excluded
-│   └─ Unclassified paragraphs → excluded
+│   ├─ Model votes fill gaps for sections missing headers
+│   └─ Result: initial per-paragraph section assignment
+│
+├─ Block Propagation (for header-less sections)
 │   │
+│   ├─ Identify "entry lines": paragraphs where the model
+│   │   voted for a section that has NO header in the document
+│   ├─ From each entry line, propagate forward:
+│   │   ├─ Override any zone-based assignment on subsequent lines
+│   │   ├─ Continue until a header boundary is hit
+│   │   ├─ Continue until the model votes for a different section
+│   │   └─ Continue if model votes same section (new entry, keep going)
+│   └─ Result: full entry blocks captured (title + description + bullets)
+│
+├─ Contiguity Smoothing
+│   │
+│   └─ Lone gaps between two same-section paragraphs adopt that section
+│
 │   └─ Result: {"education": [(text, xml), ...],
 │               "experience": [(text, xml), ...]}
 │

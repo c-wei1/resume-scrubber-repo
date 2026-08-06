@@ -5,7 +5,7 @@ A document processing application that sanitizes resumes by redacting PII (perso
 ## Features
 
 - **PII Redaction** — Strips emails, phone numbers, URLs, home addresses, and images from `.docx` resumes while preserving formatting
-- **Template Population** — Extracts education and experience sections from a source resume using a spaCy NER model and injects them into a standardized template (FRM-11110)
+- **Template Population** — Extracts education and experience sections from a source resume using a hybrid approach (header heuristics + spaCy NER model with block propagation) and injects them into a standardized template (FRM-11110)
 - **Rich Text Support** — User-provided responsibilities rendered with bullets, bold, italic, and underline formatting via a Quill editor
 - **Multilingual Address Detection** — Identifies addresses across English, Germanic, Romance, Scandinavian, and other formats
 - **Metadata Scrubbing** — Removes PII from document properties (author, last modified by, subject, etc.)

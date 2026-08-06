@@ -238,7 +238,66 @@ class ModelSectionParser:
                     section[i] = "experience"
                 # else leave None (fully-headered doc → preamble stays out)
 
-        # 3b) Contiguity smoothing: a lone gap between two paragraphs of the SAME
+        # 3b) Block propagation: when a section has no header, the model only
+        #     tags "entry lines" (paragraphs with entities like COMPANIES_WORKED_AT
+        #     or COLLEGE_NAME). The description/bullet lines that follow have no
+        #     entities, so step 3 either leaves them as None or assigns them to
+        #     the wrong zone. Fix: identify entry lines, then propagate forward
+        #     OVERRIDING whatever step 3 assigned, until terminated.
+        #
+        #     An "entry line" is a paragraph where:
+        #       - The model voted for a section (votes[i] != None)
+        #       - That section has NO header in the document
+        #
+        #     Propagation stops when:
+        #       - A header boundary is hit (is_header[i])
+        #       - The model votes for a DIFFERENT section on a subsequent line
+        #         (indicating a new entry for a different section started)
+        #       - The model votes for the SAME section again (a new entry within
+        #         the same section — propagation continues with the new entry)
+
+        # First, identify entry lines.
+        entry_line: List[bool] = [False] * n
+        for i in range(n):
+            if is_header[i]:
+                continue
+            v = votes[i]
+            if v is not None and (
+                (v == "education" and not has_edu_header) or
+                (v == "experience" and not has_exp_header)
+            ):
+                entry_line[i] = True
+                section[i] = v  # ensure entry line itself is assigned
+
+        # Propagate forward from each entry line.
+        propagating: Optional[str] = None
+        for i in range(n):
+            if is_header[i]:
+                propagating = None
+                continue
+
+            if entry_line[i]:
+                # Start (or continue) propagation from this entry.
+                propagating = votes[i]
+                continue
+
+            if propagating is not None:
+                v = votes[i]
+                # If the model votes for a different section → stop or switch.
+                if v is not None and v != propagating:
+                    # Does the new vote qualify as an entry for a header-less section?
+                    if (v == "education" and not has_edu_header) or \
+                       (v == "experience" and not has_exp_header):
+                        propagating = v
+                        section[i] = v
+                    else:
+                        propagating = None
+                else:
+                    # Consume this line into the propagating section,
+                    # overriding any zone-based assignment from step 3.
+                    section[i] = propagating
+
+        # 3c) Contiguity smoothing: a lone gap between two paragraphs of the SAME
         #     section adopts that section (helps blank/very-short lines mid-block).
         #     Never bridges across a header or an explicit 'other' zone.
         for i in range(1, n - 1):

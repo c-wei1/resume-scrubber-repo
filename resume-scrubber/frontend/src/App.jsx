@@ -128,6 +128,7 @@ export default function App() {
   const [name, setName] = useState('')
   const [jobTitle, setJobTitle] = useState('')
   const [department, setDepartment] = useState('')
+  const [startDate, setStartDate] = useState('')
   const [responsibilities, setResponsibilities] = useState('')
   const [fieldErrors, setFieldErrors] = useState({})
   const [showWarning, setShowWarning] = useState(false)
@@ -137,6 +138,7 @@ export default function App() {
   const nameRef = useRef()
   const jobTitleRef = useRef()
   const departmentRef = useRef()
+  const startDateRef = useRef()
   const responsibilitiesRef = useRef()
   const fileRef = useRef()
 
@@ -167,6 +169,8 @@ export default function App() {
     if (!name.trim()) errors.name = 'Name is required'
     if (!jobTitle.trim()) errors.jobTitle = 'Job Title is required'
     if (!department.trim()) errors.department = 'Department is required'
+    if (!startDate.trim()) errors.startDate = 'Start Date is required'
+    else if (!/^(0[1-9]|1[0-2])\/\d{4}$/.test(startDate.trim())) errors.startDate = 'Start Date must be in MM/YYYY format'
     if (!responsibilities.trim() || getPlainTextLength(responsibilities) === 0) errors.responsibilities = 'Current Responsibilities at Gilead is required'
     else if (responsibilitiesTooShort) errors.responsibilities = 'Current Responsibilities must be at least 150 characters.'
     if (!file) errors.file = 'Resume file is required'
@@ -178,6 +182,7 @@ export default function App() {
       { key: 'name', ref: nameRef },
       { key: 'jobTitle', ref: jobTitleRef },
       { key: 'department', ref: departmentRef },
+      { key: 'startDate', ref: startDateRef },
       { key: 'responsibilities', ref: responsibilitiesRef },
       { key: 'file', ref: fileRef },
     ]
@@ -234,6 +239,7 @@ export default function App() {
     body.append('name', name)
     body.append('title', jobTitle)
     body.append('department', department)
+    body.append('startDate', startDate)
     body.append('responsibilities', responsibilities)
 
     try {
@@ -283,6 +289,7 @@ export default function App() {
     body.append('name', name)
     body.append('title', jobTitle)
     body.append('department', department)
+    body.append('startDate', startDate)
     body.append('responsibilities', responsibilities)
 
     try {
@@ -342,6 +349,11 @@ export default function App() {
             <label style={styles.label}>Department <span style={{ color: '#dc2626' }}>*</span></label>
             <input style={{ ...styles.input, ...(fieldErrors.department ? { borderColor: '#dc2626' } : {}) }} value={department} onChange={(e) => { setDepartment(e.target.value); setFieldErrors((prev) => ({ ...prev, department: undefined })) }} placeholder="e.g. Regulatory Affairs" />
             {fieldErrors.department && <p style={styles.fieldError}>{fieldErrors.department}</p>}
+          </div>
+          <div style={styles.inputGroup} ref={startDateRef}>
+            <label style={styles.label}>Start Date at Gilead <span style={{ color: '#dc2626' }}>*</span></label>
+            <input style={{ ...styles.input, ...(fieldErrors.startDate ? { borderColor: '#dc2626' } : {}) }} value={startDate} onChange={(e) => { setStartDate(e.target.value); setFieldErrors((prev) => ({ ...prev, startDate: undefined })) }} placeholder="MM/YYYY" maxLength={7} />
+            {fieldErrors.startDate && <p style={styles.fieldError}>{fieldErrors.startDate}</p>}
           </div>
           <div style={styles.inputGroup} ref={responsibilitiesRef}>
             <label style={styles.label}>Current Responsibilities at Gilead <span style={{ color: '#dc2626' }}>*</span></label>

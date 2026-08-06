@@ -12,7 +12,8 @@ from flask import Flask, request, send_file, jsonify
 from flask_cors import CORS
 from lxml import etree
 
-from clean_resume import process_docx, _prepend_user_info
+from clean_resume import process_docx
+from clean_resume import _insert_experience_entry
 from html_to_docx import parse_quill_html
 
 from populate_with_model import populate_from_source_with_model
@@ -71,12 +72,15 @@ def _replace_user_info_placeholders(
     user_title: str,
     user_department: str,
     user_responsibilities: str = "",
+    user_start_date: str = "",
 ) -> None:
     """
     Fill INSERT_NAME / INSERT_TITLE / INSERT_DEPARTMENT / INSERT_RESPONSIBILITIES
     placeholders inside an already-populated template docx.
     Supports Quill HTML in user_responsibilities to preserve bold/italic/underline
     and bullet/ordered list formatting.
+    When user_start_date is provided, prepends "startDate-Present" before the
+    responsibilities content.
     """
     if not (user_name or user_title or user_department or user_responsibilities):
         return
@@ -109,8 +113,21 @@ def _replace_user_info_placeholders(
                 )
             if "INSERT_RESPONSIBILITIES" in t_node.text:
                 if user_responsibilities:
+                    # Prepend date range line if start date provided
+                    date_prefix = f"{user_start_date}-Present\n" if user_start_date else ""
+
                     parsed = parse_quill_html(user_responsibilities)
                     if parsed:
+                        # If we have a date prefix, insert it as the first
+                        # plain-text paragraph before the responsibilities
+                        if date_prefix:
+                            date_para = {
+                                'runs': [{'text': date_prefix.strip(), 'bold': False,
+                                          'italic': False, 'underline': False}],
+                                'list_type': None,
+                            }
+                            parsed.insert(0, date_para)
+
                         # Build numbered-list counters
                         ol_counter = 0
                         flat_lines = []
@@ -131,6 +148,21 @@ def _replace_user_info_placeholders(
                             "INSERT_RESPONSIBILITIES", first_text
                         )
 
+                        # Indent the first paragraph if it's a bullet/ordered item
+                        if first_para.get('list_type') in ('bullet', 'ordered'):
+                            current_p = t_node.getparent()
+                            while current_p is not None and current_p.tag != f"{{{W}}}p":
+                                current_p = current_p.getparent()
+                            if current_p is not None:
+                                pPr = current_p.find(f"{{{W}}}pPr")
+                                if pPr is None:
+                                    pPr = etree.SubElement(current_p, f"{{{W}}}pPr")
+                                    current_p.insert(0, pPr)
+                                ind = pPr.find(f"{{{W}}}ind")
+                                if ind is None:
+                                    ind = etree.SubElement(pPr, f"{{{W}}}ind")
+                                ind.set(f"{{{W}}}left", "720")
+
                         # Additional paragraphs as rich runs
                         if len(flat_lines) > 1:
                             current_p = t_node.getparent()
@@ -147,6 +179,17 @@ def _replace_user_info_placeholders(
                                     parent.insert(idx + i, new_p)
                                     if orig_pPr is not None:
                                         new_p.insert(0, deepcopy(orig_pPr))
+
+                                    # Indent bullet/ordered list paragraphs
+                                    if para_data.get('list_type') in ('bullet', 'ordered'):
+                                        pPr = new_p.find(f"{{{W}}}pPr")
+                                        if pPr is None:
+                                            pPr = etree.SubElement(new_p, f"{{{W}}}pPr")
+                                            new_p.insert(0, pPr)
+                                        ind = pPr.find(f"{{{W}}}ind")
+                                        if ind is None:
+                                            ind = etree.SubElement(pPr, f"{{{W}}}ind")
+                                        ind.set(f"{{{W}}}left", "720")
 
                                     # Add bullet/number prefix
                                     prefix = _runs_to_prefix(para_data, ol_num)
@@ -224,15 +267,22 @@ def remove_images():
     user_name = request.form.get("name", "").strip()
     user_title = request.form.get("title", "").strip()
     user_department = request.form.get("department", "").strip()
+    user_start_date = request.form.get("startDate", "").strip()
     user_responsibilities = request.form.get("responsibilities", "").strip()
 
-    output = process_docx(file.read())
+    raw_bytes = file.read()
 
-    if user_name or user_title or user_department:
-        output = _prepend_user_info(
-            output, user_name, user_title, user_department,
+    # Insert the Gilead experience entry BEFORE cleaning so the NER
+    # model runs on the original, unredacted text.
+    if user_title or user_department or user_start_date or user_responsibilities:
+        raw_bytes_io = io.BytesIO(raw_bytes)
+        raw_bytes_io = _insert_experience_entry(
+            raw_bytes_io, user_title, user_department, user_start_date,
             user_responsibilities,
         )
+        raw_bytes = raw_bytes_io.read()
+
+    output = process_docx(raw_bytes)
 
     download_name = f"clean_{file.filename}"
 
@@ -268,6 +318,7 @@ def populate_template():
     user_name = request.form.get("name", "").strip()
     user_title = request.form.get("title", "").strip()
     user_department = request.form.get("department", "").strip()
+    user_start_date = request.form.get("startDate", "").strip()
     user_responsibilities = request.form.get("responsibilities", "").strip()
 
     tmp_input_path: Path = None
@@ -293,13 +344,14 @@ def populate_template():
             output_docx=tmp_output_path,
         )
 
-        # ── 3. Fill name / title / department placeholders ───
+        # ── 3. Fill name / title / department / responsibilities placeholders ───
         _replace_user_info_placeholders(
             tmp_output_path,
             user_name,
             user_title,
             user_department,
             user_responsibilities,
+            user_start_date,
         )
 
         # ── 4. Detect empty sections ─────────────────────────
