@@ -4,10 +4,11 @@ A document processing application that sanitizes resumes by redacting PII (perso
 
 ## Features
 
-- **PII Redaction** — Strips emails, phone numbers, URLs, home addresses, and images from `.docx` resumes while preserving formatting
+- **PII Redaction** — Strips emails, phone numbers, URLs (including bare domains like `linkedin.com`), city/state locations, home addresses, and images from `.docx` resumes while preserving formatting
+- **Experience Entry Insertion** — Inserts Gilead Sciences Inc. role details (title, department, date, responsibilities) into the experience section with font matching and right-aligned dates. Uses a 3-step fallback: experience header detection → NER model → top of document
 - **Template Population** — Extracts education and experience sections from a source resume using a hybrid approach (header heuristics + spaCy NER model with block propagation) and injects them into a standardized template (FRM-11110)
 - **Rich Text Support** — User-provided responsibilities rendered with bullets, bold, italic, and underline formatting via a Quill editor
-- **Multilingual Address Detection** — Identifies addresses across English, Germanic, Romance, Scandinavian, and other formats
+- **Multilingual Address Detection** — Identifies addresses across English, Germanic, Romance, Scandinavian, and other formats using multi-signal scoring
 - **Metadata Scrubbing** — Removes PII from document properties (author, last modified by, subject, etc.)
 
 ## Architecture

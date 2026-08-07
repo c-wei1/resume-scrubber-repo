@@ -30,54 +30,72 @@ The frontend sends a `multipart/form-data` POST to `/remove-images`.
 ```
 POST /remove-images
 │
-├─ Extract form fields: name, jobTitle, department, responsibilities
+├─ Extract form fields: name, jobTitle, department, startDate, responsibilities
 ├─ Read uploaded .docx file bytes
+│
+├─ If user provided title/department/startDate/responsibilities:
+│   └─ _insert_experience_entry(docx_bytes, title, dept, startDate, responsibilities)
+│       ├─ Detect experience section (3-step fallback):
+│       │   ├─ Step 1: Scan all paragraphs for experience header keyword
+│       │   ├─ Step 2: NER ModelSectionParser → text-match first experience paragraph
+│       │   └─ Step 3: Last resort → insert at top of document body
+│       ├─ Detect font name + size from experience section (python-docx, capped at 12pt)
+│       ├─ Build entry paragraphs:
+│       │   ├─ "Current Responsibilities" (bold + underlined)
+│       │   ├─ "Title, Department, Gilead Sciences Inc." with right-aligned date
+│       │   └─ Quill HTML → formatted bullet paragraphs
+│       └─ Insert right after experience header within its parent container
 │
 ├─ Call clean_resume.process_docx(docx_bytes)
 │   │
-│   ├─ Parse document.xml via lxml
-│   │
-│   ├─ _strip_images(body)
-│   │   ├─ Find all <w:drawing> elements
-│   │   │   └─ Remove if no text content inside
-│   │   └─ Find all <w:pict> elements
-│   │       └─ Preserve text in <w:txbxContent>, remove image wrapper
-│   │
-│   ├─ _scrub_paragraphs(body)
+│   ├─ _process_tree(tree)  [for document.xml, headers, footers]
 │   │   │
-│   │   └─ For each <w:p> paragraph:
-│   │       ├─ Concatenate text from all <w:t> runs
-│   │       ├─ _find_pii_spans(text)
-│   │       │   ├─ Phone regex → digit count validation (7-15 digits)
-│   │       │   ├─ Email regex
-│   │       │   └─ URL regex
-│   │       ├─ address_identifier.is_address_line(text)
-│   │       │   ├─ Postal code detection (UK, US, CA, NL, international)
-│   │       │   ├─ Street type detection (post-suffix, pre-prefix, fused)
-│   │       │   ├─ House number detection
-│   │       │   └─ Score aggregation → threshold comparison
-│   │       │
-│   │       └─ _redact_spans_in_runs(paragraph, spans)
-│   │           ├─ Map character offsets to <w:r> run elements
-│   │           ├─ Replace matched text with "[redacted]"
-│   │           └─ Handle spans that cross run boundaries
+│   │   ├─ _unwrap_hyperlinks(tree)
+│   │   │   ├─ Find all <w:hyperlink> elements
+│   │   │   ├─ Blank display text
+│   │   │   └─ Unwrap hyperlink, move child runs to parent
+│   │   │
+│   │   ├─ _scrub_paragraphs(tree)
+│   │   │   │
+│   │   │   └─ For each <w:p> paragraph:
+│   │   │       ├─ Concatenate text from all <w:t> runs
+│   │   │       ├─ _strip_pii_for_address_check(text)
+│   │   │       │   └─ Remove phone/email/URL patterns (prevents phone digits
+│   │   │       │      from inflating address score)
+│   │   │       ├─ address_identifier.is_address_line(stripped_text)
+│   │   │       │   ├─ Postal code detection (UK, US, CA, NL, international)
+│   │   │       │   ├─ Street type detection (post-suffix, pre-prefix, fused)
+│   │   │       │   ├─ House number detection
+│   │   │       │   └─ Score aggregation → threshold (5) comparison
+│   │   │       │   └─ If address → remove all runs in paragraph
+│   │   │       │
+│   │   │       ├─ _find_pii_spans(text)
+│   │   │       │   ├─ Phone regex → digit-count validation (7–15 digits)
+│   │   │       │   ├─ Email regex
+│   │   │       │   ├─ URL regex (incl. bare domains: linkedin.com, etc.)
+│   │   │       │   └─ City, STATE pattern (e.g., "San Francisco, CA")
+│   │   │       │
+│   │   │       └─ _redact_spans_in_runs(paragraph, spans)
+│   │   │           ├─ Map character offsets to <w:r> run elements
+│   │   │           ├─ Replace matched text with empty string
+│   │   │           └─ Handle spans that cross run boundaries
+│   │   │
+│   │   ├─ _clean_floating_pipes(tree)
+│   │   │   └─ Remove orphaned "|" separators after PII removal
+│   │   │
+│   │   └─ _strip_images(tree)
+│   │       ├─ Find all <w:drawing> and <w:pict> elements
+│   │       └─ Remove if no text content inside; preserve text boxes
 │   │
-│   ├─ _unwrap_hyperlinks(body)
-│   │   ├─ Find all <w:hyperlink> elements
-│   │   ├─ Extract display text from child runs
-│   │   ├─ Prefix with "[redacted]"
-│   │   └─ Replace hyperlink element with plain text runs
+│   ├─ _scrub_metadata_xml(docProps/*.xml)
+│   │   └─ Clear: creator, lastModifiedBy, subject, title, keywords, description
 │   │
-│   ├─ _scrub_metadata_xml(docx_zip)
-│   │   ├─ Parse docProps/core.xml
-│   │   │   └─ Clear: creator, lastModifiedBy, subject, title, keywords, description
-│   │   └─ Parse docProps/app.xml
-│   │       └─ Clear: Manager, Company
+│   ├─ _strip_rels(document.xml.rels, header/footer rels)
+│   │   └─ Remove image and hyperlink relationship entries
 │   │
-│   └─ Return cleaned BytesIO (.docx)
-│
-├─ _prepend_user_info(cleaned_docx, name, title, dept, responsibilities)
-│   └─ Insert metadata paragraphs at document start
+│   ├─ Delete media files (word/media/*)
+│   │
+│   └─ Repack and return cleaned BytesIO (.docx)
 │
 └─ Return response
     ├─ Content-Type: application/octet-stream

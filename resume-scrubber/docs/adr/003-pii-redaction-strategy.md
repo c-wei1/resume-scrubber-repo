@@ -27,7 +27,13 @@ Use a **multi-stage regex + validation** approach with separate strategies per P
 - Standard regex: `[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}`
 
 ### URLs
-- Match `http://`, `https://`, and `www.` patterns
+- Match `http://`, `https://`, `www.`, and bare domain URLs with common TLDs (`.com`, `.org`, `.net`, `.io`, `.dev`, `.me`, `.co`, `.info`, `.biz`)
+- Catches URLs like `linkedin.com/in/user` without protocol prefix
+
+### City / State Locations
+- Pattern matches `City, ST` format (e.g., "San Francisco, CA", "New York, NY")
+- Uses US state codes, Australian state codes, and Canadian province codes
+- Redacted as PII spans alongside phone/email/URL
 
 ### Addresses (`address_identifier.py`)
 Multi-signal scoring system:
@@ -41,8 +47,8 @@ Multi-signal scoring system:
 - Preserve text content inside shape/text-box elements
 
 ### Hyperlinks
-- Unwrap `<w:hyperlink>` elements: keep the display text, remove the link wrapper
-- Prefix unwrapped text with `[redacted]`
+- Unwrap `<w:hyperlink>` elements: blank the display text, remove the link wrapper
+- Runs before paragraph-level PII scrubbing
 
 ### Metadata
 - Clear `author`, `lastModifiedBy`, `subject`, `title`, `keywords`, `description` from `docProps/core.xml` and `docProps/app.xml`
