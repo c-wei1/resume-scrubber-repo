@@ -4,3 +4,10 @@ __pycache__/
 node_modules/
 *.docx
 !resume-scrubber/backend/FRM-11110-Template.docx
+
+# Training data (too large for git)
+resume-scrubber/backend/data/
+
+# Fine-tuned v2 model + epoch checkpoints
+resume-scrubber/backend/resume_ner_model_v2/
+resume-scrubber/backend/resume_ner_model_v2_epoch*/

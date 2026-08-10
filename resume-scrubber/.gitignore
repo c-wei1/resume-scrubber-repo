@@ -1,5 +1,7 @@
 # Generated files
 Resume_Scrubber_Presentation.pptx
+Introduction_Slide.pptx
+Next_Steps_Roadmap.pptx
 
 # Python
 __pycache__/
@@ -13,6 +15,12 @@ build/
 *.pkl
 venv/
 .venv/
+
+# Model checkpoints (keep resume_ner_model/ and resume_ner_model_v2/, ignore epoch checkpoints)
+backend/resume_ner_model_v2_epoch*/
+
+# Large training data (download from Kaggle: yashpwrr/resume-ner-training-dataset)
+backend/data/train.json
 
 # Node / Frontend
 node_modules/
@@ -31,4 +39,3 @@ Thumbs.db
 # Environment
 .env
 .env.local
-Resume_Scrubber_Presentation.pptx
