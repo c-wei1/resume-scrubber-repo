@@ -38,7 +38,8 @@ A document processing application that sanitizes resumes by redacting PII (perso
 │   html_to_docx.py           │
 ├─────────────────────────────┤
 │ ML Models                   │
-│   resume_ner_model/ (spaCy) │
+│   resume_ner_model/  (spaCy)│
+│   resume_ner_model_v2/      │
 │   *.pkl (Naive Bayes)       │
 └─────────────────────────────┘
 ```
@@ -139,11 +140,14 @@ Accepts a `.docx` resume. Extracts education/experience via ML, populates the co
 │   ├── parser_get_section.py   # Header-only section detection (fallback)
 │   ├── parser_get_section_xml.py # XML sanitization for template injection
 │   ├── populate_template.py    # Template injection engine (OOXML)
-│   ├── parser_get_experience.py # Structured experience parsing (NB classifier)
-│   ├── parser_get_education.py # Education entry parsing (deprecated)
-│   ├── parser.py               # CLI entry point for testing
-│   ├── nbc.py                  # Naive Bayes model training script
-│   ├── resume_ner_model/       # Trained spaCy NER model
+│   ├── parser_get_experience.py # Structured experience parsing (NB classifier) [legacy]
+│   ├── parser_get_education.py # Education entry parsing [legacy]
+│   ├── parser.py               # CLI entry point for testing [legacy]
+│   ├── nbc.py                  # Naive Bayes model training script [legacy]
+│   ├── finetune_and_compare.py # spaCy NER fine-tuning script [legacy]
+│   ├── resume_ner_model/       # Trained spaCy NER model (production)
+│   ├── resume_ner_model_v2/    # v2 NER model (en_core_web_md fine-tuned on Kaggle dataset — see below)
+│   ├── v2_data/                # Kaggle dataset used to train resume_ner_model_v2
 │   └── static/                 # Built frontend (served by Flask)
 └── frontend/
     ├── package.json
@@ -164,3 +168,29 @@ See the [docs/](docs/) directory for architectural decision records and detailed
 - [ADR-004: Pair-Based Text-XML Architecture](docs/adr/004-pair-based-architecture.md)
 - [Data Flow: PII Redaction Pipeline](docs/data-flow-pii-redaction.md)
 - [Data Flow: Template Population Pipeline](docs/data-flow-template-population.md)
+- [FRM-11110 Template Guide](docs/template-guide.md) — placeholder tags, template requirements, and how to update
+
+## NER Models
+
+### `resume_ner_model/` (production)
+
+The primary spaCy NER model used for section detection. Trained on a smaller, manually curated dataset.
+
+### `resume_ner_model_v2/` (experimental)
+
+A second NER model created by fine-tuning `en_core_web_md` on a larger Kaggle resume dataset (`v2_data/`). Despite the larger training set, this model performs worse than the original on our workload and is **not** used in production. It is kept in the repository for reference and future experimentation.
+
+The `v2_data/` directory contains the Kaggle dataset used to train this model.
+
+## Legacy Files
+
+The following Python files in `backend/` are **not** part of the active pipeline. They are kept for reference and offline use. I decided to keep them in case they provide insight for alternative parsing methods that may come about in the future.
+
+| File | Purpose | Why legacy |
+|------|---------|------------|
+| `parser_get_experience.py` | Naive Bayes–based job title/company parser | Superseded by spaCy NER model in `model_section_parser.py` |
+| `parser_get_education.py` | Rule-based education entry parser | Never fully implemented; education is now extracted via the NER model |
+| `parser.py` | CLI tool for manually inspecting section parsing | Standalone script; not imported by the pipeline |
+| `nbc.py` | Trains the Naive Bayes classifiers used by `parser_get_experience.py` | Training-only script; originally implemented to detect experience titles and company names for entry-level parsing; superseded by NER, outputs are also unused |
+| `finetune_and_compare.py` | Fine-tunes spaCy NER models and compares epochs | Training-only script; used to produce `resume_ner_model_v2/` |
+

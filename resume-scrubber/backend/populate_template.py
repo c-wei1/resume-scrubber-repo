@@ -361,9 +361,20 @@ class DocxPopulator:
         for i, para in enumerate(xml_paragraphs):
             parent.insert(insert_index + i, para)
 
+        if xml_paragraphs:
+            DocxPopulator._ensure_spacing_before(
+                xml_paragraphs[0], DocxPopulator._ENTRY_SPACING_BEFORE
+            )
+
     # ═════════════════════════════════════════════════════════════
     # Experience (raw XML population)
     # ═════════════════════════════════════════════════════════════
+
+    # Space-before applied to the first inserted paragraph so there
+    # is visual padding between the section header and the first entry.
+    # 240 twips = 12 pt, matching the gap the template uses for the
+    # job-description title.
+    _ENTRY_SPACING_BEFORE = 240
 
     _EXPERIENCE_PLACEHOLDERS = [
         "INSERT_EXPERIENCES",
@@ -420,6 +431,40 @@ class DocxPopulator:
 
         for i, para in enumerate(xml_paragraphs):
             parent.insert(insert_index + i, para)
+
+        if xml_paragraphs:
+            DocxPopulator._ensure_spacing_before(
+                xml_paragraphs[0], DocxPopulator._ENTRY_SPACING_BEFORE
+            )
+
+    # ═════════════════════════════════════════════════════════════
+    # Spacing helper
+    # ═════════════════════════════════════════════════════════════
+
+    @staticmethod
+    def _ensure_spacing_before(
+        para: etree._Element, twips: int
+    ) -> None:
+        """
+        Set ``w:spacing/@w:before`` on a ``<w:p>`` element.
+
+        If the paragraph already has a ``<w:spacing>`` with a ``w:before``
+        value ≥ *twips*, the existing value is kept.
+        """
+        pPr = para.find(f"{{{W_URI}}}pPr")
+        if pPr is None:
+            pPr = etree.SubElement(para, f"{{{W_URI}}}pPr")
+            para.insert(0, pPr)
+
+        spacing = pPr.find(f"{{{W_URI}}}spacing")
+        if spacing is None:
+            spacing = etree.SubElement(pPr, f"{{{W_URI}}}spacing")
+
+        existing = spacing.get(f"{{{W_URI}}}before")
+        if existing is not None and int(existing) >= twips:
+            return
+
+        spacing.set(f"{{{W_URI}}}before", str(twips))
 
     # ═════════════════════════════════════════════════════════════
     # Structural safety net

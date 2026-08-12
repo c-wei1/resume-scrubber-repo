@@ -1,10 +1,6 @@
 import re
 from typing import Any, Dict, List, Optional
-"""
-TRY THIS FOR EDUCATION LOOKUPS
-https://ror.readme.io/docs/rest-api
-"""
-"""TODO: DATES ARE BEING CLASSIFIED AS ENTRY STARTERS -- I DONT WANT DATES TO HAVE ANY PRECEDENCE OVER ANY OTHER SECTION OF THE PARSER"""
+
 
 
 # class EducationParser:
