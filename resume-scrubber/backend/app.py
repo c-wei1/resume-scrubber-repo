@@ -17,6 +17,7 @@ from clean_resume import _insert_experience_entry
 from html_to_docx import parse_quill_html
 
 from populate_with_model import populate_from_source_with_model
+from populate_template import _coalesce_runs_for_placeholder
 
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
@@ -95,6 +96,11 @@ def _replace_user_info_placeholders(
         doc_xml = _td / "word" / "document.xml"
         tree = etree.parse(str(doc_xml))
         root = tree.getroot()
+
+        # Coalesce runs that Word may have split across multiple <w:r> elements
+        for ph in ["INSERT_NAME", "INSERT_TITLE", "INSERT_DEPARTMENT",
+                   "INSERT_RESPONSIBILITIES"]:
+            _coalesce_runs_for_placeholder(root, ph)
 
         for t_node in root.iter(f"{{{W}}}t"):
             if t_node.text is None:

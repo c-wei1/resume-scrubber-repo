@@ -40,6 +40,66 @@ NS = {
 W_URI = NS["w"]
 
 
+def _coalesce_runs_for_placeholder(root: etree._Element, placeholder: str) -> None:
+    """
+    Word often splits placeholder text across multiple <w:r> runs.
+    For each paragraph, if the concatenated run-text contains the
+    placeholder but no single <w:t> does, merge the affected runs
+    into one so downstream code can find the placeholder.
+    """
+    for para in root.iter(f"{{{W_URI}}}p"):
+        runs = para.findall(f".//{{{W_URI}}}r")
+        if not runs:
+            continue
+
+        # Gather (run, text_node, text) triples
+        run_info = []
+        for r in runs:
+            t_node = r.find(f"{{{W_URI}}}t")
+            run_info.append((r, t_node, t_node.text if t_node is not None and t_node.text else ""))
+
+        full_text = "".join(info[2] for info in run_info)
+        if placeholder not in full_text:
+            continue
+
+        # Already discoverable in a single <w:t>? Skip.
+        if any(placeholder in info[2] for info in run_info):
+            continue
+
+        # Find the span of runs that together contain the placeholder
+        accumulated = ""
+        start_idx = None
+        for i, (_, _, txt) in enumerate(run_info):
+            if start_idx is None:
+                if placeholder[:1] and txt and placeholder[0] in txt:
+                    # Potential start — try from each char position
+                    for ci in range(len(txt)):
+                        candidate = txt[ci:]
+                        if placeholder.startswith(candidate):
+                            start_idx = i
+                            accumulated = candidate
+                            break
+                if start_idx is None:
+                    continue
+            else:
+                accumulated += txt
+
+            if start_idx is not None and placeholder in accumulated:
+                # Merge runs[start_idx..i] into runs[start_idx]
+                target_run, target_t, _ = run_info[start_idx]
+                if target_t is None:
+                    target_t = etree.SubElement(target_run, f"{{{W_URI}}}t")
+                merged_text = "".join(run_info[j][2] for j in range(start_idx, i + 1))
+                target_t.text = merged_text
+                target_t.set(f"{{{W_URI}}}space", "preserve")
+                # Remove the consumed runs after the first
+                for j in range(start_idx + 1, i + 1):
+                    consumed_run = run_info[j][0]
+                    if consumed_run.getparent() is not None:
+                        consumed_run.getparent().remove(consumed_run)
+                break
+
+
 class DocxPopulator:
 
     # ═════════════════════════════════════════════════════════════
@@ -137,6 +197,11 @@ class DocxPopulator:
             document_xml = extract_dir / "word" / "document.xml"
             tree = etree.parse(str(document_xml))
             root = tree.getroot()
+
+            # Coalesce split runs for all placeholders we need to find
+            for ph in ["INSERT_EDUCATION", "INSERT_CERTIFICATES",
+                       *DocxPopulator._EXPERIENCE_PLACEHOLDERS]:
+                _coalesce_runs_for_placeholder(root, ph)
 
             # Education — prefer XML paragraphs, fall back to text entries
             if education_xml_paragraphs:
@@ -301,10 +366,7 @@ class DocxPopulator:
     # ═════════════════════════════════════════════════════════════
 
     _EXPERIENCE_PLACEHOLDERS = [
-        "INSERT_EXPERIENCE1_RESPONSIBILITIES",
-        "INSERT_EXPERIENCE1",
-        "INSERT_EXPERIENCE2_RESPONSIBILITIES",
-        "INSERT_EXPERIENCE2",
+        "INSERT_EXPERIENCES",
     ]
 
     @staticmethod
@@ -313,14 +375,11 @@ class DocxPopulator:
         xml_paragraphs: List[etree._Element],
     ) -> None:
         """
-        Replace the two INSERT_EXPERIENCE* placeholder paragraphs (and
-        any separator paragraphs between them) with the given XML.
+        Replace the INSERT_EXPERIENCES placeholder paragraph with the
+        given XML paragraphs.
 
         EMPTY-SAFE: if `xml_paragraphs` is empty, the placeholder text
         is blanked in place. The template scaffolding stays intact.
-        This is the critical fix — the previous implementation deleted
-        the placeholder paragraphs first and then returned, leaving
-        <w:sdtContent/> empty inside a <w:tc>, which Word rejects.
         """
         # ── Empty-safe short-circuit — DO NOT REMOVE ANYTHING ────
         if not xml_paragraphs:
@@ -332,9 +391,8 @@ class DocxPopulator:
                         t_node.text = t_node.text.replace(ph, "")
             return
 
-        # ── Find every paragraph containing a placeholder ────────
-        paras_to_remove: List[etree._Element] = []
-        first_para: Optional[etree._Element] = None
+        # ── Find the paragraph containing the placeholder ────────
+        placeholder_para: Optional[etree._Element] = None
         parent: Optional[etree._Element] = None
 
         for t_node in root.xpath(".//w:t", namespaces=NS):
@@ -345,35 +403,21 @@ class DocxPopulator:
                     node = t_node
                     while node is not None:
                         if node.tag == f"{{{W_URI}}}p":
-                            if node not in paras_to_remove:
-                                paras_to_remove.append(node)
-                                if first_para is None:
-                                    first_para = node
-                                    parent = node.getparent()
+                            placeholder_para = node
+                            parent = node.getparent()
                             break
                         node = node.getparent()
                     break
+            if placeholder_para is not None:
+                break
 
-        if parent is None or first_para is None:
+        if parent is None or placeholder_para is None:
             return
 
-        # Include any separator paragraphs between placeholders
-        if len(paras_to_remove) >= 2:
-            siblings = list(parent)
-            first_idx = siblings.index(paras_to_remove[0])
-            last_idx = siblings.index(paras_to_remove[-1])
-            for idx in range(first_idx, last_idx + 1):
-                if siblings[idx] not in paras_to_remove:
-                    paras_to_remove.append(siblings[idx])
+        # Find insertion index and replace
+        insert_index = list(parent).index(placeholder_para)
+        parent.remove(placeholder_para)
 
-        insert_index = list(parent).index(first_para)
-
-        # Remove templates
-        for p in paras_to_remove:
-            if p.getparent() is not None:
-                p.getparent().remove(p)
-
-        # Insert new content
         for i, para in enumerate(xml_paragraphs):
             parent.insert(insert_index + i, para)
 
