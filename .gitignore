@@ -1,13 +1,46 @@
+# Python
 __pycache__/
-*.pyc
-.DS_Store
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.pkl
+venv/
+.venv/
+
+# Test / lint caches
+.pytest_cache/
+.ruff_cache/
+
+# Node / Frontend
 node_modules/
+frontend/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Documents (keep the template)
 *.docx
-!resume-scrubber/backend/FRM-11110-Template.docx
+!backend/FRM-11110-Template.docx
 
-# Training data (too large for git)
-resume-scrubber/backend/data/
+# Large training data (download from Kaggle: yashpwrr/resume-ner-training-dataset)
+backend/data/
+backend/v2_data/train.json
 
-# Fine-tuned v2 model + epoch checkpoints
-resume-scrubber/backend/resume_ner_model_v2/
-resume-scrubber/backend/resume_ner_model_v2_epoch*/
+# Fine-tuned v2 model (too large to track)
+backend/resume_ner_model_v2/
+backend/resume_ner_model_v2_epoch*/
