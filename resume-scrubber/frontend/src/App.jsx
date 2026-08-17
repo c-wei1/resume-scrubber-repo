@@ -448,7 +448,7 @@ export default function App() {
         <button
           type="button"
           style={styles.buttonTertiary}
-          onClick={() => window.open('https://login.veevavault.com/auth', '_blank')}
+          onClick={() => window.open('https://sb-gilead-gvault-it.veevavault.com/ui/#t/0TB000000000101/all?fcah=&initSrch=false&dctk=Document?walkme=19-2384817', '_blank')}
         >
           Upload CV
         </button>
