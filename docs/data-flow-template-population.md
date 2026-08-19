@@ -153,7 +153,7 @@ SectionXmlParser.build_for_section(source_docx, section_pairs)
 ```
 DocxPopulator.populate_template_files(template, edu_xml, exp_xml, numbering)
 │
-├─ Load template document (FRM-11110-Template.docx)
+├─ Load template document (single match from backend/FRM-*-CV Template.docx)
 │
 ├─ Merge numbering definitions into template
 │   ├─ Parse template's numbering.xml

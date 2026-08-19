@@ -1,4 +1,4 @@
-# FRM-11110 Template Guide
+# Template Form Guide
 
 How to use, update, or replace the company CV template that the "Use Template" workflow populates.
 
@@ -6,17 +6,39 @@ How to use, update, or replace the company CV template that the "Use Template" w
 
 | Requirement | Value |
 |-------------|-------|
-| **Filename** | `FRM-11110-Template.docx` |
+| **Filename Pattern** | `FRM-*-CV Template.docx` |
 | **Location** | `backend/` directory (same level as `app.py`) |
 | **Format** | `.docx` (Office Open XML). `.doc`, `.pdf`, and other formats are **not** supported. |
 
-The path is resolved at startup in `backend/app.py`:
+The template file is resolved by glob match in `backend/app.py`:
 
 ```python
-TEMPLATE_PATH = Path(__file__).resolve().parent / "FRM-11110-Template.docx"
+TEMPLATE_GLOB = "FRM-*-CV Template.docx"
+template_matches = sorted(Path(__file__).resolve().parent.glob(TEMPLATE_GLOB))
 ```
 
-If the file is missing the `/populate-template` endpoint returns a `500` error.
+For `/populate-template` to succeed, there must be exactly one matching template file:
+
+- If zero files match, the endpoint returns `500`.
+- If multiple files match, the endpoint returns `500` and lists the matching filenames.
+
+## Updating the Template Form
+
+Use this process when replacing the company CV template file.
+
+1. Put the new `.docx` in `backend/`.
+2. Name it so it matches `FRM-*-CV Template.docx`.
+3. Ensure no second template file also matches this pattern.
+4. Confirm required placeholder tags still exist (see section below).
+5. Test with one resume via `POST /populate-template`.
+
+Recommended verification command:
+
+```bash
+ls backend/FRM-*-CV\ Template.docx
+```
+
+This command should print exactly one file.
 
 ## Placeholder Tags
 
@@ -71,7 +93,7 @@ These are handled in **`backend/populate_template.py`** inside the `DocxPopulato
 
 ### Checklist for renaming a tag
 
-1. Update the tag text inside `FRM-11110-Template.docx`.
+1. Update the tag text inside the active template file in `backend/`.
 2. Update the matching string literal(s) in the Python source file(s) listed above.
 3. Rebuild the frontend (`cd frontend && npm run build`) if the static assets are served from `backend/static/`.
 4. Run the test suite to verify nothing broke: `pytest tests/`.

@@ -6,7 +6,7 @@ A document processing application that sanitizes resumes by redacting PII (perso
 
 - **PII Redaction** — Strips emails, phone numbers, URLs (including bare domains like `linkedin.com`), city/state locations, home addresses, and images from `.docx` resumes while preserving formatting
 - **Experience Entry Insertion** — Inserts Gilead Sciences Inc. role details (title, department, date, responsibilities) into the experience section with font matching and right-aligned dates. Uses a 3-step fallback: experience header detection → NER model → top of document
-- **Template Population** — Extracts education and experience sections from a source resume using a hybrid approach (header heuristics + spaCy NER model with block propagation) and injects them into a standardized template (FRM-11110)
+- **Template Population** — Extracts education and experience sections from a source resume using a hybrid approach (header heuristics + spaCy NER model with block propagation) and injects them into a standardized template matched from `backend/` via `FRM-*-CV Template.docx`
 - **Rich Text Support** — User-provided responsibilities rendered with bullets, bold, italic, and underline formatting via a Quill editor
 - **Multilingual Address Detection** — Identifies addresses across English, Germanic, Romance, Scandinavian, and other formats using multi-signal scoring
 - **Metadata Scrubbing** — Removes PII from document properties (author, last modified by, subject, etc.)
@@ -168,7 +168,8 @@ See the [docs/](docs/) directory for architectural decision records and detailed
 - [ADR-004: Pair-Based Text-XML Architecture](docs/adr/004-pair-based-architecture.md)
 - [Data Flow: PII Redaction Pipeline](docs/data-flow-pii-redaction.md)
 - [Data Flow: Template Population Pipeline](docs/data-flow-template-population.md)
-- [FRM-11110 Template Guide](docs/template-guide.md) — placeholder tags, template requirements, and how to update
+- [Template Form Guide](docs/template-guide.md) — placeholder tags, wildcard filename requirements, and how to update
+- [SOP: Parser Framework Operations for GDS IT Financial Dashboard](docs/sop-parser-framework-gds-financial-dashboard.md)
 
 ## NER Models
 

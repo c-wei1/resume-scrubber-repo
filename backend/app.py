@@ -304,8 +304,8 @@ def remove_images():
     )
 
 
-# Path to the template docx
-TEMPLATE_PATH = Path(__file__).resolve().parent / "FRM-11110-Template.docx"
+# Template file pattern (glob wildcard '*' supports any length)
+TEMPLATE_GLOB = "FRM-*-CV_Template.docx"
 
 
 @app.route("/populate-template", methods=["POST"])
@@ -318,8 +318,21 @@ def populate_template():
     if not file.filename.lower().endswith(".docx"):
         return jsonify({"error": "Only .docx files are supported"}), 400
 
-    if not TEMPLATE_PATH.exists():
-        return jsonify({"error": "Template file not found on server"}), 500
+    template_matches = sorted(
+        Path(__file__).resolve().parent.glob(TEMPLATE_GLOB)
+    )
+    if not template_matches:
+        return jsonify({
+            "error": f"No template matched pattern: {TEMPLATE_GLOB}"
+        }), 500
+    if len(template_matches) > 1:
+        return jsonify({
+            "error": (
+                f"Multiple templates matched pattern {TEMPLATE_GLOB}: "
+                + ", ".join(p.name for p in template_matches)
+            )
+        }), 500
+    template_path = template_matches[0]
 
     user_name = request.form.get("name", "").strip()
     user_title = request.form.get("title", "").strip()
@@ -346,7 +359,7 @@ def populate_template():
 
         summary = populate_from_source_with_model(
             source_docx=tmp_input_path,
-            template_docx=TEMPLATE_PATH,
+            template_docx=template_path,
             output_docx=tmp_output_path,
         )
 
